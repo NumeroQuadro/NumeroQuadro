@@ -5,6 +5,5 @@
 </a>
 
 <p align="center">
-  <sub>Click the graph for the interactive vibecoding diary.</sub>
+  <a href="https://numeroquadro.github.io/NumeroQuadro/vibecoding-heatmap-interactive.html">Open interactive vibecoding diary</a>
 </p>
-
