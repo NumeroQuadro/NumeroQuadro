@@ -1151,5 +1151,5 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <text x="958" y="148" class="muted year">2024</text>
 <text x="958" y="196" class="muted year">2023</text>
 <text x="958" y="244" class="muted year">2022</text>
-<!-- Peak day: 2026-05-11 with 103 sessions, 1219 tool calls, 610.6M tokens. Generated from ~/ai_usage_2026_sessions.csv. No prompt text is embedded. -->
+<!-- Public aggregate heatmap. No local paths, workspace names, command names, prompt text, or credentials are embedded. -->
 </svg>
