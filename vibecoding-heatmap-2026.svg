@@ -1,1166 +1,1285 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 290" width="1120" height="290" role="img" aria-labelledby="title desc">
-<title id="title">137 vibe-coding days in 2026, Gruvbox theme</title>
-<desc id="desc">Twelve-month public aggregate of Dmitriy's local AI coding activity ending June 30, 2026: 137 active days, 900 sessions, 6,669 prompts, 55,758 tool calls, and 4.56B tokens.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 332" width="1120" height="332" role="img" aria-labelledby="title desc">
+<title id="title">200 vibe-coding days, Gruvbox theme</title>
+<desc id="desc">Public aggregate of Dmitriy&apos;s AI coding activity from June 1, 2025 through July 5, 2026: 200 active days, 1,076 sessions, 7,066 prompts, 59,061 tool calls, and 4.73B tokens.</desc>
 <style>
-:root{color-scheme:light dark;--bg:#1d2021;--surface:#282828;--fg:#ebdbb2;--muted:#a89984;--border:#504945;--empty:#3c3836;--l1:#689d6a;--l2:#98971a;--l3:#d79921;--l4:#d65d0e;--accent:#fabd2f;--accentText:#282828}
-@media(prefers-color-scheme:light){:root{--bg:#f2e5bc;--surface:#fbf1c7;--fg:#3c3836;--muted:#7c6f64;--border:#d5c4a1;--empty:#d5c4a1;--l1:#689d6a;--l2:#98971a;--l3:#d79921;--l4:#d65d0e;--accent:#b57614;--accentText:#fbf1c7}}
-text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;fill:var(--fg)} .muted{fill:var(--muted)} .small{font-size:14px} .micro{font-size:11px} .month{font-size:15px} .title{font-size:22px;font-weight:600} .num{font-weight:600} .card{fill:var(--surface);stroke:var(--border);stroke-width:1} .sideLabel{font-size:9px;fill:var(--muted)} .sideValue{font-size:14px;font-weight:600}
-rect[fill="#ffffff"]{fill:var(--bg)} rect[fill="#ebedf0"]{fill:var(--empty)} rect[fill="#9be9a8"]{fill:var(--l1)} rect[fill="#40c463"]{fill:var(--l2)} rect[fill="#30a14e"]{fill:var(--l3)} rect[fill="#216e39"]{fill:var(--l4)} [stroke="#d0d7de"]{stroke:var(--border)}
+:root{color-scheme:light dark;--bg:#1d2021;--surface:#282828;--fg:#ebdbb2;--muted:#a89984;--border:#504945;--empty:#3c3836;--l1:#689d6a;--l2:#98971a;--l3:#d79921;--l4:#d65d0e;--accent:#fabd2f}
+@media(prefers-color-scheme:light){:root{--bg:#f2e5bc;--surface:#fbf1c7;--fg:#3c3836;--muted:#7c6f64;--border:#d5c4a1;--empty:#d5c4a1;--l1:#689d6a;--l2:#98971a;--l3:#d79921;--l4:#d65d0e;--accent:#b57614}}
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;fill:var(--fg)}
+.muted{fill:var(--muted)}.accent{fill:var(--accent)}.small{font-size:13px}.micro{font-size:10px}.month{font-size:12px}.title{font-size:22px;font-weight:600}.value{font-size:14px;font-weight:600}.label{font-size:9px;fill:var(--muted)}.card{fill:var(--surface);stroke:var(--border);stroke-width:1}.day{stroke-width:.5}.outside{fill:var(--bg);stroke:none}.l0{fill:var(--empty);stroke:var(--border)}.l1{fill:var(--l1);stroke:none}.l2{fill:var(--l2);stroke:none}.l3{fill:var(--l3);stroke:none}.l4{fill:var(--l4);stroke:none}
 </style>
-<rect width="100%" height="100%" fill="#ffffff"/>
-<text x="22" y="38" class="title">137 vibe-coding days in 2026</text>
-<text x="704" y="39" class="muted small">Gruvbox / public aggregate</text>
-<rect class="card" x="22" y="62" width="875" height="190" rx="6"/>
-<text x="78" y="87" class="month">Jul</text>
-<text x="138" y="87" class="month">Aug</text>
-<text x="213" y="87" class="month">Sep</text>
-<text x="273" y="87" class="month">Oct</text>
-<text x="333" y="87" class="month">Nov</text>
-<text x="408" y="87" class="month">Dec</text>
-<text x="468" y="87" class="month">Jan</text>
-<text x="543" y="87" class="month">Feb</text>
-<text x="603" y="87" class="month">Mar</text>
-<text x="663" y="87" class="month">Apr</text>
-<text x="723" y="87" class="month">May</text>
-<text x="798" y="87" class="month">Jun</text>
-<text x="36" y="125" class="month">Mon</text>
-<text x="36" y="155" class="month">Wed</text>
-<text x="36" y="185" class="month">Fri</text>
-<rect x="78" y="100" width="11" height="11" rx="2.5" fill="#ffffff" stroke="none" stroke-width="0.5">
-  <title>2025-06-29: no recorded vibe-coding</title>
+<rect width="100%" height="100%" fill="var(--bg)"/>
+<text x="22" y="38" class="title">200 vibe-coding days</text>
+<text x="681" y="39" class="muted small">Jun 2025 - Jul 2026 / public aggregate</text>
+<rect class="card" x="22" y="62" width="875" height="248" rx="6"/>
+<text x="78" y="90" class="month">Jun</text>
+<text x="130" y="90" class="month">Jul</text>
+<text x="182" y="90" class="month">Aug</text>
+<text x="247" y="90" class="month">Sep</text>
+<text x="299" y="90" class="month">Oct</text>
+<text x="351" y="90" class="month">Nov</text>
+<text x="416" y="90" class="month">Dec</text>
+<text x="468" y="90" class="month">Jan</text>
+<text x="533" y="90" class="month">Feb</text>
+<text x="585" y="90" class="month">Mar</text>
+<text x="637" y="90" class="month">Apr</text>
+<text x="689" y="90" class="month">May</text>
+<text x="754" y="90" class="month">Jun</text>
+<text x="806" y="90" class="month">Jul</text>
+<text x="36" y="130" class="muted month">Mon</text>
+<text x="36" y="156" class="muted month">Wed</text>
+<text x="36" y="182" class="muted month">Fri</text>
+<rect class="day l0" x="78" y="105" width="10" height="10" rx="2">
+  <title>2025-06-01: no stored session activity</title>
 </rect>
-<rect x="78" y="115" width="11" height="11" rx="2.5" fill="#ffffff" stroke="none" stroke-width="0.5">
-  <title>2025-06-30: no recorded vibe-coding</title>
+<rect class="day l0" x="78" y="118" width="10" height="10" rx="2">
+  <title>2025-06-02: no stored session activity</title>
 </rect>
-<rect x="78" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-01: no recorded vibe-coding</title>
+<rect class="day l0" x="78" y="131" width="10" height="10" rx="2">
+  <title>2025-06-03: no stored session activity</title>
 </rect>
-<rect x="78" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-02: no recorded vibe-coding</title>
+<rect class="day l0" x="78" y="144" width="10" height="10" rx="2">
+  <title>2025-06-04: no stored session activity</title>
 </rect>
-<rect x="78" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-03: no recorded vibe-coding</title>
+<rect class="day l0" x="78" y="157" width="10" height="10" rx="2">
+  <title>2025-06-05: no stored session activity</title>
 </rect>
-<rect x="78" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-04: no recorded vibe-coding</title>
+<rect class="day l0" x="78" y="170" width="10" height="10" rx="2">
+  <title>2025-06-06: no stored session activity</title>
 </rect>
-<rect x="78" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-05: no recorded vibe-coding</title>
+<rect class="day l0" x="78" y="183" width="10" height="10" rx="2">
+  <title>2025-06-07: no stored session activity</title>
 </rect>
-<rect x="93" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-06: no recorded vibe-coding</title>
+<rect class="day l0" x="91" y="105" width="10" height="10" rx="2">
+  <title>2025-06-08: no stored session activity</title>
 </rect>
-<rect x="93" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-07: no recorded vibe-coding</title>
+<rect class="day l0" x="91" y="118" width="10" height="10" rx="2">
+  <title>2025-06-09: no stored session activity</title>
 </rect>
-<rect x="93" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-08: no recorded vibe-coding</title>
+<rect class="day l0" x="91" y="131" width="10" height="10" rx="2">
+  <title>2025-06-10: no stored session activity</title>
 </rect>
-<rect x="93" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-09: no recorded vibe-coding</title>
+<rect class="day l0" x="91" y="144" width="10" height="10" rx="2">
+  <title>2025-06-11: no stored session activity</title>
 </rect>
-<rect x="93" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-10: no recorded vibe-coding</title>
+<rect class="day l0" x="91" y="157" width="10" height="10" rx="2">
+  <title>2025-06-12: no stored session activity</title>
 </rect>
-<rect x="93" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-11: no recorded vibe-coding</title>
+<rect class="day l0" x="91" y="170" width="10" height="10" rx="2">
+  <title>2025-06-13: no stored session activity</title>
 </rect>
-<rect x="93" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-12: no recorded vibe-coding</title>
+<rect class="day l0" x="91" y="183" width="10" height="10" rx="2">
+  <title>2025-06-14: no stored session activity</title>
 </rect>
-<rect x="108" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-13: no recorded vibe-coding</title>
+<rect class="day l0" x="104" y="105" width="10" height="10" rx="2">
+  <title>2025-06-15: no stored session activity</title>
 </rect>
-<rect x="108" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-14: no recorded vibe-coding</title>
+<rect class="day l0" x="104" y="118" width="10" height="10" rx="2">
+  <title>2025-06-16: no stored session activity</title>
 </rect>
-<rect x="108" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-15: no recorded vibe-coding</title>
+<rect class="day l0" x="104" y="131" width="10" height="10" rx="2">
+  <title>2025-06-17: no stored session activity</title>
 </rect>
-<rect x="108" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-16: no recorded vibe-coding</title>
+<rect class="day l0" x="104" y="144" width="10" height="10" rx="2">
+  <title>2025-06-18: no stored session activity</title>
 </rect>
-<rect x="108" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-17: no recorded vibe-coding</title>
+<rect class="day l0" x="104" y="157" width="10" height="10" rx="2">
+  <title>2025-06-19: no stored session activity</title>
 </rect>
-<rect x="108" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-18: no recorded vibe-coding</title>
+<rect class="day l0" x="104" y="170" width="10" height="10" rx="2">
+  <title>2025-06-20: no stored session activity</title>
 </rect>
-<rect x="108" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-19: no recorded vibe-coding</title>
+<rect class="day l0" x="104" y="183" width="10" height="10" rx="2">
+  <title>2025-06-21: no stored session activity</title>
 </rect>
-<rect x="123" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-20: no recorded vibe-coding</title>
+<rect class="day l0" x="117" y="105" width="10" height="10" rx="2">
+  <title>2025-06-22: no stored session activity</title>
 </rect>
-<rect x="123" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-21: no recorded vibe-coding</title>
+<rect class="day l0" x="117" y="118" width="10" height="10" rx="2">
+  <title>2025-06-23: no stored session activity</title>
 </rect>
-<rect x="123" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-22: no recorded vibe-coding</title>
+<rect class="day l0" x="117" y="131" width="10" height="10" rx="2">
+  <title>2025-06-24: no stored session activity</title>
 </rect>
-<rect x="123" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-23: no recorded vibe-coding</title>
+<rect class="day l0" x="117" y="144" width="10" height="10" rx="2">
+  <title>2025-06-25: no stored session activity</title>
 </rect>
-<rect x="123" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-24: no recorded vibe-coding</title>
+<rect class="day l0" x="117" y="157" width="10" height="10" rx="2">
+  <title>2025-06-26: no stored session activity</title>
 </rect>
-<rect x="123" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-25: no recorded vibe-coding</title>
+<rect class="day l0" x="117" y="170" width="10" height="10" rx="2">
+  <title>2025-06-27: no stored session activity</title>
 </rect>
-<rect x="123" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-26: no recorded vibe-coding</title>
+<rect class="day l0" x="117" y="183" width="10" height="10" rx="2">
+  <title>2025-06-28: no stored session activity</title>
 </rect>
-<rect x="138" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-27: no recorded vibe-coding</title>
+<rect class="day l0" x="130" y="105" width="10" height="10" rx="2">
+  <title>2025-06-29: no stored session activity</title>
 </rect>
-<rect x="138" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-28: no recorded vibe-coding</title>
+<rect class="day l0" x="130" y="118" width="10" height="10" rx="2">
+  <title>2025-06-30: no stored session activity</title>
 </rect>
-<rect x="138" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-29: no recorded vibe-coding</title>
+<rect class="day l0" x="130" y="131" width="10" height="10" rx="2">
+  <title>2025-07-01: no stored session activity</title>
 </rect>
-<rect x="138" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-30: no recorded vibe-coding</title>
+<rect class="day l0" x="130" y="144" width="10" height="10" rx="2">
+  <title>2025-07-02: no stored session activity</title>
 </rect>
-<rect x="138" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-07-31: no recorded vibe-coding</title>
+<rect class="day l0" x="130" y="157" width="10" height="10" rx="2">
+  <title>2025-07-03: no stored session activity</title>
 </rect>
-<rect x="138" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-01: no recorded vibe-coding</title>
+<rect class="day l0" x="130" y="170" width="10" height="10" rx="2">
+  <title>2025-07-04: no stored session activity</title>
 </rect>
-<rect x="138" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-02: no recorded vibe-coding</title>
+<rect class="day l0" x="130" y="183" width="10" height="10" rx="2">
+  <title>2025-07-05: no stored session activity</title>
 </rect>
-<rect x="153" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-03: no recorded vibe-coding</title>
+<rect class="day l0" x="143" y="105" width="10" height="10" rx="2">
+  <title>2025-07-06: no stored session activity</title>
 </rect>
-<rect x="153" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-04: no recorded vibe-coding</title>
+<rect class="day l0" x="143" y="118" width="10" height="10" rx="2">
+  <title>2025-07-07: no stored session activity</title>
 </rect>
-<rect x="153" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-05: no recorded vibe-coding</title>
+<rect class="day l0" x="143" y="131" width="10" height="10" rx="2">
+  <title>2025-07-08: no stored session activity</title>
 </rect>
-<rect x="153" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-06: no recorded vibe-coding</title>
+<rect class="day l0" x="143" y="144" width="10" height="10" rx="2">
+  <title>2025-07-09: no stored session activity</title>
 </rect>
-<rect x="153" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-07: no recorded vibe-coding</title>
+<rect class="day l0" x="143" y="157" width="10" height="10" rx="2">
+  <title>2025-07-10: no stored session activity</title>
 </rect>
-<rect x="153" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-08: no recorded vibe-coding</title>
+<rect class="day l0" x="143" y="170" width="10" height="10" rx="2">
+  <title>2025-07-11: no stored session activity</title>
 </rect>
-<rect x="153" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-09: no recorded vibe-coding</title>
+<rect class="day l0" x="143" y="183" width="10" height="10" rx="2">
+  <title>2025-07-12: no stored session activity</title>
 </rect>
-<rect x="168" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-10: no recorded vibe-coding</title>
+<rect class="day l0" x="156" y="105" width="10" height="10" rx="2">
+  <title>2025-07-13: no stored session activity</title>
 </rect>
-<rect x="168" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-11: no recorded vibe-coding</title>
+<rect class="day l0" x="156" y="118" width="10" height="10" rx="2">
+  <title>2025-07-14: no stored session activity</title>
 </rect>
-<rect x="168" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-12: no recorded vibe-coding</title>
+<rect class="day l0" x="156" y="131" width="10" height="10" rx="2">
+  <title>2025-07-15: no stored session activity</title>
 </rect>
-<rect x="168" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-13: no recorded vibe-coding</title>
+<rect class="day l0" x="156" y="144" width="10" height="10" rx="2">
+  <title>2025-07-16: no stored session activity</title>
 </rect>
-<rect x="168" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-14: no recorded vibe-coding</title>
+<rect class="day l0" x="156" y="157" width="10" height="10" rx="2">
+  <title>2025-07-17: no stored session activity</title>
 </rect>
-<rect x="168" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-15: no recorded vibe-coding</title>
+<rect class="day l0" x="156" y="170" width="10" height="10" rx="2">
+  <title>2025-07-18: no stored session activity</title>
 </rect>
-<rect x="168" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-16: no recorded vibe-coding</title>
+<rect class="day l0" x="156" y="183" width="10" height="10" rx="2">
+  <title>2025-07-19: no stored session activity</title>
 </rect>
-<rect x="183" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-17: no recorded vibe-coding</title>
+<rect class="day l0" x="169" y="105" width="10" height="10" rx="2">
+  <title>2025-07-20: no stored session activity</title>
 </rect>
-<rect x="183" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-18: no recorded vibe-coding</title>
+<rect class="day l0" x="169" y="118" width="10" height="10" rx="2">
+  <title>2025-07-21: no stored session activity</title>
 </rect>
-<rect x="183" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-19: no recorded vibe-coding</title>
+<rect class="day l0" x="169" y="131" width="10" height="10" rx="2">
+  <title>2025-07-22: no stored session activity</title>
 </rect>
-<rect x="183" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-20: no recorded vibe-coding</title>
+<rect class="day l0" x="169" y="144" width="10" height="10" rx="2">
+  <title>2025-07-23: no stored session activity</title>
 </rect>
-<rect x="183" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-21: no recorded vibe-coding</title>
+<rect class="day l0" x="169" y="157" width="10" height="10" rx="2">
+  <title>2025-07-24: no stored session activity</title>
 </rect>
-<rect x="183" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-22: no recorded vibe-coding</title>
+<rect class="day l0" x="169" y="170" width="10" height="10" rx="2">
+  <title>2025-07-25: no stored session activity</title>
 </rect>
-<rect x="183" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-23: no recorded vibe-coding</title>
+<rect class="day l0" x="169" y="183" width="10" height="10" rx="2">
+  <title>2025-07-26: no stored session activity</title>
 </rect>
-<rect x="198" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-24: no recorded vibe-coding</title>
+<rect class="day l0" x="182" y="105" width="10" height="10" rx="2">
+  <title>2025-07-27: no stored session activity</title>
 </rect>
-<rect x="198" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-25: no recorded vibe-coding</title>
+<rect class="day l0" x="182" y="118" width="10" height="10" rx="2">
+  <title>2025-07-28: no stored session activity</title>
 </rect>
-<rect x="198" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-26: no recorded vibe-coding</title>
+<rect class="day l0" x="182" y="131" width="10" height="10" rx="2">
+  <title>2025-07-29: no stored session activity</title>
 </rect>
-<rect x="198" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-27: no recorded vibe-coding</title>
+<rect class="day l0" x="182" y="144" width="10" height="10" rx="2">
+  <title>2025-07-30: no stored session activity</title>
 </rect>
-<rect x="198" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-28: no recorded vibe-coding</title>
+<rect class="day l0" x="182" y="157" width="10" height="10" rx="2">
+  <title>2025-07-31: no stored session activity</title>
 </rect>
-<rect x="198" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-29: no recorded vibe-coding</title>
+<rect class="day l0" x="182" y="170" width="10" height="10" rx="2">
+  <title>2025-08-01: no stored session activity</title>
 </rect>
-<rect x="198" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-30: no recorded vibe-coding</title>
+<rect class="day l0" x="182" y="183" width="10" height="10" rx="2">
+  <title>2025-08-02: no stored session activity</title>
 </rect>
-<rect x="213" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-08-31: no recorded vibe-coding</title>
+<rect class="day l0" x="195" y="105" width="10" height="10" rx="2">
+  <title>2025-08-03: no stored session activity</title>
 </rect>
-<rect x="213" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-01: no recorded vibe-coding</title>
+<rect class="day l0" x="195" y="118" width="10" height="10" rx="2">
+  <title>2025-08-04: no stored session activity</title>
 </rect>
-<rect x="213" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-02: no recorded vibe-coding</title>
+<rect class="day l0" x="195" y="131" width="10" height="10" rx="2">
+  <title>2025-08-05: no stored session activity</title>
 </rect>
-<rect x="213" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-03: no recorded vibe-coding</title>
+<rect class="day l0" x="195" y="144" width="10" height="10" rx="2">
+  <title>2025-08-06: no stored session activity</title>
 </rect>
-<rect x="213" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-04: no recorded vibe-coding</title>
+<rect class="day l0" x="195" y="157" width="10" height="10" rx="2">
+  <title>2025-08-07: no stored session activity</title>
 </rect>
-<rect x="213" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-05: no recorded vibe-coding</title>
+<rect class="day l0" x="195" y="170" width="10" height="10" rx="2">
+  <title>2025-08-08: no stored session activity</title>
 </rect>
-<rect x="213" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-06: no recorded vibe-coding</title>
+<rect class="day l0" x="195" y="183" width="10" height="10" rx="2">
+  <title>2025-08-09: no stored session activity</title>
 </rect>
-<rect x="228" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-07: no recorded vibe-coding</title>
+<rect class="day l0" x="208" y="105" width="10" height="10" rx="2">
+  <title>2025-08-10: no stored session activity</title>
 </rect>
-<rect x="228" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-08: no recorded vibe-coding</title>
+<rect class="day l0" x="208" y="118" width="10" height="10" rx="2">
+  <title>2025-08-11: no stored session activity</title>
 </rect>
-<rect x="228" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-09: no recorded vibe-coding</title>
+<rect class="day l0" x="208" y="131" width="10" height="10" rx="2">
+  <title>2025-08-12: no stored session activity</title>
 </rect>
-<rect x="228" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-10: no recorded vibe-coding</title>
+<rect class="day l0" x="208" y="144" width="10" height="10" rx="2">
+  <title>2025-08-13: no stored session activity</title>
 </rect>
-<rect x="228" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-11: no recorded vibe-coding</title>
+<rect class="day l0" x="208" y="157" width="10" height="10" rx="2">
+  <title>2025-08-14: no stored session activity</title>
 </rect>
-<rect x="228" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-12: no recorded vibe-coding</title>
+<rect class="day l0" x="208" y="170" width="10" height="10" rx="2">
+  <title>2025-08-15: no stored session activity</title>
 </rect>
-<rect x="228" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-13: no recorded vibe-coding</title>
+<rect class="day l0" x="208" y="183" width="10" height="10" rx="2">
+  <title>2025-08-16: no stored session activity</title>
 </rect>
-<rect x="243" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-14: no recorded vibe-coding</title>
+<rect class="day l0" x="221" y="105" width="10" height="10" rx="2">
+  <title>2025-08-17: no stored session activity</title>
 </rect>
-<rect x="243" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-15: no recorded vibe-coding</title>
+<rect class="day l0" x="221" y="118" width="10" height="10" rx="2">
+  <title>2025-08-18: no stored session activity</title>
 </rect>
-<rect x="243" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-16: no recorded vibe-coding</title>
+<rect class="day l0" x="221" y="131" width="10" height="10" rx="2">
+  <title>2025-08-19: no stored session activity</title>
 </rect>
-<rect x="243" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-17: no recorded vibe-coding</title>
+<rect class="day l0" x="221" y="144" width="10" height="10" rx="2">
+  <title>2025-08-20: no stored session activity</title>
 </rect>
-<rect x="243" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-18: no recorded vibe-coding</title>
+<rect class="day l0" x="221" y="157" width="10" height="10" rx="2">
+  <title>2025-08-21: no stored session activity</title>
 </rect>
-<rect x="243" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-19: no recorded vibe-coding</title>
+<rect class="day l0" x="221" y="170" width="10" height="10" rx="2">
+  <title>2025-08-22: no stored session activity</title>
 </rect>
-<rect x="243" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-20: no recorded vibe-coding</title>
+<rect class="day l0" x="221" y="183" width="10" height="10" rx="2">
+  <title>2025-08-23: no stored session activity</title>
 </rect>
-<rect x="258" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-21: no recorded vibe-coding</title>
+<rect class="day l0" x="234" y="105" width="10" height="10" rx="2">
+  <title>2025-08-24: no stored session activity</title>
 </rect>
-<rect x="258" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-22: no recorded vibe-coding</title>
+<rect class="day l0" x="234" y="118" width="10" height="10" rx="2">
+  <title>2025-08-25: no stored session activity</title>
 </rect>
-<rect x="258" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-23: no recorded vibe-coding</title>
+<rect class="day l0" x="234" y="131" width="10" height="10" rx="2">
+  <title>2025-08-26: no stored session activity</title>
 </rect>
-<rect x="258" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-24: no recorded vibe-coding</title>
+<rect class="day l0" x="234" y="144" width="10" height="10" rx="2">
+  <title>2025-08-27: no stored session activity</title>
 </rect>
-<rect x="258" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-25: no recorded vibe-coding</title>
+<rect class="day l0" x="234" y="157" width="10" height="10" rx="2">
+  <title>2025-08-28: no stored session activity</title>
 </rect>
-<rect x="258" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-26: no recorded vibe-coding</title>
+<rect class="day l0" x="234" y="170" width="10" height="10" rx="2">
+  <title>2025-08-29: no stored session activity</title>
 </rect>
-<rect x="258" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-27: no recorded vibe-coding</title>
+<rect class="day l0" x="234" y="183" width="10" height="10" rx="2">
+  <title>2025-08-30: no stored session activity</title>
 </rect>
-<rect x="273" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-28: no recorded vibe-coding</title>
+<rect class="day l0" x="247" y="105" width="10" height="10" rx="2">
+  <title>2025-08-31: no stored session activity</title>
 </rect>
-<rect x="273" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-29: no recorded vibe-coding</title>
+<rect class="day l1" x="247" y="118" width="10" height="10" rx="2">
+  <title>2025-09-01: 2 sessions, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="273" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-09-30: no recorded vibe-coding</title>
+<rect class="day l0" x="247" y="131" width="10" height="10" rx="2">
+  <title>2025-09-02: no stored session activity</title>
 </rect>
-<rect x="273" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-01: no recorded vibe-coding</title>
+<rect class="day l0" x="247" y="144" width="10" height="10" rx="2">
+  <title>2025-09-03: no stored session activity</title>
 </rect>
-<rect x="273" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-02: no recorded vibe-coding</title>
+<rect class="day l0" x="247" y="157" width="10" height="10" rx="2">
+  <title>2025-09-04: no stored session activity</title>
 </rect>
-<rect x="273" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-03: no recorded vibe-coding</title>
+<rect class="day l0" x="247" y="170" width="10" height="10" rx="2">
+  <title>2025-09-05: no stored session activity</title>
 </rect>
-<rect x="273" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-04: no recorded vibe-coding</title>
+<rect class="day l0" x="247" y="183" width="10" height="10" rx="2">
+  <title>2025-09-06: no stored session activity</title>
 </rect>
-<rect x="288" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-05: no recorded vibe-coding</title>
+<rect class="day l0" x="260" y="105" width="10" height="10" rx="2">
+  <title>2025-09-07: no stored session activity</title>
 </rect>
-<rect x="288" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-06: no recorded vibe-coding</title>
+<rect class="day l0" x="260" y="118" width="10" height="10" rx="2">
+  <title>2025-09-08: no stored session activity</title>
 </rect>
-<rect x="288" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-07: no recorded vibe-coding</title>
+<rect class="day l0" x="260" y="131" width="10" height="10" rx="2">
+  <title>2025-09-09: no stored session activity</title>
 </rect>
-<rect x="288" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-08: no recorded vibe-coding</title>
+<rect class="day l1" x="260" y="144" width="10" height="10" rx="2">
+  <title>2025-09-10: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="288" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-09: no recorded vibe-coding</title>
+<rect class="day l0" x="260" y="157" width="10" height="10" rx="2">
+  <title>2025-09-11: no stored session activity</title>
 </rect>
-<rect x="288" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-10: no recorded vibe-coding</title>
+<rect class="day l1" x="260" y="170" width="10" height="10" rx="2">
+  <title>2025-09-12: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="288" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-11: no recorded vibe-coding</title>
+<rect class="day l0" x="260" y="183" width="10" height="10" rx="2">
+  <title>2025-09-13: no stored session activity</title>
 </rect>
-<rect x="303" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-12: no recorded vibe-coding</title>
+<rect class="day l0" x="273" y="105" width="10" height="10" rx="2">
+  <title>2025-09-14: no stored session activity</title>
 </rect>
-<rect x="303" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-13: no recorded vibe-coding</title>
+<rect class="day l1" x="273" y="118" width="10" height="10" rx="2">
+  <title>2025-09-15: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="303" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-14: no recorded vibe-coding</title>
+<rect class="day l1" x="273" y="131" width="10" height="10" rx="2">
+  <title>2025-09-16: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="303" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-15: no recorded vibe-coding</title>
+<rect class="day l0" x="273" y="144" width="10" height="10" rx="2">
+  <title>2025-09-17: no stored session activity</title>
 </rect>
-<rect x="303" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-16: no recorded vibe-coding</title>
+<rect class="day l1" x="273" y="157" width="10" height="10" rx="2">
+  <title>2025-09-18: 2 sessions, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="303" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-17: no recorded vibe-coding</title>
+<rect class="day l1" x="273" y="170" width="10" height="10" rx="2">
+  <title>2025-09-19: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="303" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-18: no recorded vibe-coding</title>
+<rect class="day l0" x="273" y="183" width="10" height="10" rx="2">
+  <title>2025-09-20: no stored session activity</title>
 </rect>
-<rect x="318" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-19: no recorded vibe-coding</title>
+<rect class="day l0" x="286" y="105" width="10" height="10" rx="2">
+  <title>2025-09-21: no stored session activity</title>
 </rect>
-<rect x="318" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-20: no recorded vibe-coding</title>
+<rect class="day l0" x="286" y="118" width="10" height="10" rx="2">
+  <title>2025-09-22: no stored session activity</title>
 </rect>
-<rect x="318" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-21: no recorded vibe-coding</title>
+<rect class="day l0" x="286" y="131" width="10" height="10" rx="2">
+  <title>2025-09-23: no stored session activity</title>
 </rect>
-<rect x="318" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-22: no recorded vibe-coding</title>
+<rect class="day l1" x="286" y="144" width="10" height="10" rx="2">
+  <title>2025-09-24: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="318" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-23: no recorded vibe-coding</title>
+<rect class="day l0" x="286" y="157" width="10" height="10" rx="2">
+  <title>2025-09-25: no stored session activity</title>
 </rect>
-<rect x="318" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-24: no recorded vibe-coding</title>
+<rect class="day l0" x="286" y="170" width="10" height="10" rx="2">
+  <title>2025-09-26: no stored session activity</title>
 </rect>
-<rect x="318" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-25: no recorded vibe-coding</title>
+<rect class="day l0" x="286" y="183" width="10" height="10" rx="2">
+  <title>2025-09-27: no stored session activity</title>
 </rect>
-<rect x="333" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-26: no recorded vibe-coding</title>
+<rect class="day l0" x="299" y="105" width="10" height="10" rx="2">
+  <title>2025-09-28: no stored session activity</title>
 </rect>
-<rect x="333" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-27: no recorded vibe-coding</title>
+<rect class="day l1" x="299" y="118" width="10" height="10" rx="2">
+  <title>2025-09-29: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="333" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-28: no recorded vibe-coding</title>
+<rect class="day l1" x="299" y="131" width="10" height="10" rx="2">
+  <title>2025-09-30: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="333" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-29: no recorded vibe-coding</title>
+<rect class="day l0" x="299" y="144" width="10" height="10" rx="2">
+  <title>2025-10-01: no stored session activity</title>
 </rect>
-<rect x="333" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-30: no recorded vibe-coding</title>
+<rect class="day l1" x="299" y="157" width="10" height="10" rx="2">
+  <title>2025-10-02: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="333" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-10-31: no recorded vibe-coding</title>
+<rect class="day l1" x="299" y="170" width="10" height="10" rx="2">
+  <title>2025-10-03: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="333" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-01: no recorded vibe-coding</title>
+<rect class="day l0" x="299" y="183" width="10" height="10" rx="2">
+  <title>2025-10-04: no stored session activity</title>
 </rect>
-<rect x="348" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-02: no recorded vibe-coding</title>
+<rect class="day l0" x="312" y="105" width="10" height="10" rx="2">
+  <title>2025-10-05: no stored session activity</title>
 </rect>
-<rect x="348" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-03: no recorded vibe-coding</title>
+<rect class="day l1" x="312" y="118" width="10" height="10" rx="2">
+  <title>2025-10-06: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="348" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-04: no recorded vibe-coding</title>
+<rect class="day l2" x="312" y="131" width="10" height="10" rx="2">
+  <title>2025-10-07: 3 sessions, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="348" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-05: no recorded vibe-coding</title>
+<rect class="day l1" x="312" y="144" width="10" height="10" rx="2">
+  <title>2025-10-08: 2 sessions, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="348" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-06: no recorded vibe-coding</title>
+<rect class="day l0" x="312" y="157" width="10" height="10" rx="2">
+  <title>2025-10-09: no stored session activity</title>
 </rect>
-<rect x="348" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-07: no recorded vibe-coding</title>
+<rect class="day l0" x="312" y="170" width="10" height="10" rx="2">
+  <title>2025-10-10: no stored session activity</title>
 </rect>
-<rect x="348" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-08: no recorded vibe-coding</title>
+<rect class="day l1" x="312" y="183" width="10" height="10" rx="2">
+  <title>2025-10-11: 2 sessions, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="363" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-09: no recorded vibe-coding</title>
+<rect class="day l0" x="325" y="105" width="10" height="10" rx="2">
+  <title>2025-10-12: no stored session activity</title>
 </rect>
-<rect x="363" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-10: no recorded vibe-coding</title>
+<rect class="day l0" x="325" y="118" width="10" height="10" rx="2">
+  <title>2025-10-13: no stored session activity</title>
 </rect>
-<rect x="363" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-11: no recorded vibe-coding</title>
+<rect class="day l0" x="325" y="131" width="10" height="10" rx="2">
+  <title>2025-10-14: no stored session activity</title>
 </rect>
-<rect x="363" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-12: no recorded vibe-coding</title>
+<rect class="day l1" x="325" y="144" width="10" height="10" rx="2">
+  <title>2025-10-15: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="363" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-13: no recorded vibe-coding</title>
+<rect class="day l1" x="325" y="157" width="10" height="10" rx="2">
+  <title>2025-10-16: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="363" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-14: no recorded vibe-coding</title>
+<rect class="day l0" x="325" y="170" width="10" height="10" rx="2">
+  <title>2025-10-17: no stored session activity</title>
 </rect>
-<rect x="363" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-15: no recorded vibe-coding</title>
+<rect class="day l0" x="325" y="183" width="10" height="10" rx="2">
+  <title>2025-10-18: no stored session activity</title>
 </rect>
-<rect x="378" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-16: no recorded vibe-coding</title>
+<rect class="day l1" x="338" y="105" width="10" height="10" rx="2">
+  <title>2025-10-19: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="378" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-17: no recorded vibe-coding</title>
+<rect class="day l1" x="338" y="118" width="10" height="10" rx="2">
+  <title>2025-10-20: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="378" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-18: no recorded vibe-coding</title>
+<rect class="day l1" x="338" y="131" width="10" height="10" rx="2">
+  <title>2025-10-21: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="378" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-19: no recorded vibe-coding</title>
+<rect class="day l0" x="338" y="144" width="10" height="10" rx="2">
+  <title>2025-10-22: no stored session activity</title>
 </rect>
-<rect x="378" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-20: no recorded vibe-coding</title>
+<rect class="day l0" x="338" y="157" width="10" height="10" rx="2">
+  <title>2025-10-23: no stored session activity</title>
 </rect>
-<rect x="378" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-21: no recorded vibe-coding</title>
+<rect class="day l1" x="338" y="170" width="10" height="10" rx="2">
+  <title>2025-10-24: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="378" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-22: no recorded vibe-coding</title>
+<rect class="day l0" x="338" y="183" width="10" height="10" rx="2">
+  <title>2025-10-25: no stored session activity</title>
 </rect>
-<rect x="393" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-23: no recorded vibe-coding</title>
+<rect class="day l0" x="351" y="105" width="10" height="10" rx="2">
+  <title>2025-10-26: no stored session activity</title>
 </rect>
-<rect x="393" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-24: no recorded vibe-coding</title>
+<rect class="day l0" x="351" y="118" width="10" height="10" rx="2">
+  <title>2025-10-27: no stored session activity</title>
 </rect>
-<rect x="393" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-25: no recorded vibe-coding</title>
+<rect class="day l1" x="351" y="131" width="10" height="10" rx="2">
+  <title>2025-10-28: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="393" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-26: no recorded vibe-coding</title>
+<rect class="day l1" x="351" y="144" width="10" height="10" rx="2">
+  <title>2025-10-29: 2 sessions, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="393" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-27: no recorded vibe-coding</title>
+<rect class="day l2" x="351" y="157" width="10" height="10" rx="2">
+  <title>2025-10-30: 7 sessions, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="393" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-28: no recorded vibe-coding</title>
+<rect class="day l1" x="351" y="170" width="10" height="10" rx="2">
+  <title>2025-10-31: 2 sessions, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="393" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-29: no recorded vibe-coding</title>
+<rect class="day l0" x="351" y="183" width="10" height="10" rx="2">
+  <title>2025-11-01: no stored session activity</title>
 </rect>
-<rect x="408" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-11-30: no recorded vibe-coding</title>
+<rect class="day l0" x="364" y="105" width="10" height="10" rx="2">
+  <title>2025-11-02: no stored session activity</title>
 </rect>
-<rect x="408" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-01: no recorded vibe-coding</title>
+<rect class="day l1" x="364" y="118" width="10" height="10" rx="2">
+  <title>2025-11-03: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="408" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-02: no recorded vibe-coding</title>
+<rect class="day l0" x="364" y="131" width="10" height="10" rx="2">
+  <title>2025-11-04: no stored session activity</title>
 </rect>
-<rect x="408" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-03: no recorded vibe-coding</title>
+<rect class="day l1" x="364" y="144" width="10" height="10" rx="2">
+  <title>2025-11-05: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="408" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-04: no recorded vibe-coding</title>
+<rect class="day l0" x="364" y="157" width="10" height="10" rx="2">
+  <title>2025-11-06: no stored session activity</title>
 </rect>
-<rect x="408" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-05: no recorded vibe-coding</title>
+<rect class="day l0" x="364" y="170" width="10" height="10" rx="2">
+  <title>2025-11-07: no stored session activity</title>
 </rect>
-<rect x="408" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-06: no recorded vibe-coding</title>
+<rect class="day l1" x="364" y="183" width="10" height="10" rx="2">
+  <title>2025-11-08: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="423" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-07: no recorded vibe-coding</title>
+<rect class="day l1" x="377" y="105" width="10" height="10" rx="2">
+  <title>2025-11-09: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="423" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-08: no recorded vibe-coding</title>
+<rect class="day l1" x="377" y="118" width="10" height="10" rx="2">
+  <title>2025-11-10: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="423" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-09: no recorded vibe-coding</title>
+<rect class="day l0" x="377" y="131" width="10" height="10" rx="2">
+  <title>2025-11-11: no stored session activity</title>
 </rect>
-<rect x="423" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-10: no recorded vibe-coding</title>
+<rect class="day l1" x="377" y="144" width="10" height="10" rx="2">
+  <title>2025-11-12: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="423" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-11: no recorded vibe-coding</title>
+<rect class="day l2" x="377" y="157" width="10" height="10" rx="2">
+  <title>2025-11-13: 6 sessions, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="423" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-12: no recorded vibe-coding</title>
+<rect class="day l2" x="377" y="170" width="10" height="10" rx="2">
+  <title>2025-11-14: 7 sessions, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="423" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-13: no recorded vibe-coding</title>
+<rect class="day l1" x="377" y="183" width="10" height="10" rx="2">
+  <title>2025-11-15: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="438" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-14: no recorded vibe-coding</title>
+<rect class="day l0" x="390" y="105" width="10" height="10" rx="2">
+  <title>2025-11-16: no stored session activity</title>
 </rect>
-<rect x="438" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-15: no recorded vibe-coding</title>
+<rect class="day l1" x="390" y="118" width="10" height="10" rx="2">
+  <title>2025-11-17: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="438" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-16: no recorded vibe-coding</title>
+<rect class="day l0" x="390" y="131" width="10" height="10" rx="2">
+  <title>2025-11-18: no stored session activity</title>
 </rect>
-<rect x="438" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-17: no recorded vibe-coding</title>
+<rect class="day l2" x="390" y="144" width="10" height="10" rx="2">
+  <title>2025-11-19: 3 sessions, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="438" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-18: no recorded vibe-coding</title>
+<rect class="day l1" x="390" y="157" width="10" height="10" rx="2">
+  <title>2025-11-20: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="438" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-19: no recorded vibe-coding</title>
+<rect class="day l2" x="390" y="170" width="10" height="10" rx="2">
+  <title>2025-11-21: 3 sessions, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="438" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-20: no recorded vibe-coding</title>
+<rect class="day l0" x="390" y="183" width="10" height="10" rx="2">
+  <title>2025-11-22: no stored session activity</title>
 </rect>
-<rect x="453" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-21: no recorded vibe-coding</title>
+<rect class="day l1" x="403" y="105" width="10" height="10" rx="2">
+  <title>2025-11-23: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="453" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-22: no recorded vibe-coding</title>
+<rect class="day l1" x="403" y="118" width="10" height="10" rx="2">
+  <title>2025-11-24: 2 sessions, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="453" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-23: no recorded vibe-coding</title>
+<rect class="day l0" x="403" y="131" width="10" height="10" rx="2">
+  <title>2025-11-25: no stored session activity</title>
 </rect>
-<rect x="453" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-24: no recorded vibe-coding</title>
+<rect class="day l0" x="403" y="144" width="10" height="10" rx="2">
+  <title>2025-11-26: no stored session activity</title>
 </rect>
-<rect x="453" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-25: no recorded vibe-coding</title>
+<rect class="day l1" x="403" y="157" width="10" height="10" rx="2">
+  <title>2025-11-27: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="453" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-26: no recorded vibe-coding</title>
+<rect class="day l0" x="403" y="170" width="10" height="10" rx="2">
+  <title>2025-11-28: no stored session activity</title>
 </rect>
-<rect x="453" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-27: no recorded vibe-coding</title>
+<rect class="day l0" x="403" y="183" width="10" height="10" rx="2">
+  <title>2025-11-29: no stored session activity</title>
 </rect>
-<rect x="468" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-28: no recorded vibe-coding</title>
+<rect class="day l0" x="416" y="105" width="10" height="10" rx="2">
+  <title>2025-11-30: no stored session activity</title>
 </rect>
-<rect x="468" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-29: no recorded vibe-coding</title>
+<rect class="day l1" x="416" y="118" width="10" height="10" rx="2">
+  <title>2025-12-01: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="468" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-30: no recorded vibe-coding</title>
+<rect class="day l0" x="416" y="131" width="10" height="10" rx="2">
+  <title>2025-12-02: no stored session activity</title>
 </rect>
-<rect x="468" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2025-12-31: no recorded vibe-coding</title>
+<rect class="day l0" x="416" y="144" width="10" height="10" rx="2">
+  <title>2025-12-03: no stored session activity</title>
 </rect>
-<rect x="468" y="160" width="11" height="11" rx="2.5" fill="#9be9a8" stroke="none" stroke-width="0.5">
+<rect class="day l0" x="416" y="157" width="10" height="10" rx="2">
+  <title>2025-12-04: no stored session activity</title>
+</rect>
+<rect class="day l1" x="416" y="170" width="10" height="10" rx="2">
+  <title>2025-12-05: 2 sessions, 0 prompts, 0 tool calls, 0 tokens</title>
+</rect>
+<rect class="day l0" x="416" y="183" width="10" height="10" rx="2">
+  <title>2025-12-06: no stored session activity</title>
+</rect>
+<rect class="day l0" x="429" y="105" width="10" height="10" rx="2">
+  <title>2025-12-07: no stored session activity</title>
+</rect>
+<rect class="day l0" x="429" y="118" width="10" height="10" rx="2">
+  <title>2025-12-08: no stored session activity</title>
+</rect>
+<rect class="day l2" x="429" y="131" width="10" height="10" rx="2">
+  <title>2025-12-09: 5 sessions, 0 prompts, 0 tool calls, 0 tokens</title>
+</rect>
+<rect class="day l0" x="429" y="144" width="10" height="10" rx="2">
+  <title>2025-12-10: no stored session activity</title>
+</rect>
+<rect class="day l2" x="429" y="157" width="10" height="10" rx="2">
+  <title>2025-12-11: 5 sessions, 0 prompts, 0 tool calls, 0 tokens</title>
+</rect>
+<rect class="day l1" x="429" y="170" width="10" height="10" rx="2">
+  <title>2025-12-12: 2 sessions, 0 prompts, 0 tool calls, 0 tokens</title>
+</rect>
+<rect class="day l1" x="429" y="183" width="10" height="10" rx="2">
+  <title>2025-12-13: 2 sessions, 0 prompts, 0 tool calls, 0 tokens</title>
+</rect>
+<rect class="day l4" x="442" y="105" width="10" height="10" rx="2">
+  <title>2025-12-14: 5 sessions, 40 prompts, 187 tool calls, 7.1M tokens</title>
+</rect>
+<rect class="day l0" x="442" y="118" width="10" height="10" rx="2">
+  <title>2025-12-15: no stored session activity</title>
+</rect>
+<rect class="day l0" x="442" y="131" width="10" height="10" rx="2">
+  <title>2025-12-16: no stored session activity</title>
+</rect>
+<rect class="day l2" x="442" y="144" width="10" height="10" rx="2">
+  <title>2025-12-17: 2 sessions, 3 prompts, 0 tool calls, 13.8K tokens</title>
+</rect>
+<rect class="day l3" x="442" y="157" width="10" height="10" rx="2">
+  <title>2025-12-18: 2 sessions, 21 prompts, 49 tool calls, 1.3M tokens</title>
+</rect>
+<rect class="day l2" x="442" y="170" width="10" height="10" rx="2">
+  <title>2025-12-19: 1 session, 1 prompt, 5 tool calls, 26.6K tokens</title>
+</rect>
+<rect class="day l2" x="442" y="183" width="10" height="10" rx="2">
+  <title>2025-12-20: 2 sessions, 10 prompts, 32 tool calls, 533.9K tokens</title>
+</rect>
+<rect class="day l4" x="455" y="105" width="10" height="10" rx="2">
+  <title>2025-12-21: 18 sessions, 47 prompts, 260 tool calls, 6.8M tokens</title>
+</rect>
+<rect class="day l4" x="455" y="118" width="10" height="10" rx="2">
+  <title>2025-12-22: 7 sessions, 91 prompts, 199 tool calls, 2.6M tokens</title>
+</rect>
+<rect class="day l4" x="455" y="131" width="10" height="10" rx="2">
+  <title>2025-12-23: 8 sessions, 30 prompts, 146 tool calls, 2.7M tokens</title>
+</rect>
+<rect class="day l0" x="455" y="144" width="10" height="10" rx="2">
+  <title>2025-12-24: no stored session activity</title>
+</rect>
+<rect class="day l2" x="455" y="157" width="10" height="10" rx="2">
+  <title>2025-12-25: 1 session, 2 prompts, 15 tool calls, 187.5K tokens</title>
+</rect>
+<rect class="day l0" x="455" y="170" width="10" height="10" rx="2">
+  <title>2025-12-26: no stored session activity</title>
+</rect>
+<rect class="day l2" x="455" y="183" width="10" height="10" rx="2">
+  <title>2025-12-27: 1 session, 6 prompts, 20 tool calls, 251.4K tokens</title>
+</rect>
+<rect class="day l0" x="468" y="105" width="10" height="10" rx="2">
+  <title>2025-12-28: no stored session activity</title>
+</rect>
+<rect class="day l0" x="468" y="118" width="10" height="10" rx="2">
+  <title>2025-12-29: no stored session activity</title>
+</rect>
+<rect class="day l0" x="468" y="131" width="10" height="10" rx="2">
+  <title>2025-12-30: no stored session activity</title>
+</rect>
+<rect class="day l0" x="468" y="144" width="10" height="10" rx="2">
+  <title>2025-12-31: no stored session activity</title>
+</rect>
+<rect class="day l2" x="468" y="157" width="10" height="10" rx="2">
   <title>2026-01-01: 2 sessions, 5 prompts, 10 tool calls, 81.4K tokens</title>
 </rect>
-<rect x="468" y="175" width="11" height="11" rx="2.5" fill="#9be9a8" stroke="none" stroke-width="0.5">
+<rect class="day l2" x="468" y="170" width="10" height="10" rx="2">
   <title>2026-01-02: 2 sessions, 3 prompts, 10 tool calls, 64.2K tokens</title>
 </rect>
-<rect x="468" y="190" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="468" y="183" width="10" height="10" rx="2">
   <title>2026-01-03: 6 sessions, 40 prompts, 548 tool calls, 27.8M tokens</title>
 </rect>
-<rect x="483" y="100" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="481" y="105" width="10" height="10" rx="2">
   <title>2026-01-04: 10 sessions, 46 prompts, 469 tool calls, 21.8M tokens</title>
 </rect>
-<rect x="483" y="115" width="11" height="11" rx="2.5" fill="#9be9a8" stroke="none" stroke-width="0.5">
-  <title>2026-01-05: 1 sessions, 0 prompts, 0 tool calls, 0 tokens</title>
+<rect class="day l1" x="481" y="118" width="10" height="10" rx="2">
+  <title>2026-01-05: 1 session, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect x="483" y="130" width="11" height="11" rx="2.5" fill="#9be9a8" stroke="none" stroke-width="0.5">
+<rect class="day l2" x="481" y="131" width="10" height="10" rx="2">
   <title>2026-01-06: 4 sessions, 4 prompts, 31 tool calls, 920.8K tokens</title>
 </rect>
-<rect x="483" y="145" width="11" height="11" rx="2.5" fill="#40c463" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="481" y="144" width="10" height="10" rx="2">
   <title>2026-01-07: 6 sessions, 6 prompts, 61 tool calls, 1.0M tokens</title>
 </rect>
-<rect x="483" y="160" width="11" height="11" rx="2.5" fill="#40c463" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="481" y="157" width="10" height="10" rx="2">
   <title>2026-01-08: 5 sessions, 5 prompts, 100 tool calls, 1.8M tokens</title>
 </rect>
-<rect x="483" y="175" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="481" y="170" width="10" height="10" rx="2">
   <title>2026-01-09: 16 sessions, 25 prompts, 506 tool calls, 21.2M tokens</title>
 </rect>
-<rect x="483" y="190" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="481" y="183" width="10" height="10" rx="2">
   <title>2026-01-10: 14 sessions, 29 prompts, 369 tool calls, 14.2M tokens</title>
 </rect>
-<rect x="498" y="100" width="11" height="11" rx="2.5" fill="#40c463" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="494" y="105" width="10" height="10" rx="2">
   <title>2026-01-11: 4 sessions, 7 prompts, 52 tool calls, 1.8M tokens</title>
 </rect>
-<rect x="498" y="115" width="11" height="11" rx="2.5" fill="#40c463" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="494" y="118" width="10" height="10" rx="2">
   <title>2026-01-12: 6 sessions, 14 prompts, 41 tool calls, 892.2K tokens</title>
 </rect>
-<rect x="498" y="130" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="494" y="131" width="10" height="10" rx="2">
   <title>2026-01-13: 7 sessions, 4 prompts, 94 tool calls, 5.0M tokens</title>
 </rect>
-<rect x="498" y="145" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="494" y="144" width="10" height="10" rx="2">
   <title>2026-01-14: 8 sessions, 24 prompts, 348 tool calls, 15.1M tokens</title>
 </rect>
-<rect x="498" y="160" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="494" y="157" width="10" height="10" rx="2">
   <title>2026-01-15: 11 sessions, 16 prompts, 346 tool calls, 23.2M tokens</title>
 </rect>
-<rect x="498" y="175" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="494" y="170" width="10" height="10" rx="2">
   <title>2026-01-16: 6 sessions, 13 prompts, 318 tool calls, 13.7M tokens</title>
 </rect>
-<rect x="498" y="190" width="11" height="11" rx="2.5" fill="#40c463" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="494" y="183" width="10" height="10" rx="2">
   <title>2026-01-17: 2 sessions, 21 prompts, 91 tool calls, 4.9M tokens</title>
 </rect>
-<rect x="513" y="100" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="507" y="105" width="10" height="10" rx="2">
   <title>2026-01-18: 14 sessions, 58 prompts, 827 tool calls, 42.9M tokens</title>
 </rect>
-<rect x="513" y="115" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="507" y="118" width="10" height="10" rx="2">
   <title>2026-01-19: 7 sessions, 60 prompts, 296 tool calls, 13.4M tokens</title>
 </rect>
-<rect x="513" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-01-20: no recorded vibe-coding</title>
+<rect class="day l0" x="507" y="131" width="10" height="10" rx="2">
+  <title>2026-01-20: no stored session activity</title>
 </rect>
-<rect x="513" y="145" width="11" height="11" rx="2.5" fill="#9be9a8" stroke="none" stroke-width="0.5">
-  <title>2026-01-21: 1 sessions, 10 prompts, 49 tool calls, 1.3M tokens</title>
+<rect class="day l2" x="507" y="144" width="10" height="10" rx="2">
+  <title>2026-01-21: 1 session, 10 prompts, 49 tool calls, 1.3M tokens</title>
 </rect>
-<rect x="513" y="160" width="11" height="11" rx="2.5" fill="#9be9a8" stroke="none" stroke-width="0.5">
-  <title>2026-01-22: 2 sessions, 1 prompts, 22 tool calls, 1.3M tokens</title>
+<rect class="day l2" x="507" y="157" width="10" height="10" rx="2">
+  <title>2026-01-22: 2 sessions, 1 prompt, 22 tool calls, 1.3M tokens</title>
 </rect>
-<rect x="513" y="175" width="11" height="11" rx="2.5" fill="#9be9a8" stroke="none" stroke-width="0.5">
-  <title>2026-01-23: 1 sessions, 1 prompts, 9 tool calls, 131.6K tokens</title>
+<rect class="day l2" x="507" y="170" width="10" height="10" rx="2">
+  <title>2026-01-23: 1 session, 1 prompt, 9 tool calls, 131.6K tokens</title>
 </rect>
-<rect x="513" y="190" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="507" y="183" width="10" height="10" rx="2">
   <title>2026-01-24: 6 sessions, 9 prompts, 163 tool calls, 11.7M tokens</title>
 </rect>
-<rect x="528" y="100" width="11" height="11" rx="2.5" fill="#40c463" stroke="none" stroke-width="0.5">
-  <title>2026-01-25: 1 sessions, 13 prompts, 87 tool calls, 2.3M tokens</title>
+<rect class="day l3" x="520" y="105" width="10" height="10" rx="2">
+  <title>2026-01-25: 1 session, 13 prompts, 87 tool calls, 2.3M tokens</title>
 </rect>
-<rect x="528" y="115" width="11" height="11" rx="2.5" fill="#40c463" stroke="none" stroke-width="0.5">
-  <title>2026-01-26: 1 sessions, 12 prompts, 74 tool calls, 4.2M tokens</title>
+<rect class="day l3" x="520" y="118" width="10" height="10" rx="2">
+  <title>2026-01-26: 1 session, 12 prompts, 74 tool calls, 4.2M tokens</title>
 </rect>
-<rect x="528" y="130" width="11" height="11" rx="2.5" fill="#9be9a8" stroke="none" stroke-width="0.5">
-  <title>2026-01-27: 1 sessions, 2 prompts, 4 tool calls, 76.5K tokens</title>
+<rect class="day l2" x="520" y="131" width="10" height="10" rx="2">
+  <title>2026-01-27: 1 session, 2 prompts, 4 tool calls, 76.5K tokens</title>
 </rect>
-<rect x="528" y="145" width="11" height="11" rx="2.5" fill="#40c463" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="520" y="144" width="10" height="10" rx="2">
   <title>2026-01-28: 5 sessions, 7 prompts, 19 tool calls, 394.4K tokens</title>
 </rect>
-<rect x="528" y="160" width="11" height="11" rx="2.5" fill="#9be9a8" stroke="none" stroke-width="0.5">
-  <title>2026-01-29: 1 sessions, 1 prompts, 0 tool calls, 13.4K tokens</title>
+<rect class="day l2" x="520" y="157" width="10" height="10" rx="2">
+  <title>2026-01-29: 1 session, 1 prompt, 0 tool calls, 13.4K tokens</title>
 </rect>
-<rect x="528" y="175" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="520" y="170" width="10" height="10" rx="2">
   <title>2026-01-30: 6 sessions, 23 prompts, 835 tool calls, 61.6M tokens</title>
 </rect>
-<rect x="528" y="190" width="11" height="11" rx="2.5" fill="#40c463" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="520" y="183" width="10" height="10" rx="2">
   <title>2026-01-31: 3 sessions, 12 prompts, 108 tool calls, 4.5M tokens</title>
 </rect>
-<rect x="543" y="100" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="533" y="105" width="10" height="10" rx="2">
   <title>2026-02-01: 7 sessions, 45 prompts, 233 tool calls, 12.2M tokens</title>
 </rect>
-<rect x="543" y="115" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="533" y="118" width="10" height="10" rx="2">
   <title>2026-02-02: 5 sessions, 11 prompts, 153 tool calls, 5.7M tokens</title>
 </rect>
-<rect x="543" y="130" width="11" height="11" rx="2.5" fill="#9be9a8" stroke="none" stroke-width="0.5">
+<rect class="day l2" x="533" y="131" width="10" height="10" rx="2">
   <title>2026-02-03: 2 sessions, 4 prompts, 57 tool calls, 2.7M tokens</title>
 </rect>
-<rect x="543" y="145" width="11" height="11" rx="2.5" fill="#40c463" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="533" y="144" width="10" height="10" rx="2">
   <title>2026-02-04: 7 sessions, 13 prompts, 31 tool calls, 1.1M tokens</title>
 </rect>
-<rect x="543" y="160" width="11" height="11" rx="2.5" fill="#40c463" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="533" y="157" width="10" height="10" rx="2">
   <title>2026-02-05: 3 sessions, 13 prompts, 79 tool calls, 3.0M tokens</title>
 </rect>
-<rect x="543" y="175" width="11" height="11" rx="2.5" fill="#40c463" stroke="none" stroke-width="0.5">
-  <title>2026-02-06: 1 sessions, 20 prompts, 130 tool calls, 6.8M tokens</title>
+<rect class="day l3" x="533" y="170" width="10" height="10" rx="2">
+  <title>2026-02-06: 1 session, 20 prompts, 130 tool calls, 6.8M tokens</title>
 </rect>
-<rect x="543" y="190" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="533" y="183" width="10" height="10" rx="2">
   <title>2026-02-07: 2 sessions, 17 prompts, 234 tool calls, 13.6M tokens</title>
 </rect>
-<rect x="558" y="100" width="11" height="11" rx="2.5" fill="#40c463" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="546" y="105" width="10" height="10" rx="2">
   <title>2026-02-08: 2 sessions, 5 prompts, 170 tool calls, 16.9M tokens</title>
 </rect>
-<rect x="558" y="115" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="546" y="118" width="10" height="10" rx="2">
   <title>2026-02-09: 6 sessions, 51 prompts, 356 tool calls, 23.1M tokens</title>
 </rect>
-<rect x="558" y="130" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="546" y="131" width="10" height="10" rx="2">
   <title>2026-02-10: 22 sessions, 36 prompts, 1977 tool calls, 143.7M tokens</title>
 </rect>
-<rect x="558" y="145" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="546" y="144" width="10" height="10" rx="2">
   <title>2026-02-11: 2 sessions, 11 prompts, 213 tool calls, 12.5M tokens</title>
 </rect>
-<rect x="558" y="160" width="11" height="11" rx="2.5" fill="#40c463" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="546" y="157" width="10" height="10" rx="2">
   <title>2026-02-12: 3 sessions, 12 prompts, 137 tool calls, 6.7M tokens</title>
 </rect>
-<rect x="558" y="175" width="11" height="11" rx="2.5" fill="#40c463" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="546" y="170" width="10" height="10" rx="2">
   <title>2026-02-13: 3 sessions, 6 prompts, 69 tool calls, 1.9M tokens</title>
 </rect>
-<rect x="558" y="190" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="546" y="183" width="10" height="10" rx="2">
   <title>2026-02-14: 2 sessions, 14 prompts, 187 tool calls, 9.9M tokens</title>
 </rect>
-<rect x="573" y="100" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="559" y="105" width="10" height="10" rx="2">
   <title>2026-02-15: 3 sessions, 84 prompts, 108 tool calls, 7.5M tokens</title>
 </rect>
-<rect x="573" y="115" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="559" y="118" width="10" height="10" rx="2">
   <title>2026-02-16: 10 sessions, 22 prompts, 137 tool calls, 3.2M tokens</title>
 </rect>
-<rect x="573" y="130" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="559" y="131" width="10" height="10" rx="2">
   <title>2026-02-17: 3 sessions, 44 prompts, 136 tool calls, 3.5M tokens</title>
 </rect>
-<rect x="573" y="145" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="559" y="144" width="10" height="10" rx="2">
   <title>2026-02-18: 5 sessions, 76 prompts, 225 tool calls, 10.8M tokens</title>
 </rect>
-<rect x="573" y="160" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="559" y="157" width="10" height="10" rx="2">
   <title>2026-02-19: 9 sessions, 64 prompts, 466 tool calls, 22.1M tokens</title>
 </rect>
-<rect x="573" y="175" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="559" y="170" width="10" height="10" rx="2">
   <title>2026-02-20: 2 sessions, 47 prompts, 411 tool calls, 33.7M tokens</title>
 </rect>
-<rect x="573" y="190" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="559" y="183" width="10" height="10" rx="2">
   <title>2026-02-21: 3 sessions, 30 prompts, 390 tool calls, 28.7M tokens</title>
 </rect>
-<rect x="588" y="100" width="11" height="11" rx="2.5" fill="#40c463" stroke="none" stroke-width="0.5">
-  <title>2026-02-22: 1 sessions, 11 prompts, 139 tool calls, 10.4M tokens</title>
+<rect class="day l3" x="572" y="105" width="10" height="10" rx="2">
+  <title>2026-02-22: 1 session, 11 prompts, 139 tool calls, 10.4M tokens</title>
 </rect>
-<rect x="588" y="115" width="11" height="11" rx="2.5" fill="#9be9a8" stroke="none" stroke-width="0.5">
+<rect class="day l2" x="572" y="118" width="10" height="10" rx="2">
   <title>2026-02-23: 2 sessions, 6 prompts, 18 tool calls, 616.4K tokens</title>
 </rect>
-<rect x="588" y="130" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="572" y="131" width="10" height="10" rx="2">
   <title>2026-02-24: 4 sessions, 17 prompts, 97 tool calls, 3.0M tokens</title>
 </rect>
-<rect x="588" y="145" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="572" y="144" width="10" height="10" rx="2">
   <title>2026-02-25: 10 sessions, 90 prompts, 468 tool calls, 22.5M tokens</title>
 </rect>
-<rect x="588" y="160" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="572" y="157" width="10" height="10" rx="2">
   <title>2026-02-26: 4 sessions, 58 prompts, 119 tool calls, 9.9M tokens</title>
 </rect>
-<rect x="588" y="175" width="11" height="11" rx="2.5" fill="#9be9a8" stroke="none" stroke-width="0.5">
+<rect class="day l2" x="572" y="170" width="10" height="10" rx="2">
   <title>2026-02-27: 2 sessions, 7 prompts, 14 tool calls, 333.1K tokens</title>
 </rect>
-<rect x="588" y="190" width="11" height="11" rx="2.5" fill="#40c463" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="572" y="183" width="10" height="10" rx="2">
   <title>2026-02-28: 2 sessions, 9 prompts, 160 tool calls, 5.2M tokens</title>
 </rect>
-<rect x="603" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-03-01: no recorded vibe-coding</title>
+<rect class="day l0" x="585" y="105" width="10" height="10" rx="2">
+  <title>2026-03-01: no stored session activity</title>
 </rect>
-<rect x="603" y="115" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="585" y="118" width="10" height="10" rx="2">
   <title>2026-03-02: 6 sessions, 101 prompts, 296 tool calls, 18.3M tokens</title>
 </rect>
-<rect x="603" y="130" width="11" height="11" rx="2.5" fill="#40c463" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="585" y="131" width="10" height="10" rx="2">
   <title>2026-03-03: 2 sessions, 6 prompts, 101 tool calls, 3.8M tokens</title>
 </rect>
-<rect x="603" y="145" width="11" height="11" rx="2.5" fill="#40c463" stroke="none" stroke-width="0.5">
+<rect class="day l2" x="585" y="144" width="10" height="10" rx="2">
   <title>2026-03-04: 2 sessions, 6 prompts, 95 tool calls, 2.2M tokens</title>
 </rect>
-<rect x="603" y="160" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="585" y="157" width="10" height="10" rx="2">
   <title>2026-03-05: 2 sessions, 15 prompts, 318 tool calls, 19.4M tokens</title>
 </rect>
-<rect x="603" y="175" width="11" height="11" rx="2.5" fill="#9be9a8" stroke="none" stroke-width="0.5">
+<rect class="day l2" x="585" y="170" width="10" height="10" rx="2">
   <title>2026-03-06: 2 sessions, 3 prompts, 80 tool calls, 2.6M tokens</title>
 </rect>
-<rect x="603" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-03-07: no recorded vibe-coding</title>
+<rect class="day l0" x="585" y="183" width="10" height="10" rx="2">
+  <title>2026-03-07: no stored session activity</title>
 </rect>
-<rect x="618" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-03-08: no recorded vibe-coding</title>
+<rect class="day l0" x="598" y="105" width="10" height="10" rx="2">
+  <title>2026-03-08: no stored session activity</title>
 </rect>
-<rect x="618" y="115" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="598" y="118" width="10" height="10" rx="2">
   <title>2026-03-09: 2 sessions, 37 prompts, 389 tool calls, 26.3M tokens</title>
 </rect>
-<rect x="618" y="130" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="598" y="131" width="10" height="10" rx="2">
   <title>2026-03-10: 11 sessions, 40 prompts, 547 tool calls, 20.9M tokens</title>
 </rect>
-<rect x="618" y="145" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="598" y="144" width="10" height="10" rx="2">
   <title>2026-03-11: 3 sessions, 66 prompts, 150 tool calls, 8.7M tokens</title>
 </rect>
-<rect x="618" y="160" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="598" y="157" width="10" height="10" rx="2">
   <title>2026-03-12: 15 sessions, 56 prompts, 374 tool calls, 10.5M tokens</title>
 </rect>
-<rect x="618" y="175" width="11" height="11" rx="2.5" fill="#9be9a8" stroke="none" stroke-width="0.5">
+<rect class="day l2" x="598" y="170" width="10" height="10" rx="2">
   <title>2026-03-13: 2 sessions, 6 prompts, 15 tool calls, 327.3K tokens</title>
 </rect>
-<rect x="618" y="190" width="11" height="11" rx="2.5" fill="#9be9a8" stroke="none" stroke-width="0.5">
-  <title>2026-03-14: 1 sessions, 3 prompts, 19 tool calls, 840.5K tokens</title>
+<rect class="day l2" x="598" y="183" width="10" height="10" rx="2">
+  <title>2026-03-14: 1 session, 3 prompts, 19 tool calls, 840.5K tokens</title>
 </rect>
-<rect x="633" y="100" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="611" y="105" width="10" height="10" rx="2">
   <title>2026-03-15: 6 sessions, 35 prompts, 745 tool calls, 48.7M tokens</title>
 </rect>
-<rect x="633" y="115" width="11" height="11" rx="2.5" fill="#9be9a8" stroke="none" stroke-width="0.5">
-  <title>2026-03-16: 1 sessions, 1 prompts, 19 tool calls, 424.0K tokens</title>
+<rect class="day l2" x="611" y="118" width="10" height="10" rx="2">
+  <title>2026-03-16: 1 session, 1 prompt, 19 tool calls, 424.0K tokens</title>
 </rect>
-<rect x="633" y="130" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="611" y="131" width="10" height="10" rx="2">
   <title>2026-03-17: 2 sessions, 27 prompts, 405 tool calls, 36.3M tokens</title>
 </rect>
-<rect x="633" y="145" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="611" y="144" width="10" height="10" rx="2">
   <title>2026-03-18: 3 sessions, 43 prompts, 279 tool calls, 23.3M tokens</title>
 </rect>
-<rect x="633" y="160" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="611" y="157" width="10" height="10" rx="2">
   <title>2026-03-19: 24 sessions, 125 prompts, 958 tool calls, 59.7M tokens</title>
 </rect>
-<rect x="633" y="175" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="611" y="170" width="10" height="10" rx="2">
   <title>2026-03-20: 2 sessions, 37 prompts, 232 tool calls, 14.7M tokens</title>
 </rect>
-<rect x="633" y="190" width="11" height="11" rx="2.5" fill="#9be9a8" stroke="none" stroke-width="0.5">
+<rect class="day l2" x="611" y="183" width="10" height="10" rx="2">
   <title>2026-03-21: 2 sessions, 5 prompts, 26 tool calls, 960.7K tokens</title>
 </rect>
-<rect x="648" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-03-22: no recorded vibe-coding</title>
+<rect class="day l0" x="624" y="105" width="10" height="10" rx="2">
+  <title>2026-03-22: no stored session activity</title>
 </rect>
-<rect x="648" y="115" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="624" y="118" width="10" height="10" rx="2">
   <title>2026-03-23: 3 sessions, 53 prompts, 89 tool calls, 9.8M tokens</title>
 </rect>
-<rect x="648" y="130" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
-  <title>2026-03-24: 1 sessions, 20 prompts, 428 tool calls, 34.0M tokens</title>
+<rect class="day l3" x="624" y="131" width="10" height="10" rx="2">
+  <title>2026-03-24: 1 session, 20 prompts, 428 tool calls, 34.0M tokens</title>
 </rect>
-<rect x="648" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-03-25: no recorded vibe-coding</title>
+<rect class="day l0" x="624" y="144" width="10" height="10" rx="2">
+  <title>2026-03-25: no stored session activity</title>
 </rect>
-<rect x="648" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-03-26: no recorded vibe-coding</title>
+<rect class="day l0" x="624" y="157" width="10" height="10" rx="2">
+  <title>2026-03-26: no stored session activity</title>
 </rect>
-<rect x="648" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-03-27: no recorded vibe-coding</title>
+<rect class="day l0" x="624" y="170" width="10" height="10" rx="2">
+  <title>2026-03-27: no stored session activity</title>
 </rect>
-<rect x="648" y="190" width="11" height="11" rx="2.5" fill="#9be9a8" stroke="none" stroke-width="0.5">
+<rect class="day l2" x="624" y="183" width="10" height="10" rx="2">
   <title>2026-03-28: 2 sessions, 4 prompts, 60 tool calls, 3.8M tokens</title>
 </rect>
-<rect x="663" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-03-29: no recorded vibe-coding</title>
+<rect class="day l0" x="637" y="105" width="10" height="10" rx="2">
+  <title>2026-03-29: no stored session activity</title>
 </rect>
-<rect x="663" y="115" width="11" height="11" rx="2.5" fill="#9be9a8" stroke="none" stroke-width="0.5">
+<rect class="day l2" x="637" y="118" width="10" height="10" rx="2">
   <title>2026-03-30: 2 sessions, 5 prompts, 44 tool calls, 1.6M tokens</title>
 </rect>
-<rect x="663" y="130" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="637" y="131" width="10" height="10" rx="2">
   <title>2026-03-31: 12 sessions, 49 prompts, 823 tool calls, 68.3M tokens</title>
 </rect>
-<rect x="663" y="145" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="637" y="144" width="10" height="10" rx="2">
   <title>2026-04-01: 6 sessions, 15 prompts, 766 tool calls, 83.5M tokens</title>
 </rect>
-<rect x="663" y="160" width="11" height="11" rx="2.5" fill="#40c463" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="637" y="157" width="10" height="10" rx="2">
   <title>2026-04-02: 3 sessions, 16 prompts, 22 tool calls, 1.5M tokens</title>
 </rect>
-<rect x="663" y="175" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="637" y="170" width="10" height="10" rx="2">
   <title>2026-04-03: 2 sessions, 20 prompts, 502 tool calls, 56.7M tokens</title>
 </rect>
-<rect x="663" y="190" width="11" height="11" rx="2.5" fill="#40c463" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="637" y="183" width="10" height="10" rx="2">
   <title>2026-04-04: 3 sessions, 4 prompts, 126 tool calls, 10.5M tokens</title>
 </rect>
-<rect x="678" y="100" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="650" y="105" width="10" height="10" rx="2">
   <title>2026-04-05: 24 sessions, 110 prompts, 3814 tool calls, 410.8M tokens</title>
 </rect>
-<rect x="678" y="115" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="650" y="118" width="10" height="10" rx="2">
   <title>2026-04-06: 5 sessions, 13 prompts, 211 tool calls, 11.9M tokens</title>
 </rect>
-<rect x="678" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-04-07: no recorded vibe-coding</title>
+<rect class="day l0" x="650" y="131" width="10" height="10" rx="2">
+  <title>2026-04-07: no stored session activity</title>
 </rect>
-<rect x="678" y="145" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="650" y="144" width="10" height="10" rx="2">
   <title>2026-04-08: 3 sessions, 8 prompts, 229 tool calls, 19.7M tokens</title>
 </rect>
-<rect x="678" y="160" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="650" y="157" width="10" height="10" rx="2">
   <title>2026-04-09: 12 sessions, 66 prompts, 766 tool calls, 57.6M tokens</title>
 </rect>
-<rect x="678" y="175" width="11" height="11" rx="2.5" fill="#40c463" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="650" y="170" width="10" height="10" rx="2">
   <title>2026-04-10: 3 sessions, 20 prompts, 74 tool calls, 3.8M tokens</title>
 </rect>
-<rect x="678" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-04-11: no recorded vibe-coding</title>
+<rect class="day l0" x="650" y="183" width="10" height="10" rx="2">
+  <title>2026-04-11: no stored session activity</title>
 </rect>
-<rect x="693" y="100" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="663" y="105" width="10" height="10" rx="2">
   <title>2026-04-12: 15 sessions, 47 prompts, 3300 tool calls, 199.0M tokens</title>
 </rect>
-<rect x="693" y="115" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="663" y="118" width="10" height="10" rx="2">
   <title>2026-04-13: 63 sessions, 96 prompts, 2874 tool calls, 156.5M tokens</title>
 </rect>
-<rect x="693" y="130" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="663" y="131" width="10" height="10" rx="2">
   <title>2026-04-14: 15 sessions, 86 prompts, 288 tool calls, 18.3M tokens</title>
 </rect>
-<rect x="693" y="145" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="663" y="144" width="10" height="10" rx="2">
   <title>2026-04-15: 4 sessions, 40 prompts, 1883 tool calls, 120.6M tokens</title>
 </rect>
-<rect x="693" y="160" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="663" y="157" width="10" height="10" rx="2">
   <title>2026-04-16: 5 sessions, 39 prompts, 269 tool calls, 15.4M tokens</title>
 </rect>
-<rect x="693" y="175" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="663" y="170" width="10" height="10" rx="2">
   <title>2026-04-17: 10 sessions, 25 prompts, 1122 tool calls, 70.3M tokens</title>
 </rect>
-<rect x="693" y="190" width="11" height="11" rx="2.5" fill="#40c463" stroke="none" stroke-width="0.5">
-  <title>2026-04-18: 1 sessions, 6 prompts, 123 tool calls, 6.2M tokens</title>
+<rect class="day l3" x="663" y="183" width="10" height="10" rx="2">
+  <title>2026-04-18: 1 session, 6 prompts, 123 tool calls, 6.2M tokens</title>
 </rect>
-<rect x="708" y="100" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="676" y="105" width="10" height="10" rx="2">
   <title>2026-04-19: 4 sessions, 43 prompts, 1515 tool calls, 99.7M tokens</title>
 </rect>
-<rect x="708" y="115" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="676" y="118" width="10" height="10" rx="2">
   <title>2026-04-20: 3 sessions, 22 prompts, 229 tool calls, 5.7M tokens</title>
 </rect>
-<rect x="708" y="130" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="676" y="131" width="10" height="10" rx="2">
   <title>2026-04-21: 4 sessions, 50 prompts, 588 tool calls, 40.2M tokens</title>
 </rect>
-<rect x="708" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-04-22: no recorded vibe-coding</title>
+<rect class="day l0" x="676" y="144" width="10" height="10" rx="2">
+  <title>2026-04-22: no stored session activity</title>
 </rect>
-<rect x="708" y="160" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="676" y="157" width="10" height="10" rx="2">
   <title>2026-04-23: 4 sessions, 56 prompts, 1673 tool calls, 113.5M tokens</title>
 </rect>
-<rect x="708" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-04-24: no recorded vibe-coding</title>
+<rect class="day l0" x="676" y="170" width="10" height="10" rx="2">
+  <title>2026-04-24: no stored session activity</title>
 </rect>
-<rect x="708" y="190" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="676" y="183" width="10" height="10" rx="2">
   <title>2026-04-25: 7 sessions, 27 prompts, 479 tool calls, 30.2M tokens</title>
 </rect>
-<rect x="723" y="100" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="689" y="105" width="10" height="10" rx="2">
   <title>2026-04-26: 3 sessions, 107 prompts, 3523 tool calls, 254.9M tokens</title>
 </rect>
-<rect x="723" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-04-27: no recorded vibe-coding</title>
+<rect class="day l0" x="689" y="118" width="10" height="10" rx="2">
+  <title>2026-04-27: no stored session activity</title>
 </rect>
-<rect x="723" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-04-28: no recorded vibe-coding</title>
+<rect class="day l0" x="689" y="131" width="10" height="10" rx="2">
+  <title>2026-04-28: no stored session activity</title>
 </rect>
-<rect x="723" y="145" width="11" height="11" rx="2.5" fill="#9be9a8" stroke="none" stroke-width="0.5">
-  <title>2026-04-29: 1 sessions, 1 prompts, 49 tool calls, 885.0K tokens</title>
+<rect class="day l2" x="689" y="144" width="10" height="10" rx="2">
+  <title>2026-04-29: 1 session, 1 prompt, 49 tool calls, 885.0K tokens</title>
 </rect>
-<rect x="723" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-04-30: no recorded vibe-coding</title>
+<rect class="day l0" x="689" y="157" width="10" height="10" rx="2">
+  <title>2026-04-30: no stored session activity</title>
 </rect>
-<rect x="723" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-05-01: no recorded vibe-coding</title>
+<rect class="day l0" x="689" y="170" width="10" height="10" rx="2">
+  <title>2026-05-01: no stored session activity</title>
 </rect>
-<rect x="723" y="190" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="689" y="183" width="10" height="10" rx="2">
   <title>2026-05-02: 4 sessions, 108 prompts, 2186 tool calls, 160.0M tokens</title>
 </rect>
-<rect x="738" y="100" width="11" height="11" rx="2.5" fill="#9be9a8" stroke="none" stroke-width="0.5">
-  <title>2026-05-03: 1 sessions, 3 prompts, 44 tool calls, 1.2M tokens</title>
+<rect class="day l2" x="702" y="105" width="10" height="10" rx="2">
+  <title>2026-05-03: 1 session, 3 prompts, 44 tool calls, 1.2M tokens</title>
 </rect>
-<rect x="738" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-05-04: no recorded vibe-coding</title>
+<rect class="day l0" x="702" y="118" width="10" height="10" rx="2">
+  <title>2026-05-04: no stored session activity</title>
 </rect>
-<rect x="738" y="130" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="702" y="131" width="10" height="10" rx="2">
   <title>2026-05-05: 8 sessions, 34 prompts, 571 tool calls, 36.9M tokens</title>
 </rect>
-<rect x="738" y="145" width="11" height="11" rx="2.5" fill="#9be9a8" stroke="none" stroke-width="0.5">
-  <title>2026-05-06: 1 sessions, 1 prompts, 44 tool calls, 1.1M tokens</title>
+<rect class="day l2" x="702" y="144" width="10" height="10" rx="2">
+  <title>2026-05-06: 1 session, 1 prompt, 44 tool calls, 1.1M tokens</title>
 </rect>
-<rect x="738" y="160" width="11" height="11" rx="2.5" fill="#9be9a8" stroke="none" stroke-width="0.5">
+<rect class="day l2" x="702" y="157" width="10" height="10" rx="2">
   <title>2026-05-07: 2 sessions, 3 prompts, 0 tool calls, 25.0K tokens</title>
 </rect>
-<rect x="738" y="175" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="702" y="170" width="10" height="10" rx="2">
   <title>2026-05-08: 9 sessions, 26 prompts, 237 tool calls, 8.0M tokens</title>
 </rect>
-<rect x="738" y="190" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="702" y="183" width="10" height="10" rx="2">
   <title>2026-05-09: 11 sessions, 118 prompts, 712 tool calls, 85.3M tokens</title>
 </rect>
-<rect x="753" y="100" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="715" y="105" width="10" height="10" rx="2">
   <title>2026-05-10: 8 sessions, 157 prompts, 271 tool calls, 33.9M tokens</title>
 </rect>
-<rect x="753" y="115" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="715" y="118" width="10" height="10" rx="2">
   <title>2026-05-11: 103 sessions, 1729 prompts, 1219 tool calls, 610.6M tokens</title>
 </rect>
-<rect x="753" y="130" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="715" y="131" width="10" height="10" rx="2">
   <title>2026-05-12: 9 sessions, 81 prompts, 556 tool calls, 42.9M tokens</title>
 </rect>
-<rect x="753" y="145" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="715" y="144" width="10" height="10" rx="2">
   <title>2026-05-13: 15 sessions, 164 prompts, 836 tool calls, 159.6M tokens</title>
 </rect>
-<rect x="753" y="160" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="715" y="157" width="10" height="10" rx="2">
   <title>2026-05-14: 14 sessions, 170 prompts, 502 tool calls, 124.2M tokens</title>
 </rect>
-<rect x="753" y="175" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="715" y="170" width="10" height="10" rx="2">
   <title>2026-05-15: 37 sessions, 679 prompts, 721 tool calls, 45.6M tokens</title>
 </rect>
-<rect x="753" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-05-16: no recorded vibe-coding</title>
+<rect class="day l0" x="715" y="183" width="10" height="10" rx="2">
+  <title>2026-05-16: no stored session activity</title>
 </rect>
-<rect x="768" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-05-17: no recorded vibe-coding</title>
+<rect class="day l0" x="728" y="105" width="10" height="10" rx="2">
+  <title>2026-05-17: no stored session activity</title>
 </rect>
-<rect x="768" y="115" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="728" y="118" width="10" height="10" rx="2">
   <title>2026-05-18: 6 sessions, 29 prompts, 315 tool calls, 20.8M tokens</title>
 </rect>
-<rect x="768" y="130" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="728" y="131" width="10" height="10" rx="2">
   <title>2026-05-19: 6 sessions, 32 prompts, 366 tool calls, 18.9M tokens</title>
 </rect>
-<rect x="768" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-05-20: no recorded vibe-coding</title>
+<rect class="day l0" x="728" y="144" width="10" height="10" rx="2">
+  <title>2026-05-20: no stored session activity</title>
 </rect>
-<rect x="768" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-05-21: no recorded vibe-coding</title>
+<rect class="day l0" x="728" y="157" width="10" height="10" rx="2">
+  <title>2026-05-21: no stored session activity</title>
 </rect>
-<rect x="768" y="175" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="728" y="170" width="10" height="10" rx="2">
   <title>2026-05-22: 7 sessions, 37 prompts, 607 tool calls, 40.9M tokens</title>
 </rect>
-<rect x="768" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-05-23: no recorded vibe-coding</title>
+<rect class="day l0" x="728" y="183" width="10" height="10" rx="2">
+  <title>2026-05-23: no stored session activity</title>
 </rect>
-<rect x="783" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-05-24: no recorded vibe-coding</title>
+<rect class="day l0" x="741" y="105" width="10" height="10" rx="2">
+  <title>2026-05-24: no stored session activity</title>
 </rect>
-<rect x="783" y="115" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="741" y="118" width="10" height="10" rx="2">
   <title>2026-05-25: 5 sessions, 34 prompts, 287 tool calls, 20.3M tokens</title>
 </rect>
-<rect x="783" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-05-26: no recorded vibe-coding</title>
+<rect class="day l0" x="741" y="131" width="10" height="10" rx="2">
+  <title>2026-05-26: no stored session activity</title>
 </rect>
-<rect x="783" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-05-27: no recorded vibe-coding</title>
+<rect class="day l0" x="741" y="144" width="10" height="10" rx="2">
+  <title>2026-05-27: no stored session activity</title>
 </rect>
-<rect x="783" y="160" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
+<rect class="day l4" x="741" y="157" width="10" height="10" rx="2">
   <title>2026-05-28: 3 sessions, 96 prompts, 306 tool calls, 87.5M tokens</title>
 </rect>
-<rect x="783" y="175" width="11" height="11" rx="2.5" fill="#40c463" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="741" y="170" width="10" height="10" rx="2">
   <title>2026-05-29: 3 sessions, 7 prompts, 140 tool calls, 7.2M tokens</title>
 </rect>
-<rect x="783" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-05-30: no recorded vibe-coding</title>
+<rect class="day l0" x="741" y="183" width="10" height="10" rx="2">
+  <title>2026-05-30: no stored session activity</title>
 </rect>
-<rect x="798" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-05-31: no recorded vibe-coding</title>
+<rect class="day l0" x="754" y="105" width="10" height="10" rx="2">
+  <title>2026-05-31: no stored session activity</title>
 </rect>
-<rect x="798" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-06-01: no recorded vibe-coding</title>
+<rect class="day l0" x="754" y="118" width="10" height="10" rx="2">
+  <title>2026-06-01: no stored session activity</title>
 </rect>
-<rect x="798" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-06-02: no recorded vibe-coding</title>
+<rect class="day l0" x="754" y="131" width="10" height="10" rx="2">
+  <title>2026-06-02: no stored session activity</title>
 </rect>
-<rect x="798" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-06-03: no recorded vibe-coding</title>
+<rect class="day l0" x="754" y="144" width="10" height="10" rx="2">
+  <title>2026-06-03: no stored session activity</title>
 </rect>
-<rect x="798" y="160" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-06-04: no recorded vibe-coding</title>
+<rect class="day l0" x="754" y="157" width="10" height="10" rx="2">
+  <title>2026-06-04: no stored session activity</title>
 </rect>
-<rect x="798" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-06-05: no recorded vibe-coding</title>
+<rect class="day l0" x="754" y="170" width="10" height="10" rx="2">
+  <title>2026-06-05: no stored session activity</title>
 </rect>
-<rect x="798" y="190" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-06-06: no recorded vibe-coding</title>
+<rect class="day l0" x="754" y="183" width="10" height="10" rx="2">
+  <title>2026-06-06: no stored session activity</title>
 </rect>
-<rect x="813" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-06-07: no recorded vibe-coding</title>
+<rect class="day l0" x="767" y="105" width="10" height="10" rx="2">
+  <title>2026-06-07: no stored session activity</title>
 </rect>
-<rect x="813" y="115" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="767" y="118" width="10" height="10" rx="2">
   <title>2026-06-08: 7 sessions, 13 prompts, 136 tool calls, 10.1M tokens</title>
 </rect>
-<rect x="813" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-06-09: no recorded vibe-coding</title>
+<rect class="day l0" x="767" y="131" width="10" height="10" rx="2">
+  <title>2026-06-09: no stored session activity</title>
 </rect>
-<rect x="813" y="145" width="11" height="11" rx="2.5" fill="#40c463" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="767" y="144" width="10" height="10" rx="2">
   <title>2026-06-10: 4 sessions, 13 prompts, 66 tool calls, 5.0M tokens</title>
 </rect>
-<rect x="813" y="160" width="11" height="11" rx="2.5" fill="#9be9a8" stroke="none" stroke-width="0.5">
-  <title>2026-06-11: 1 sessions, 5 prompts, 4 tool calls, 257.3K tokens</title>
+<rect class="day l2" x="767" y="157" width="10" height="10" rx="2">
+  <title>2026-06-11: 1 session, 5 prompts, 4 tool calls, 257.3K tokens</title>
 </rect>
-<rect x="813" y="175" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-06-12: no recorded vibe-coding</title>
+<rect class="day l0" x="767" y="170" width="10" height="10" rx="2">
+  <title>2026-06-12: no stored session activity</title>
 </rect>
-<rect x="813" y="190" width="11" height="11" rx="2.5" fill="#9be9a8" stroke="none" stroke-width="0.5">
+<rect class="day l2" x="767" y="183" width="10" height="10" rx="2">
   <title>2026-06-13: 2 sessions, 4 prompts, 4 tool calls, 159.2K tokens</title>
 </rect>
-<rect x="828" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-06-14: no recorded vibe-coding</title>
+<rect class="day l0" x="780" y="105" width="10" height="10" rx="2">
+  <title>2026-06-14: no stored session activity</title>
 </rect>
-<rect x="828" y="115" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-06-15: no recorded vibe-coding</title>
+<rect class="day l0" x="780" y="118" width="10" height="10" rx="2">
+  <title>2026-06-15: no stored session activity</title>
 </rect>
-<rect x="828" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-06-16: no recorded vibe-coding</title>
+<rect class="day l0" x="780" y="131" width="10" height="10" rx="2">
+  <title>2026-06-16: no stored session activity</title>
 </rect>
-<rect x="828" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-06-17: no recorded vibe-coding</title>
+<rect class="day l0" x="780" y="144" width="10" height="10" rx="2">
+  <title>2026-06-17: no stored session activity</title>
 </rect>
-<rect x="828" y="160" width="11" height="11" rx="2.5" fill="#40c463" stroke="none" stroke-width="0.5">
-  <title>2026-06-18: 1 sessions, 11 prompts, 98 tool calls, 4.4M tokens</title>
+<rect class="day l3" x="780" y="157" width="10" height="10" rx="2">
+  <title>2026-06-18: 1 session, 11 prompts, 98 tool calls, 4.4M tokens</title>
 </rect>
-<rect x="828" y="175" width="11" height="11" rx="2.5" fill="#40c463" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="780" y="170" width="10" height="10" rx="2">
   <title>2026-06-19: 2 sessions, 15 prompts, 40 tool calls, 2.0M tokens</title>
 </rect>
-<rect x="828" y="190" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="780" y="183" width="10" height="10" rx="2">
   <title>2026-06-20: 6 sessions, 15 prompts, 165 tool calls, 5.9M tokens</title>
 </rect>
-<rect x="843" y="100" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-06-21: no recorded vibe-coding</title>
+<rect class="day l0" x="793" y="105" width="10" height="10" rx="2">
+  <title>2026-06-21: no stored session activity</title>
 </rect>
-<rect x="843" y="115" width="11" height="11" rx="2.5" fill="#9be9a8" stroke="none" stroke-width="0.5">
-  <title>2026-06-22: 1 sessions, 1 prompts, 39 tool calls, 874.0K tokens</title>
+<rect class="day l2" x="793" y="118" width="10" height="10" rx="2">
+  <title>2026-06-22: 1 session, 1 prompt, 39 tool calls, 874.0K tokens</title>
 </rect>
-<rect x="843" y="130" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-06-23: no recorded vibe-coding</title>
+<rect class="day l0" x="793" y="131" width="10" height="10" rx="2">
+  <title>2026-06-23: no stored session activity</title>
 </rect>
-<rect x="843" y="145" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5">
-  <title>2026-06-24: no recorded vibe-coding</title>
+<rect class="day l0" x="793" y="144" width="10" height="10" rx="2">
+  <title>2026-06-24: no stored session activity</title>
 </rect>
-<rect x="843" y="160" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
-  <title>2026-06-25: 4 sessions, 54 prompts, 431 tool calls, 40.5M tokens</title>
+<rect class="day l4" x="793" y="157" width="10" height="10" rx="2">
+  <title>2026-06-25: 4 sessions, 55 prompts, 432 tool calls, 40.6M tokens</title>
 </rect>
-<rect x="843" y="175" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="793" y="170" width="10" height="10" rx="2">
   <title>2026-06-26: 3 sessions, 20 prompts, 264 tool calls, 15.6M tokens</title>
 </rect>
-<rect x="843" y="190" width="11" height="11" rx="2.5" fill="#9be9a8" stroke="none" stroke-width="0.5">
+<rect class="day l2" x="793" y="183" width="10" height="10" rx="2">
   <title>2026-06-27: 2 sessions, 2 prompts, 13 tool calls, 477.1K tokens</title>
 </rect>
-<rect x="858" y="100" width="11" height="11" rx="2.5" fill="#30a14e" stroke="none" stroke-width="0.5">
+<rect class="day l3" x="806" y="105" width="10" height="10" rx="2">
   <title>2026-06-28: 4 sessions, 23 prompts, 298 tool calls, 21.7M tokens</title>
 </rect>
-<rect x="858" y="115" width="11" height="11" rx="2.5" fill="#216e39" stroke="none" stroke-width="0.5">
-  <title>2026-06-29: 14 sessions, 28 prompts, 529 tool calls, 24.9M tokens</title>
+<rect class="day l4" x="806" y="118" width="10" height="10" rx="2">
+  <title>2026-06-29: 14 sessions, 36 prompts, 782 tool calls, 43.4M tokens</title>
 </rect>
-<rect x="858" y="130" width="11" height="11" rx="2.5" fill="#9be9a8" stroke="none" stroke-width="0.5">
-  <title>2026-06-30: 3 sessions, 3 prompts, 33 tool calls, 526.3K tokens</title>
+<rect class="day l4" x="806" y="131" width="10" height="10" rx="2">
+  <title>2026-06-30: 12 sessions, 22 prompts, 422 tool calls, 23.8M tokens</title>
 </rect>
-<rect x="858" y="145" width="11" height="11" rx="2.5" fill="#ffffff" stroke="none" stroke-width="0.5">
-  <title>2026-07-01: no recorded vibe-coding</title>
+<rect class="day l3" x="806" y="144" width="10" height="10" rx="2">
+  <title>2026-07-01: 3 sessions, 23 prompts, 265 tool calls, 12.4M tokens</title>
 </rect>
-<rect x="858" y="160" width="11" height="11" rx="2.5" fill="#ffffff" stroke="none" stroke-width="0.5">
-  <title>2026-07-02: no recorded vibe-coding</title>
+<rect class="day l4" x="806" y="157" width="10" height="10" rx="2">
+  <title>2026-07-02: 21 sessions, 49 prompts, 271 tool calls, 21.7M tokens</title>
 </rect>
-<rect x="858" y="175" width="11" height="11" rx="2.5" fill="#ffffff" stroke="none" stroke-width="0.5">
-  <title>2026-07-03: no recorded vibe-coding</title>
+<rect class="day l3" x="806" y="170" width="10" height="10" rx="2">
+  <title>2026-07-03: 2 sessions, 8 prompts, 298 tool calls, 12.2M tokens</title>
 </rect>
-<rect x="858" y="190" width="11" height="11" rx="2.5" fill="#ffffff" stroke="none" stroke-width="0.5">
-  <title>2026-07-04: no recorded vibe-coding</title>
+<rect class="day l4" x="806" y="183" width="10" height="10" rx="2">
+  <title>2026-07-04: 3 sessions, 33 prompts, 702 tool calls, 53.0M tokens</title>
 </rect>
-<text x="78" y="231" class="muted small">900 sessions - 6,669 prompts - 55,758 tool calls - 4.56B tokens</text>
-<text x="690" y="231" class="muted small">Less</text>
-<rect x="732" y="218" width="11" height="11" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.4"/>
-<rect x="750" y="218" width="11" height="11" rx="2.5" fill="#9be9a8" stroke="#d0d7de" stroke-width="0.4"/>
-<rect x="768" y="218" width="11" height="11" rx="2.5" fill="#40c463" stroke="#d0d7de" stroke-width="0.4"/>
-<rect x="786" y="218" width="11" height="11" rx="2.5" fill="#30a14e" stroke="#d0d7de" stroke-width="0.4"/>
-<rect x="804" y="218" width="11" height="11" rx="2.5" fill="#216e39" stroke="#d0d7de" stroke-width="0.4"/>
-<text x="826" y="231" class="muted small">More</text>
-<rect class="card" x="926" y="22" width="172" height="230" rx="6"/>
-<text x="944" y="47" class="sideValue">Snapshot</text>
-<text x="944" y="64" class="muted micro">Jul 2025 - Jun 2026</text>
+<rect class="day l3" x="819" y="105" width="10" height="10" rx="2">
+  <title>2026-07-05: 2 sessions, 5 prompts, 211 tool calls, 13.5M tokens</title>
+</rect>
+<rect class="day outside" x="819" y="118" width="10" height="10" rx="2">
+  <title>2026-07-06: outside snapshot range</title>
+</rect>
+<rect class="day outside" x="819" y="131" width="10" height="10" rx="2">
+  <title>2026-07-07: outside snapshot range</title>
+</rect>
+<rect class="day outside" x="819" y="144" width="10" height="10" rx="2">
+  <title>2026-07-08: outside snapshot range</title>
+</rect>
+<rect class="day outside" x="819" y="157" width="10" height="10" rx="2">
+  <title>2026-07-09: outside snapshot range</title>
+</rect>
+<rect class="day outside" x="819" y="170" width="10" height="10" rx="2">
+  <title>2026-07-10: outside snapshot range</title>
+</rect>
+<rect class="day outside" x="819" y="183" width="10" height="10" rx="2">
+  <title>2026-07-11: outside snapshot range</title>
+</rect>
+<text x="78" y="226" class="muted small">1,076 sessions - 7,066 prompts - 59,061 tool calls - 4.73B tokens</text>
+<text x="698" y="226" class="muted small">Less</text>
+<rect class="day l0" x="738" y="215" width="10" height="10" rx="2"/>
+<rect class="day l1" x="755" y="215" width="10" height="10" rx="2"/>
+<rect class="day l2" x="772" y="215" width="10" height="10" rx="2"/>
+<rect class="day l3" x="789" y="215" width="10" height="10" rx="2"/>
+<rect class="day l4" x="806" y="215" width="10" height="10" rx="2"/>
+<text x="829" y="226" class="muted small">More</text>
+<line x1="78" y1="246" x2="875" y2="246" stroke="var(--border)"/>
+<text x="78" y="274" class="muted small">200 of 400 days active  /  first stored Sep 1, 2025  /  longest streak 39 days</text>
+<rect class="card" x="926" y="22" width="172" height="288" rx="6"/>
+<text x="944" y="47" class="value">Snapshot</text>
+<text x="944" y="64" class="muted micro">Jun 2025 - Jul 2026</text>
 <line x1="944" y1="78" x2="1080" y2="78" stroke="var(--border)"/>
-<text x="944" y="100" class="sideLabel">ACTIVE SHARE</text>
-<text x="944" y="120" class="sideValue">37.5%</text>
-<text x="1020" y="100" class="sideLabel">STREAK</text>
-<text x="1020" y="120" class="sideValue">39 days</text>
-<text x="944" y="151" class="sideLabel">PEAK DAY</text>
-<text x="944" y="171" class="sideValue">May 11</text>
-<text x="1020" y="151" class="sideLabel">ACTIVE</text>
-<text x="1020" y="171" class="sideValue">137 days</text>
-<line x1="944" y1="190" x2="1080" y2="190" stroke="var(--border)"/>
-<text x="944" y="211" class="sideLabel">GENERATED</text>
-<text x="944" y="231" class="sideValue">Jun 30, 2026</text>
-<!-- Public aggregate heatmap. No local paths, workspace names, command names, prompt text, or credentials are embedded. -->
+<text x="944" y="98" class="label">ACTIVE SHARE</text>
+<text x="944" y="117" class="value">50.0%</text>
+<text x="1020" y="98" class="label">LONGEST</text>
+<text x="1020" y="117" class="value">39 days</text>
+<text x="944" y="143" class="label">CLOSING</text>
+<text x="944" y="162" class="value">11 days</text>
+<text x="1020" y="143" class="label">PEAK DAY</text>
+<text x="1020" y="162" class="value">May 11</text>
+<line x1="944" y1="176" x2="1080" y2="176" stroke="var(--border)"/>
+<text x="944" y="193" class="label">SESSION SOURCES</text>
+<text x="944" y="212" class="muted micro">Codex</text>
+<text x="1080" y="212" class="value">633</text>
+<text x="944" y="230" class="muted micro">Codexxx</text>
+<text x="1080" y="230" class="value">412</text>
+<text x="944" y="248" class="muted micro">Claude</text>
+<text x="1080" y="248" class="value">14</text>
+<text x="944" y="266" class="muted micro">Claudeee</text>
+<text x="1080" y="266" class="value">17</text>
+<line x1="944" y1="276" x2="1080" y2="276" stroke="var(--border)"/>
+<text x="944" y="291" class="label">GENERATED</text>
+<text x="944" y="307" class="value">Jul 5, 2026</text>
+<!-- Public daily and source-level aggregate counts only. -->
 </svg>
