@@ -1,13 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 290" width="1120" height="290" role="img" aria-labelledby="title desc">
-<title id="title">137 vibe-coding days in 2026</title>
-<desc id="desc">GitHub-style heatmap of Dmitriy's local AI coding activity from January 1 through June 30, 2026: 900 sessions, 6669 prompts, 55758 tool calls, 4.56B tokens.</desc>
+<title id="title">137 vibe-coding days in 2026, Gruvbox theme</title>
+<desc id="desc">Twelve-month public aggregate of Dmitriy's local AI coding activity ending June 30, 2026: 137 active days, 900 sessions, 6,669 prompts, 55,758 tool calls, and 4.56B tokens.</desc>
 <style>
-text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;fill:#24292f} .muted{fill:#57606a} .small{font-size:14px} .month{font-size:15px} .title{font-size:22px;font-weight:600} .num{font-weight:600} .card{fill:#fff;stroke:#d0d7de;stroke-width:1} .year{font-size:16px}
+:root{color-scheme:light dark;--bg:#1d2021;--surface:#282828;--fg:#ebdbb2;--muted:#a89984;--border:#504945;--empty:#3c3836;--l1:#689d6a;--l2:#98971a;--l3:#d79921;--l4:#d65d0e;--accent:#fabd2f;--accentText:#282828}
+@media(prefers-color-scheme:light){:root{--bg:#f2e5bc;--surface:#fbf1c7;--fg:#3c3836;--muted:#7c6f64;--border:#d5c4a1;--empty:#d5c4a1;--l1:#689d6a;--l2:#98971a;--l3:#d79921;--l4:#d65d0e;--accent:#b57614;--accentText:#fbf1c7}}
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;fill:var(--fg)} .muted{fill:var(--muted)} .small{font-size:14px} .micro{font-size:11px} .month{font-size:15px} .title{font-size:22px;font-weight:600} .num{font-weight:600} .card{fill:var(--surface);stroke:var(--border);stroke-width:1} .sideLabel{font-size:9px;fill:var(--muted)} .sideValue{font-size:14px;font-weight:600}
+rect[fill="#ffffff"]{fill:var(--bg)} rect[fill="#ebedf0"]{fill:var(--empty)} rect[fill="#9be9a8"]{fill:var(--l1)} rect[fill="#40c463"]{fill:var(--l2)} rect[fill="#30a14e"]{fill:var(--l3)} rect[fill="#216e39"]{fill:var(--l4)} [stroke="#d0d7de"]{stroke:var(--border)}
 </style>
 <rect width="100%" height="100%" fill="#ffffff"/>
 <text x="22" y="38" class="title">137 vibe-coding days in 2026</text>
-<text x="735" y="39" class="muted small">Vibecoding settings</text>
-<path d="M868 31 l5 5 l5 -5" fill="none" stroke="#57606a" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="704" y="39" class="muted small">Gruvbox / public aggregate</text>
 <rect class="card" x="22" y="62" width="875" height="190" rx="6"/>
 <text x="78" y="87" class="month">Jul</text>
 <text x="138" y="87" class="month">Aug</text>
@@ -1145,11 +1147,20 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect x="786" y="218" width="11" height="11" rx="2.5" fill="#30a14e" stroke="#d0d7de" stroke-width="0.4"/>
 <rect x="804" y="218" width="11" height="11" rx="2.5" fill="#216e39" stroke="#d0d7de" stroke-width="0.4"/>
 <text x="826" y="231" class="muted small">More</text>
-<rect x="936" y="22" width="152" height="42" rx="7" fill="#316dca"/>
-<text x="958" y="48" fill="#ffffff" class="year" font-weight="600">2026</text>
-<text x="958" y="100" class="muted year">2025</text>
-<text x="958" y="148" class="muted year">2024</text>
-<text x="958" y="196" class="muted year">2023</text>
-<text x="958" y="244" class="muted year">2022</text>
+<rect class="card" x="926" y="22" width="172" height="230" rx="6"/>
+<text x="944" y="47" class="sideValue">Snapshot</text>
+<text x="944" y="64" class="muted micro">Jul 2025 - Jun 2026</text>
+<line x1="944" y1="78" x2="1080" y2="78" stroke="var(--border)"/>
+<text x="944" y="100" class="sideLabel">ACTIVE SHARE</text>
+<text x="944" y="120" class="sideValue">37.5%</text>
+<text x="1020" y="100" class="sideLabel">STREAK</text>
+<text x="1020" y="120" class="sideValue">39 days</text>
+<text x="944" y="151" class="sideLabel">PEAK DAY</text>
+<text x="944" y="171" class="sideValue">May 11</text>
+<text x="1020" y="151" class="sideLabel">ACTIVE</text>
+<text x="1020" y="171" class="sideValue">137 days</text>
+<line x1="944" y1="190" x2="1080" y2="190" stroke="var(--border)"/>
+<text x="944" y="211" class="sideLabel">GENERATED</text>
+<text x="944" y="231" class="sideValue">Jun 30, 2026</text>
 <!-- Public aggregate heatmap. No local paths, workspace names, command names, prompt text, or credentials are embedded. -->
 </svg>
