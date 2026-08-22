@@ -38,6 +38,7 @@ PUBLIC_SOURCE_ORDER = [
     "Claude",
     "Claude via custom setup",
     "Gemini CLI",
+    "Kimi",
 ]
 
 
@@ -276,6 +277,64 @@ def walk_values(value: Any) -> Iterable[Any]:
             yield from walk_values(child)
 
 
+def kimi_usage_total(usage: dict[str, Any] | None) -> int:
+    if not isinstance(usage, dict):
+        return 0
+    keys = ("inputOther", "inputCacheRead", "inputCacheCreation", "output")
+    return int(sum(v for key in keys if isinstance((v := usage.get(key)), (int, float))))
+
+
+def parse_kimi_session(path: Path, source: str) -> SessionStats | None:
+    started_at: datetime | None = None
+    prompts = assistant = tool_calls = tool_results = tokens = web = 0
+
+    def kimi_time(value: Any) -> datetime | None:
+        # Kimi wire.jsonl timestamps are epoch milliseconds.
+        if isinstance(value, (int, float)) and value > 10**12:
+            value = value / 1000
+        return parse_dt(value)
+
+    for obj in iter_jsonl(path):
+        ts = kimi_time(obj.get("time"))
+        if started_at is None and ts:
+            started_at = ts
+
+        obj_type = obj.get("type")
+        if obj_type == "metadata":
+            started_at = kimi_time(obj.get("created_at")) or started_at
+        elif obj_type == "context.append_message":
+            message = obj.get("message")
+            if isinstance(message, dict) and message.get("role") == "user":
+                prompts += 1
+        elif obj_type == "context.append_loop_event":
+            event = obj.get("event")
+            if not isinstance(event, dict):
+                continue
+            event_type = event.get("type")
+            if event_type == "step.begin":
+                assistant += 1
+            elif event_type == "tool.call":
+                tool_calls += 1
+                web += int(is_web_tool(event.get("name")))
+            elif event_type == "tool.result":
+                tool_results += 1
+        elif obj_type == "usage.record":
+            tokens += kimi_usage_total(obj.get("usage"))
+
+    if started_at is None:
+        return None
+    return SessionStats(
+        public_source=source,
+        started_at=started_at,
+        prompts=prompts,
+        assistant=assistant,
+        tool_calls=tool_calls,
+        tool_results=tool_results,
+        tokens=tokens,
+        web=web,
+    )
+
+
 def parse_gemini_session(path: Path) -> SessionStats | None:
     try:
         data = json.loads(path.read_text(encoding="utf-8", errors="ignore"))
@@ -412,13 +471,38 @@ def collect_sessions() -> list[SessionStats]:
         ("claude", "Claude", [".claude/projects/**/*.jsonl"]),
         ("claude", "Claude via custom setup", [".claudeee/projects/**/*.jsonl"]),
     ]
+    parsers = {
+        "codex": parse_codex_session,
+        "claude": parse_claude_session,
+    }
 
     sessions: list[SessionStats] = []
     for kind, source, patterns in configs:
         for path in glob_existing(patterns):
-            parsed = parse_codex_session(path, source) if kind == "codex" else parse_claude_session(path, source)
+            parsed = parsers[kind](path, source)
             if parsed:
                 sessions.append(parsed)
+
+    # Kimi Code CLI splits one user-facing session across several agent
+    # wire.jsonl files (main + subagents); merge them back into one session.
+    kimi_sessions: dict[str, SessionStats] = {}
+    for path in glob_existing([".kimi-code/sessions/**/wire.jsonl"]):
+        parsed = parse_kimi_session(path, "Kimi")
+        if not parsed:
+            continue
+        key = next((part for part in path.parts if part.startswith("session_")), str(path))
+        merged = kimi_sessions.get(key)
+        if merged:
+            merged.started_at = min(merged.started_at, parsed.started_at)
+            merged.prompts += parsed.prompts
+            merged.assistant += parsed.assistant
+            merged.tool_calls += parsed.tool_calls
+            merged.tool_results += parsed.tool_results
+            merged.tokens += parsed.tokens
+            merged.web += parsed.web
+        else:
+            kimi_sessions[key] = parsed
+    sessions.extend(kimi_sessions.values())
 
     for path in glob_existing([".gemini/tmp/**/chats/session-*.json"]):
         parsed = parse_gemini_session(path)
@@ -571,6 +655,7 @@ def build_data(sessions: list[SessionStats], today: date) -> dict[str, Any]:
                     "Claude": "Claude",
                     "Claude via custom setup": "Claude custom",
                     "Gemini CLI": "Gemini CLI",
+                    "Kimi": "Kimi",
                 }[name],
                 "sessions": sessions_count,
                 "activeDays": len(source_days[name]),
@@ -671,7 +756,7 @@ def render_svg(data: dict[str, Any]) -> str:
     cell = 10
     gap = 3
     lines: list[str] = [
-        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 332" width="1120" height="332" role="img" aria-labelledby="title desc">',
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 346" width="1120" height="346" role="img" aria-labelledby="title desc">',
         f'<title id="title">{html.escape(title)}, Gruvbox theme</title>',
         f'<desc id="desc">{html.escape(desc)}</desc>',
         "<style>",
@@ -736,7 +821,7 @@ def render_svg(data: dict[str, Any]) -> str:
             '<text x="829" y="226" class="muted small">More</text>',
             '<line x1="78" y1="246" x2="875" y2="246" stroke="var(--border)"/>',
             f'<text x="78" y="274" class="muted small">{fmt_int(summary["activeDays"])} of {fmt_int(in_range_count)} days active  /  first stored {fmt_date(summary["firstActivityDate"], with_year=False)}  /  longest streak {fmt_int(summary["longestStreak"])} days</text>',
-            '<rect class="card" x="926" y="22" width="172" height="288" rx="6"/>',
+            '<rect class="card" x="926" y="22" width="172" height="302" rx="6"/>',
             '<text x="944" y="47" class="value">Snapshot</text>',
             f'<text x="944" y="64" class="muted micro">{html.escape(range_label)}</text>',
             '<line x1="944" y1="78" x2="1080" y2="78" stroke="var(--border)"/>',
@@ -754,16 +839,16 @@ def render_svg(data: dict[str, Any]) -> str:
     )
 
     y = 210
-    for source in data["sources"][:5]:
+    for source in data["sources"][:6]:
         lines.append(f'<text x="944" y="{y}" class="muted micro">{html.escape(source["shortName"])}</text>')
         lines.append(f'<text x="1080" y="{y}" class="value" text-anchor="end">{fmt_int(source["sessions"])}</text>')
         y += 15
 
     lines.extend(
         [
-            '<line x1="944" y1="276" x2="1080" y2="276" stroke="var(--border)"/>',
-            '<text x="944" y="291" class="label">GENERATED</text>',
-            f'<text x="944" y="307" class="value">{fmt_date(data["generatedAt"])}</text>',
+            '<line x1="944" y1="291" x2="1080" y2="291" stroke="var(--border)"/>',
+            '<text x="944" y="306" class="label">GENERATED</text>',
+            f'<text x="944" y="322" class="value">{fmt_date(data["generatedAt"])}</text>',
             "<!-- Public daily and source-level aggregate counts only. -->",
             "</svg>",
             "",

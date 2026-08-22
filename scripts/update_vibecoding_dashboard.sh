@@ -52,7 +52,7 @@ fi
 
 python3 scripts/generate_vibecoding_dashboard.py
 
-if rg -n "/Users/|numero_quadro|dimonlimon|Library/Mobile Documents|\\.codex|\\.claude|\\.gemini" \
+if rg -n "/Users/|numero_quadro|dimonlimon|Library/Mobile Documents|\\.codex|\\.claude|\\.gemini|\\.kimi" \
   README.md vibecoding-heatmap-2026.svg vibecoding-heatmap-interactive.html >/dev/null; then
   echo "Privacy check failed: generated public artifacts contain local/private path fragments."
   exit 1
