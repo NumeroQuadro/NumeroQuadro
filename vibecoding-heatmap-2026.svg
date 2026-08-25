@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 346" width="1120" height="346" role="img" aria-labelledby="title desc">
-<title id="title">238 vibe-coding days, Gruvbox theme</title>
-<desc id="desc">Public aggregate of Dmitriy&#x27;s AI coding activity from Jun 1, 2025 through Aug 24, 2026: 238 active days, 1,557 sessions, 15,786 prompts, 82,353 tool calls, and 9.38B tokens.</desc>
+<title id="title">239 vibe-coding days, Gruvbox theme</title>
+<desc id="desc">Public aggregate of Dmitriy&#x27;s AI coding activity from Jun 1, 2025 through Aug 25, 2026: 239 active days, 1,560 sessions, 15,868 prompts, 82,584 tool calls, and 9.45B tokens.</desc>
 <style>
 :root{color-scheme:light dark;--bg:#1d2021;--surface:#282828;--fg:#ebdbb2;--muted:#a89984;--border:#504945;--empty:#3c3836;--l1:#689d6a;--l2:#98971a;--l3:#d79921;--l4:#d65d0e;--accent:#fabd2f}
 @media(prefers-color-scheme:light){:root{--bg:#f2e5bc;--surface:#fbf1c7;--fg:#3c3836;--muted:#7c6f64;--border:#d5c4a1;--empty:#d5c4a1;--l1:#689d6a;--l2:#98971a;--l3:#d79921;--l4:#d65d0e;--accent:#b57614}}
@@ -8,7 +8,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 .muted{fill:var(--muted)}.accent{fill:var(--accent)}.small{font-size:13px}.micro{font-size:10px}.month{font-size:12px}.title{font-size:22px;font-weight:600}.value{font-size:14px;font-weight:600}.label{font-size:9px;fill:var(--muted)}.card{fill:var(--surface);stroke:var(--border);stroke-width:1}.day{stroke-width:.5}.outside{fill:var(--bg);stroke:none}.l0{fill:var(--empty);stroke:var(--border)}.l1{fill:var(--l1);stroke:none}.l2{fill:var(--l2);stroke:none}.l3{fill:var(--l3);stroke:none}.l4{fill:var(--l4);stroke:none}
 </style>
 <rect width="100%" height="100%" fill="var(--bg)"/>
-<text x="22" y="38" class="title">238 vibe-coding days</text>
+<text x="22" y="38" class="title">239 vibe-coding days</text>
 <text x="681" y="39" class="muted small">Jun 2025 - Aug 2026 / public aggregate</text>
 <rect class="card" x="22" y="62" width="875" height="248" rx="6"/>
 <text x="78" y="90" class="month">Jun</text>
@@ -605,7 +605,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l3" x="429" y="131" width="10" height="10" rx="2">
   <title>2025-12-09: 4 sessions, 34 prompts, 102 tool calls, 0 tokens</title>
 </rect>
-<rect class="day l2" x="429" y="144" width="10" height="10" rx="2">
+<rect class="day l1" x="429" y="144" width="10" height="10" rx="2">
   <title>2025-12-10: 1 sessions, 17 prompts, 49 tool calls, 0 tokens</title>
 </rect>
 <rect class="day l3" x="429" y="157" width="10" height="10" rx="2">
@@ -1368,19 +1368,19 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
   <title>2026-08-20: 14 sessions, 101 prompts, 301 tool calls, 111.37M tokens</title>
 </rect>
 <rect class="day l4" x="897" y="170" width="10" height="10" rx="2">
-  <title>2026-08-21: 8 sessions, 559 prompts, 905 tool calls, 349.47M tokens</title>
+  <title>2026-08-21: 8 sessions, 587 prompts, 1,005 tool calls, 379.40M tokens</title>
 </rect>
 <rect class="day l4" x="897" y="183" width="10" height="10" rx="2">
   <title>2026-08-22: 13 sessions, 337 prompts, 553 tool calls, 142.52M tokens</title>
 </rect>
 <rect class="day l3" x="910" y="105" width="10" height="10" rx="2">
-  <title>2026-08-23: 4 sessions, 35 prompts, 26 tool calls, 40.44M tokens</title>
+  <title>2026-08-23: 4 sessions, 46 prompts, 26 tool calls, 40.65M tokens</title>
 </rect>
-<rect class="day l2" x="910" y="118" width="10" height="10" rx="2">
-  <title>2026-08-24: 1 sessions, 8 prompts, 72 tool calls, 2.02M tokens</title>
+<rect class="day l3" x="910" y="118" width="10" height="10" rx="2">
+  <title>2026-08-24: 3 sessions, 36 prompts, 203 tool calls, 26.76M tokens</title>
 </rect>
-<rect class="day outside" x="910" y="131" width="10" height="10" rx="2">
-  <title>2026-08-25: outside snapshot range</title>
+<rect class="day l2" x="910" y="131" width="10" height="10" rx="2">
+  <title>2026-08-25: 1 sessions, 15 prompts, 0 tool calls, 10M tokens</title>
 </rect>
 <rect class="day outside" x="910" y="144" width="10" height="10" rx="2">
   <title>2026-08-26: outside snapshot range</title>
@@ -1394,7 +1394,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day outside" x="910" y="183" width="10" height="10" rx="2">
   <title>2026-08-29: outside snapshot range</title>
 </rect>
-<text x="78" y="226" class="muted small">1,557 sessions - 15,786 prompts - 82,353 tool calls - 9.38B tokens</text>
+<text x="78" y="226" class="muted small">1,560 sessions - 15,868 prompts - 82,584 tool calls - 9.45B tokens</text>
 <text x="698" y="226" class="muted small">Less</text>
 <rect class="day l0" x="738" y="215" width="10" height="10" rx="2"/>
 <rect class="day l1" x="755" y="215" width="10" height="10" rx="2"/>
@@ -1403,23 +1403,23 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l4" x="806" y="215" width="10" height="10" rx="2"/>
 <text x="829" y="226" class="muted small">More</text>
 <line x1="78" y1="246" x2="875" y2="246" stroke="var(--border)"/>
-<text x="78" y="274" class="muted small">238 of 450 days active  /  first stored Sep 1  /  longest streak 39 days</text>
+<text x="78" y="274" class="muted small">239 of 451 days active  /  first stored Sep 1  /  longest streak 39 days</text>
 <rect class="card" x="926" y="22" width="172" height="302" rx="6"/>
 <text x="944" y="47" class="value">Snapshot</text>
 <text x="944" y="64" class="muted micro">Jun 2025 - Aug 2026</text>
 <line x1="944" y1="78" x2="1080" y2="78" stroke="var(--border)"/>
 <text x="944" y="98" class="label">ACTIVE SHARE</text>
-<text x="944" y="117" class="value">52.9%</text>
+<text x="944" y="117" class="value">53.0%</text>
 <text x="1020" y="98" class="label">LONGEST</text>
 <text x="1020" y="117" class="value">39 days</text>
 <text x="944" y="143" class="label">CLOSING</text>
-<text x="944" y="162" class="value">9 days</text>
+<text x="944" y="162" class="value">10 days</text>
 <text x="1020" y="143" class="label">PEAK DAY</text>
 <text x="1020" y="162" class="value">May 10</text>
 <line x1="944" y1="176" x2="1080" y2="176" stroke="var(--border)"/>
 <text x="944" y="193" class="label">SESSION SOURCES</text>
 <text x="944" y="210" class="muted micro">Codex</text>
-<text x="1080" y="210" class="value" text-anchor="end">785</text>
+<text x="1080" y="210" class="value" text-anchor="end">788</text>
 <text x="944" y="225" class="muted micro">Codex custom</text>
 <text x="1080" y="225" class="value" text-anchor="end">489</text>
 <text x="944" y="240" class="muted micro">Claude</text>
@@ -1432,6 +1432,6 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <text x="1080" y="285" class="value" text-anchor="end">60</text>
 <line x1="944" y1="291" x2="1080" y2="291" stroke="var(--border)"/>
 <text x="944" y="306" class="label">GENERATED</text>
-<text x="944" y="322" class="value">Aug 24, 2026</text>
+<text x="944" y="322" class="value">Aug 25, 2026</text>
 <!-- Public daily and source-level aggregate counts only. -->
 </svg>
