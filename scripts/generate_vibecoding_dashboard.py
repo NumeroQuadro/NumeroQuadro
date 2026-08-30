@@ -15,6 +15,7 @@ import json
 import math
 import os
 import re
+import sqlite3
 from collections import Counter, defaultdict
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta, timezone
@@ -33,7 +34,10 @@ SVG_PATH = ROOT / "vibecoding-heatmap-2026.svg"
 README_PATH = ROOT / "README.md"
 
 PUBLIC_SOURCE_ORDER = [
+    "Cursor",
+    "Antigravity",
     "Codex",
+    "Codex-2",
     "Codex via custom setup",
     "Claude",
     "Claude via custom setup",
@@ -411,7 +415,7 @@ def parse_gemini_session(path: Path) -> SessionStats | None:
     )
 
 
-def parse_gemini_brain_metadata() -> list[SessionStats]:
+def parse_antigravity_metadata() -> list[SessionStats]:
     """Best-effort fallback for Antigravity/Gemini task metadata.
 
     These files do not expose prompt/response counters, so each task folder is
@@ -446,7 +450,7 @@ def parse_gemini_brain_metadata() -> list[SessionStats]:
             if latest:
                 sessions.append(
                     SessionStats(
-                        public_source="Gemini CLI",
+                        public_source="Antigravity",
                         started_at=latest,
                         prompts=1,
                         assistant=max(1, artifact_count),
@@ -455,9 +459,101 @@ def parse_gemini_brain_metadata() -> list[SessionStats]:
     return sessions
 
 
+def parse_cursor_sessions() -> list[SessionStats]:
+    """Read aggregate Cursor Composer activity from its local SQLite store.
+
+    Cursor keeps conversation metadata and message payloads in the same
+    database. Only timestamps, message types, token counters, and the presence
+    of tool calls are retained here; titles, prompts, responses, paths, and
+    tool arguments never leave this function.
+    """
+
+    path = HOME / "Library/Application Support/Cursor/User/globalStorage/state.vscdb"
+    if not path.is_file():
+        return []
+
+    sessions: dict[str, SessionStats] = {}
+    try:
+        connection = sqlite3.connect(f"{path.as_uri()}?mode=ro", uri=True)
+        connection.execute("PRAGMA query_only = ON")
+
+        for key, raw_value in connection.execute(
+            "SELECT key, value FROM cursorDiskKV WHERE key LIKE 'composerData:%'"
+        ):
+            try:
+                value = json.loads(raw_value)
+            except (TypeError, UnicodeDecodeError, json.JSONDecodeError):
+                continue
+            if not isinstance(value, dict) or value.get("isDraft") is True:
+                continue
+
+            created_at = value.get("createdAt")
+            if not isinstance(created_at, (int, float)):
+                continue
+            if created_at > 10**12:
+                created_at /= 1000
+            started_at = parse_dt(created_at)
+            if started_at is None:
+                continue
+
+            composer_id = key.removeprefix("composerData:")
+            sessions[composer_id] = SessionStats(
+                public_source="Cursor",
+                started_at=started_at,
+            )
+
+        for key, raw_value in connection.execute(
+            "SELECT key, value FROM cursorDiskKV WHERE key LIKE 'bubbleId:%'"
+        ):
+            key_parts = key.split(":", 2)
+            if len(key_parts) != 3:
+                continue
+            session = sessions.get(key_parts[1])
+            if session is None:
+                continue
+            try:
+                value = json.loads(raw_value)
+            except (TypeError, UnicodeDecodeError, json.JSONDecodeError):
+                continue
+            if not isinstance(value, dict):
+                continue
+
+            bubble_type = value.get("type")
+            if bubble_type == 1:
+                session.prompts += 1
+            elif bubble_type == 2 and any(
+                isinstance(value.get(field), str) and value[field].strip()
+                for field in ("text", "richText")
+            ):
+                session.assistant += 1
+
+            token_count = value.get("tokenCount")
+            if isinstance(token_count, dict):
+                session.tokens += sum(
+                    int(token_count.get(field, 0))
+                    for field in ("inputTokens", "outputTokens")
+                    if isinstance(token_count.get(field), (int, float))
+                )
+
+            tool_data = value.get("toolFormerData")
+            if isinstance(tool_data, dict):
+                session.tool_calls += 1
+                session.tool_results += int("result" in tool_data)
+                tool_name = tool_data.get("name")
+                session.web += int(isinstance(tool_name, str) and is_web_tool(tool_name))
+    except (OSError, sqlite3.Error):
+        return []
+    finally:
+        if "connection" in locals():
+            connection.close()
+
+    return list(sessions.values())
+
+
 def collect_sessions() -> list[SessionStats]:
     configs: list[tuple[str, str, list[str]]] = [
         ("codex", "Codex", [".codex/sessions/**/*.jsonl", ".codex/archived_sessions/**/*.jsonl"]),
+        ("codex", "Codex-2", [".codex-account-2/sessions/**/*.jsonl", ".codex-account-2/archived_sessions/**/*.jsonl"]),
         (
             "codex",
             "Codex via custom setup",
@@ -508,7 +604,8 @@ def collect_sessions() -> list[SessionStats]:
         parsed = parse_gemini_session(path)
         if parsed:
             sessions.append(parsed)
-    sessions.extend(parse_gemini_brain_metadata())
+    sessions.extend(parse_antigravity_metadata())
+    sessions.extend(parse_cursor_sessions())
 
     return [session for session in sessions if session.day >= RANGE_START]
 
@@ -650,7 +747,10 @@ def build_data(sessions: list[SessionStats], today: date) -> dict[str, Any]:
             {
                 "name": name,
                 "shortName": {
+                    "Cursor": "Cursor",
+                    "Antigravity": "Antigravity",
                     "Codex": "Codex",
+                    "Codex-2": "Codex-2",
                     "Codex via custom setup": "Codex custom",
                     "Claude": "Claude",
                     "Claude via custom setup": "Claude custom",
@@ -756,7 +856,7 @@ def render_svg(data: dict[str, Any]) -> str:
     cell = 10
     gap = 3
     lines: list[str] = [
-        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 346" width="1120" height="346" role="img" aria-labelledby="title desc">',
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 382" width="1120" height="382" role="img" aria-labelledby="title desc">',
         f'<title id="title">{html.escape(title)}, Gruvbox theme</title>',
         f'<desc id="desc">{html.escape(desc)}</desc>',
         "<style>",
@@ -821,7 +921,7 @@ def render_svg(data: dict[str, Any]) -> str:
             '<text x="829" y="226" class="muted small">More</text>',
             '<line x1="78" y1="246" x2="875" y2="246" stroke="var(--border)"/>',
             f'<text x="78" y="274" class="muted small">{fmt_int(summary["activeDays"])} of {fmt_int(in_range_count)} days active  /  first stored {fmt_date(summary["firstActivityDate"], with_year=False)}  /  longest streak {fmt_int(summary["longestStreak"])} days</text>',
-            '<rect class="card" x="926" y="22" width="172" height="302" rx="6"/>',
+            '<rect class="card" x="926" y="22" width="172" height="350" rx="6"/>',
             '<text x="944" y="47" class="value">Snapshot</text>',
             f'<text x="944" y="64" class="muted micro">{html.escape(range_label)}</text>',
             '<line x1="944" y1="78" x2="1080" y2="78" stroke="var(--border)"/>',
@@ -838,17 +938,17 @@ def render_svg(data: dict[str, Any]) -> str:
         ]
     )
 
-    y = 210
-    for source in data["sources"][:6]:
+    y = 208
+    for source in data["sources"]:
         lines.append(f'<text x="944" y="{y}" class="muted micro">{html.escape(source["shortName"])}</text>')
         lines.append(f'<text x="1080" y="{y}" class="value" text-anchor="end">{fmt_int(source["sessions"])}</text>')
-        y += 15
+        y += 14
 
     lines.extend(
         [
-            '<line x1="944" y1="291" x2="1080" y2="291" stroke="var(--border)"/>',
-            '<text x="944" y="306" class="label">GENERATED</text>',
-            f'<text x="944" y="322" class="value">{fmt_date(data["generatedAt"])}</text>',
+            '<line x1="944" y1="335" x2="1080" y2="335" stroke="var(--border)"/>',
+            '<text x="944" y="350" class="label">GENERATED</text>',
+            f'<text x="944" y="366" class="value">{fmt_date(data["generatedAt"])}</text>',
             "<!-- Public daily and source-level aggregate counts only. -->",
             "</svg>",
             "",
