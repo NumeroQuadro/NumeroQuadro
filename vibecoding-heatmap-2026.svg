@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 346" width="1120" height="346" role="img" aria-labelledby="title desc">
-<title id="title">242 vibe-coding days, Gruvbox theme</title>
-<desc id="desc">Public aggregate of Dmitriy&#x27;s AI coding activity from Jun 1, 2025 through Aug 29, 2026: 242 active days, 1,585 sessions, 16,088 prompts, 83,234 tool calls, and 9.71B tokens.</desc>
+<title id="title">280 vibe-coding days, Gruvbox theme</title>
+<desc id="desc">Public aggregate of Dmitriy&#x27;s AI coding activity from Jun 1, 2025 through Aug 30, 2026: 280 active days, 1,829 sessions, 16,504 prompts, 85,697 tool calls, and 9.74B tokens.</desc>
 <style>
 :root{color-scheme:light dark;--bg:#1d2021;--surface:#282828;--fg:#ebdbb2;--muted:#a89984;--border:#504945;--empty:#3c3836;--l1:#689d6a;--l2:#98971a;--l3:#d79921;--l4:#d65d0e;--accent:#fabd2f}
 @media(prefers-color-scheme:light){:root{--bg:#f2e5bc;--surface:#fbf1c7;--fg:#3c3836;--muted:#7c6f64;--border:#d5c4a1;--empty:#d5c4a1;--l1:#689d6a;--l2:#98971a;--l3:#d79921;--l4:#d65d0e;--accent:#b57614}}
@@ -8,7 +8,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 .muted{fill:var(--muted)}.accent{fill:var(--accent)}.small{font-size:13px}.micro{font-size:10px}.month{font-size:12px}.title{font-size:22px;font-weight:600}.value{font-size:14px;font-weight:600}.label{font-size:9px;fill:var(--muted)}.card{fill:var(--surface);stroke:var(--border);stroke-width:1}.day{stroke-width:.5}.outside{fill:var(--bg);stroke:none}.l0{fill:var(--empty);stroke:var(--border)}.l1{fill:var(--l1);stroke:none}.l2{fill:var(--l2);stroke:none}.l3{fill:var(--l3);stroke:none}.l4{fill:var(--l4);stroke:none}
 </style>
 <rect width="100%" height="100%" fill="var(--bg)"/>
-<text x="22" y="38" class="title">242 vibe-coding days</text>
+<text x="22" y="38" class="title">280 vibe-coding days</text>
 <text x="681" y="39" class="muted small">Jun 2025 - Aug 2026 / public aggregate</text>
 <rect class="card" x="22" y="62" width="875" height="248" rx="6"/>
 <text x="78" y="90" class="month">Jun</text>
@@ -209,50 +209,50 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="182" y="144" width="10" height="10" rx="2">
   <title>2025-07-30: no stored session activity</title>
 </rect>
-<rect class="day l0" x="182" y="157" width="10" height="10" rx="2">
-  <title>2025-07-31: no stored session activity</title>
+<rect class="day l2" x="182" y="157" width="10" height="10" rx="2">
+  <title>2025-07-31: 4 sessions, 6 prompts, 26 tool calls, 85.36K tokens</title>
 </rect>
-<rect class="day l0" x="182" y="170" width="10" height="10" rx="2">
-  <title>2025-08-01: no stored session activity</title>
+<rect class="day l1" x="182" y="170" width="10" height="10" rx="2">
+  <title>2025-08-01: 4 sessions, 2 prompts, 3 tool calls, 10.05K tokens</title>
 </rect>
 <rect class="day l0" x="182" y="183" width="10" height="10" rx="2">
   <title>2025-08-02: no stored session activity</title>
 </rect>
-<rect class="day l0" x="195" y="105" width="10" height="10" rx="2">
-  <title>2025-08-03: no stored session activity</title>
+<rect class="day l3" x="195" y="105" width="10" height="10" rx="2">
+  <title>2025-08-03: 9 sessions, 16 prompts, 49 tool calls, 437.38K tokens</title>
 </rect>
 <rect class="day l0" x="195" y="118" width="10" height="10" rx="2">
   <title>2025-08-04: no stored session activity</title>
 </rect>
-<rect class="day l0" x="195" y="131" width="10" height="10" rx="2">
-  <title>2025-08-05: no stored session activity</title>
+<rect class="day l2" x="195" y="131" width="10" height="10" rx="2">
+  <title>2025-08-05: 5 sessions, 1 prompts, 3 tool calls, 37.69K tokens</title>
 </rect>
-<rect class="day l0" x="195" y="144" width="10" height="10" rx="2">
-  <title>2025-08-06: no stored session activity</title>
+<rect class="day l2" x="195" y="144" width="10" height="10" rx="2">
+  <title>2025-08-06: 4 sessions, 9 prompts, 92 tool calls, 318.55K tokens</title>
 </rect>
-<rect class="day l0" x="195" y="157" width="10" height="10" rx="2">
-  <title>2025-08-07: no stored session activity</title>
+<rect class="day l3" x="195" y="157" width="10" height="10" rx="2">
+  <title>2025-08-07: 2 sessions, 32 prompts, 277 tool calls, 2.85M tokens</title>
 </rect>
-<rect class="day l0" x="195" y="170" width="10" height="10" rx="2">
-  <title>2025-08-08: no stored session activity</title>
+<rect class="day l3" x="195" y="170" width="10" height="10" rx="2">
+  <title>2025-08-08: 7 sessions, 18 prompts, 98 tool calls, 772.76K tokens</title>
 </rect>
-<rect class="day l0" x="195" y="183" width="10" height="10" rx="2">
-  <title>2025-08-09: no stored session activity</title>
+<rect class="day l1" x="195" y="183" width="10" height="10" rx="2">
+  <title>2025-08-09: 1 sessions, 3 prompts, 48 tool calls, 82.77K tokens</title>
 </rect>
-<rect class="day l0" x="208" y="105" width="10" height="10" rx="2">
-  <title>2025-08-10: no stored session activity</title>
+<rect class="day l1" x="208" y="105" width="10" height="10" rx="2">
+  <title>2025-08-10: 1 sessions, 6 prompts, 30 tool calls, 218.88K tokens</title>
 </rect>
-<rect class="day l0" x="208" y="118" width="10" height="10" rx="2">
-  <title>2025-08-11: no stored session activity</title>
+<rect class="day l2" x="208" y="118" width="10" height="10" rx="2">
+  <title>2025-08-11: 4 sessions, 9 prompts, 54 tool calls, 302.53K tokens</title>
 </rect>
 <rect class="day l0" x="208" y="131" width="10" height="10" rx="2">
   <title>2025-08-12: no stored session activity</title>
 </rect>
-<rect class="day l0" x="208" y="144" width="10" height="10" rx="2">
-  <title>2025-08-13: no stored session activity</title>
+<rect class="day l3" x="208" y="144" width="10" height="10" rx="2">
+  <title>2025-08-13: 2 sessions, 23 prompts, 82 tool calls, 966.39K tokens</title>
 </rect>
-<rect class="day l0" x="208" y="157" width="10" height="10" rx="2">
-  <title>2025-08-14: no stored session activity</title>
+<rect class="day l2" x="208" y="157" width="10" height="10" rx="2">
+  <title>2025-08-14: 2 sessions, 12 prompts, 98 tool calls, 491.51K tokens</title>
 </rect>
 <rect class="day l0" x="208" y="170" width="10" height="10" rx="2">
   <title>2025-08-15: no stored session activity</title>
@@ -266,23 +266,23 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="221" y="118" width="10" height="10" rx="2">
   <title>2025-08-18: no stored session activity</title>
 </rect>
-<rect class="day l0" x="221" y="131" width="10" height="10" rx="2">
-  <title>2025-08-19: no stored session activity</title>
+<rect class="day l1" x="221" y="131" width="10" height="10" rx="2">
+  <title>2025-08-19: 2 sessions, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect class="day l0" x="221" y="144" width="10" height="10" rx="2">
-  <title>2025-08-20: no stored session activity</title>
+<rect class="day l1" x="221" y="144" width="10" height="10" rx="2">
+  <title>2025-08-20: 2 sessions, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect class="day l0" x="221" y="157" width="10" height="10" rx="2">
-  <title>2025-08-21: no stored session activity</title>
+<rect class="day l1" x="221" y="157" width="10" height="10" rx="2">
+  <title>2025-08-21: 1 sessions, 3 prompts, 1 tool calls, 84.97K tokens</title>
 </rect>
-<rect class="day l0" x="221" y="170" width="10" height="10" rx="2">
-  <title>2025-08-22: no stored session activity</title>
+<rect class="day l3" x="221" y="170" width="10" height="10" rx="2">
+  <title>2025-08-22: 4 sessions, 18 prompts, 136 tool calls, 558.21K tokens</title>
 </rect>
 <rect class="day l0" x="221" y="183" width="10" height="10" rx="2">
   <title>2025-08-23: no stored session activity</title>
 </rect>
-<rect class="day l0" x="234" y="105" width="10" height="10" rx="2">
-  <title>2025-08-24: no stored session activity</title>
+<rect class="day l2" x="234" y="105" width="10" height="10" rx="2">
+  <title>2025-08-24: 2 sessions, 10 prompts, 30 tool calls, 368.27K tokens</title>
 </rect>
 <rect class="day l0" x="234" y="118" width="10" height="10" rx="2">
   <title>2025-08-25: no stored session activity</title>
@@ -290,71 +290,71 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="234" y="131" width="10" height="10" rx="2">
   <title>2025-08-26: no stored session activity</title>
 </rect>
-<rect class="day l0" x="234" y="144" width="10" height="10" rx="2">
-  <title>2025-08-27: no stored session activity</title>
+<rect class="day l3" x="234" y="144" width="10" height="10" rx="2">
+  <title>2025-08-27: 2 sessions, 7 prompts, 126 tool calls, 249.88K tokens</title>
 </rect>
-<rect class="day l0" x="234" y="157" width="10" height="10" rx="2">
-  <title>2025-08-28: no stored session activity</title>
+<rect class="day l1" x="234" y="157" width="10" height="10" rx="2">
+  <title>2025-08-28: 1 sessions, 1 prompts, 10 tool calls, 36.51K tokens</title>
 </rect>
-<rect class="day l0" x="234" y="170" width="10" height="10" rx="2">
-  <title>2025-08-29: no stored session activity</title>
+<rect class="day l1" x="234" y="170" width="10" height="10" rx="2">
+  <title>2025-08-29: 2 sessions, 4 prompts, 8 tool calls, 90.39K tokens</title>
 </rect>
 <rect class="day l0" x="234" y="183" width="10" height="10" rx="2">
   <title>2025-08-30: no stored session activity</title>
 </rect>
-<rect class="day l0" x="247" y="105" width="10" height="10" rx="2">
-  <title>2025-08-31: no stored session activity</title>
+<rect class="day l2" x="247" y="105" width="10" height="10" rx="2">
+  <title>2025-08-31: 1 sessions, 13 prompts, 41 tool calls, 706.43K tokens</title>
 </rect>
-<rect class="day l1" x="247" y="118" width="10" height="10" rx="2">
-  <title>2025-09-01: 2 sessions, 3 prompts, 0 tool calls, 0 tokens</title>
+<rect class="day l3" x="247" y="118" width="10" height="10" rx="2">
+  <title>2025-09-01: 7 sessions, 12 prompts, 50 tool calls, 358.79K tokens</title>
 </rect>
-<rect class="day l0" x="247" y="131" width="10" height="10" rx="2">
-  <title>2025-09-02: no stored session activity</title>
+<rect class="day l1" x="247" y="131" width="10" height="10" rx="2">
+  <title>2025-09-02: 1 sessions, 4 prompts, 29 tool calls, 109.83K tokens</title>
 </rect>
-<rect class="day l0" x="247" y="144" width="10" height="10" rx="2">
-  <title>2025-09-03: no stored session activity</title>
+<rect class="day l1" x="247" y="144" width="10" height="10" rx="2">
+  <title>2025-09-03: 1 sessions, 4 prompts, 16 tool calls, 156.04K tokens</title>
 </rect>
-<rect class="day l0" x="247" y="157" width="10" height="10" rx="2">
-  <title>2025-09-04: no stored session activity</title>
+<rect class="day l2" x="247" y="157" width="10" height="10" rx="2">
+  <title>2025-09-04: 1 sessions, 11 prompts, 63 tool calls, 498.32K tokens</title>
 </rect>
-<rect class="day l0" x="247" y="170" width="10" height="10" rx="2">
-  <title>2025-09-05: no stored session activity</title>
+<rect class="day l2" x="247" y="170" width="10" height="10" rx="2">
+  <title>2025-09-05: 6 sessions, 9 prompts, 26 tool calls, 663.69K tokens</title>
 </rect>
-<rect class="day l0" x="247" y="183" width="10" height="10" rx="2">
-  <title>2025-09-06: no stored session activity</title>
+<rect class="day l2" x="247" y="183" width="10" height="10" rx="2">
+  <title>2025-09-06: 4 sessions, 12 prompts, 73 tool calls, 287.50K tokens</title>
 </rect>
-<rect class="day l0" x="260" y="105" width="10" height="10" rx="2">
-  <title>2025-09-07: no stored session activity</title>
+<rect class="day l3" x="260" y="105" width="10" height="10" rx="2">
+  <title>2025-09-07: 6 sessions, 19 prompts, 73 tool calls, 510.48K tokens</title>
 </rect>
-<rect class="day l0" x="260" y="118" width="10" height="10" rx="2">
-  <title>2025-09-08: no stored session activity</title>
+<rect class="day l3" x="260" y="118" width="10" height="10" rx="2">
+  <title>2025-09-08: 6 sessions, 25 prompts, 68 tool calls, 589.20K tokens</title>
 </rect>
-<rect class="day l0" x="260" y="131" width="10" height="10" rx="2">
-  <title>2025-09-09: no stored session activity</title>
+<rect class="day l3" x="260" y="131" width="10" height="10" rx="2">
+  <title>2025-09-09: 6 sessions, 12 prompts, 79 tool calls, 320.31K tokens</title>
 </rect>
-<rect class="day l0" x="260" y="144" width="10" height="10" rx="2">
-  <title>2025-09-10: no stored session activity</title>
+<rect class="day l4" x="260" y="144" width="10" height="10" rx="2">
+  <title>2025-09-10: 7 sessions, 45 prompts, 299 tool calls, 2.48M tokens</title>
 </rect>
-<rect class="day l1" x="260" y="157" width="10" height="10" rx="2">
-  <title>2025-09-11: 1 sessions, 3 prompts, 0 tool calls, 0 tokens</title>
+<rect class="day l3" x="260" y="157" width="10" height="10" rx="2">
+  <title>2025-09-11: 7 sessions, 15 prompts, 88 tool calls, 363.56K tokens</title>
 </rect>
-<rect class="day l1" x="260" y="170" width="10" height="10" rx="2">
-  <title>2025-09-12: 1 sessions, 2 prompts, 0 tool calls, 0 tokens</title>
+<rect class="day l3" x="260" y="170" width="10" height="10" rx="2">
+  <title>2025-09-12: 2 sessions, 15 prompts, 219 tool calls, 1.19M tokens</title>
 </rect>
 <rect class="day l0" x="260" y="183" width="10" height="10" rx="2">
   <title>2025-09-13: no stored session activity</title>
 </rect>
-<rect class="day l0" x="273" y="105" width="10" height="10" rx="2">
-  <title>2025-09-14: no stored session activity</title>
+<rect class="day l1" x="273" y="105" width="10" height="10" rx="2">
+  <title>2025-09-14: 1 sessions, 2 prompts, 8 tool calls, 38.82K tokens</title>
 </rect>
-<rect class="day l0" x="273" y="118" width="10" height="10" rx="2">
-  <title>2025-09-15: no stored session activity</title>
+<rect class="day l1" x="273" y="118" width="10" height="10" rx="2">
+  <title>2025-09-15: 1 sessions, 1 prompts, 2 tool calls, 0 tokens</title>
 </rect>
 <rect class="day l2" x="273" y="131" width="10" height="10" rx="2">
   <title>2025-09-16: 2 sessions, 28 prompts, 72 tool calls, 0 tokens</title>
 </rect>
-<rect class="day l0" x="273" y="144" width="10" height="10" rx="2">
-  <title>2025-09-17: no stored session activity</title>
+<rect class="day l1" x="273" y="144" width="10" height="10" rx="2">
+  <title>2025-09-17: 1 sessions, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
 <rect class="day l0" x="273" y="157" width="10" height="10" rx="2">
   <title>2025-09-18: no stored session activity</title>
@@ -404,8 +404,8 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l2" x="299" y="170" width="10" height="10" rx="2">
   <title>2025-10-03: 2 sessions, 32 prompts, 75 tool calls, 0 tokens</title>
 </rect>
-<rect class="day l0" x="299" y="183" width="10" height="10" rx="2">
-  <title>2025-10-04: no stored session activity</title>
+<rect class="day l2" x="299" y="183" width="10" height="10" rx="2">
+  <title>2025-10-04: 8 sessions, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
 <rect class="day l0" x="312" y="105" width="10" height="10" rx="2">
   <title>2025-10-05: no stored session activity</title>
@@ -434,8 +434,8 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="325" y="118" width="10" height="10" rx="2">
   <title>2025-10-13: no stored session activity</title>
 </rect>
-<rect class="day l0" x="325" y="131" width="10" height="10" rx="2">
-  <title>2025-10-14: no stored session activity</title>
+<rect class="day l1" x="325" y="131" width="10" height="10" rx="2">
+  <title>2025-10-14: 4 sessions, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
 <rect class="day l1" x="325" y="144" width="10" height="10" rx="2">
   <title>2025-10-15: 1 sessions, 6 prompts, 24 tool calls, 0 tokens</title>
@@ -476,17 +476,17 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="351" y="118" width="10" height="10" rx="2">
   <title>2025-10-27: no stored session activity</title>
 </rect>
-<rect class="day l0" x="351" y="131" width="10" height="10" rx="2">
-  <title>2025-10-28: no stored session activity</title>
+<rect class="day l1" x="351" y="131" width="10" height="10" rx="2">
+  <title>2025-10-28: 2 sessions, 0 prompts, 0 tool calls, 0 tokens</title>
 </rect>
-<rect class="day l3" x="351" y="144" width="10" height="10" rx="2">
+<rect class="day l4" x="351" y="144" width="10" height="10" rx="2">
   <title>2025-10-29: 3 sessions, 73 prompts, 168 tool calls, 0 tokens</title>
 </rect>
-<rect class="day l2" x="351" y="157" width="10" height="10" rx="2">
-  <title>2025-10-30: 4 sessions, 25 prompts, 74 tool calls, 0 tokens</title>
+<rect class="day l3" x="351" y="157" width="10" height="10" rx="2">
+  <title>2025-10-30: 6 sessions, 25 prompts, 74 tool calls, 0 tokens</title>
 </rect>
 <rect class="day l3" x="351" y="170" width="10" height="10" rx="2">
-  <title>2025-10-31: 5 sessions, 44 prompts, 143 tool calls, 0 tokens</title>
+  <title>2025-10-31: 11 sessions, 44 prompts, 143 tool calls, 0 tokens</title>
 </rect>
 <rect class="day l0" x="351" y="183" width="10" height="10" rx="2">
   <title>2025-11-01: no stored session activity</title>
@@ -518,8 +518,8 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l1" x="377" y="118" width="10" height="10" rx="2">
   <title>2025-11-10: 1 sessions, 5 prompts, 22 tool calls, 0 tokens</title>
 </rect>
-<rect class="day l0" x="377" y="131" width="10" height="10" rx="2">
-  <title>2025-11-11: no stored session activity</title>
+<rect class="day l1" x="377" y="131" width="10" height="10" rx="2">
+  <title>2025-11-11: 2 sessions, 1 prompts, 2 tool calls, 0 tokens</title>
 </rect>
 <rect class="day l2" x="377" y="144" width="10" height="10" rx="2">
   <title>2025-11-12: 1 sessions, 26 prompts, 66 tool calls, 0 tokens</title>
@@ -530,8 +530,8 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l3" x="377" y="170" width="10" height="10" rx="2">
   <title>2025-11-14: 7 sessions, 43 prompts, 57 tool calls, 0 tokens</title>
 </rect>
-<rect class="day l1" x="377" y="183" width="10" height="10" rx="2">
-  <title>2025-11-15: 1 sessions, 4 prompts, 18 tool calls, 0 tokens</title>
+<rect class="day l2" x="377" y="183" width="10" height="10" rx="2">
+  <title>2025-11-15: 5 sessions, 5 prompts, 48 tool calls, 81.49K tokens</title>
 </rect>
 <rect class="day l0" x="390" y="105" width="10" height="10" rx="2">
   <title>2025-11-16: no stored session activity</title>
@@ -591,7 +591,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
   <title>2025-12-04: no stored session activity</title>
 </rect>
 <rect class="day l2" x="416" y="170" width="10" height="10" rx="2">
-  <title>2025-12-05: 2 sessions, 20 prompts, 145 tool calls, 0 tokens</title>
+  <title>2025-12-05: 3 sessions, 22 prompts, 147 tool calls, 0 tokens</title>
 </rect>
 <rect class="day l0" x="416" y="183" width="10" height="10" rx="2">
   <title>2025-12-06: no stored session activity</title>
@@ -605,8 +605,8 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l3" x="429" y="131" width="10" height="10" rx="2">
   <title>2025-12-09: 4 sessions, 34 prompts, 102 tool calls, 0 tokens</title>
 </rect>
-<rect class="day l1" x="429" y="144" width="10" height="10" rx="2">
-  <title>2025-12-10: 1 sessions, 17 prompts, 49 tool calls, 0 tokens</title>
+<rect class="day l2" x="429" y="144" width="10" height="10" rx="2">
+  <title>2025-12-10: 4 sessions, 17 prompts, 49 tool calls, 0 tokens</title>
 </rect>
 <rect class="day l3" x="429" y="157" width="10" height="10" rx="2">
   <title>2025-12-11: 5 sessions, 63 prompts, 165 tool calls, 0 tokens</title>
@@ -617,7 +617,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l2" x="429" y="183" width="10" height="10" rx="2">
   <title>2025-12-13: 2 sessions, 26 prompts, 24 tool calls, 0 tokens</title>
 </rect>
-<rect class="day l3" x="442" y="105" width="10" height="10" rx="2">
+<rect class="day l4" x="442" y="105" width="10" height="10" rx="2">
   <title>2025-12-14: 9 sessions, 51 prompts, 185 tool calls, 7.11M tokens</title>
 </rect>
 <rect class="day l0" x="442" y="118" width="10" height="10" rx="2">
@@ -629,7 +629,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l2" x="442" y="144" width="10" height="10" rx="2">
   <title>2025-12-17: 7 sessions, 7 prompts, 0 tool calls, 13.80K tokens</title>
 </rect>
-<rect class="day l2" x="442" y="157" width="10" height="10" rx="2">
+<rect class="day l3" x="442" y="157" width="10" height="10" rx="2">
   <title>2025-12-18: 2 sessions, 28 prompts, 41 tool calls, 1.32M tokens</title>
 </rect>
 <rect class="day l1" x="442" y="170" width="10" height="10" rx="2">
@@ -644,7 +644,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l4" x="455" y="118" width="10" height="10" rx="2">
   <title>2025-12-22: 7 sessions, 95 prompts, 147 tool calls, 2.30M tokens</title>
 </rect>
-<rect class="day l3" x="455" y="131" width="10" height="10" rx="2">
+<rect class="day l4" x="455" y="131" width="10" height="10" rx="2">
   <title>2025-12-23: 9 sessions, 47 prompts, 141 tool calls, 2.70M tokens</title>
 </rect>
 <rect class="day l0" x="455" y="144" width="10" height="10" rx="2">
@@ -671,14 +671,14 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="468" y="144" width="10" height="10" rx="2">
   <title>2025-12-31: no stored session activity</title>
 </rect>
-<rect class="day l1" x="468" y="157" width="10" height="10" rx="2">
+<rect class="day l2" x="468" y="157" width="10" height="10" rx="2">
   <title>2026-01-01: 2 sessions, 9 prompts, 10 tool calls, 81.39K tokens</title>
 </rect>
-<rect class="day l1" x="468" y="170" width="10" height="10" rx="2">
-  <title>2026-01-02: 2 sessions, 7 prompts, 10 tool calls, 64.20K tokens</title>
+<rect class="day l2" x="468" y="170" width="10" height="10" rx="2">
+  <title>2026-01-02: 8 sessions, 7 prompts, 10 tool calls, 64.20K tokens</title>
 </rect>
 <rect class="day l4" x="468" y="183" width="10" height="10" rx="2">
-  <title>2026-01-03: 6 sessions, 52 prompts, 349 tool calls, 27.79M tokens</title>
+  <title>2026-01-03: 13 sessions, 53 prompts, 351 tool calls, 27.79M tokens</title>
 </rect>
 <rect class="day l4" x="481" y="105" width="10" height="10" rx="2">
   <title>2026-01-04: 16 sessions, 70 prompts, 364 tool calls, 21.77M tokens</title>
@@ -701,17 +701,17 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l4" x="481" y="183" width="10" height="10" rx="2">
   <title>2026-01-10: 20 sessions, 63 prompts, 291 tool calls, 14.17M tokens</title>
 </rect>
-<rect class="day l2" x="494" y="105" width="10" height="10" rx="2">
+<rect class="day l3" x="494" y="105" width="10" height="10" rx="2">
   <title>2026-01-11: 6 sessions, 16 prompts, 49 tool calls, 1.81M tokens</title>
 </rect>
 <rect class="day l3" x="494" y="118" width="10" height="10" rx="2">
   <title>2026-01-12: 8 sessions, 28 prompts, 36 tool calls, 892.21K tokens</title>
 </rect>
 <rect class="day l3" x="494" y="131" width="10" height="10" rx="2">
-  <title>2026-01-13: 11 sessions, 22 prompts, 69 tool calls, 4.95M tokens</title>
+  <title>2026-01-13: 16 sessions, 22 prompts, 69 tool calls, 4.95M tokens</title>
 </rect>
-<rect class="day l3" x="494" y="144" width="10" height="10" rx="2">
-  <title>2026-01-14: 10 sessions, 42 prompts, 291 tool calls, 15.06M tokens</title>
+<rect class="day l4" x="494" y="144" width="10" height="10" rx="2">
+  <title>2026-01-14: 14 sessions, 42 prompts, 291 tool calls, 15.06M tokens</title>
 </rect>
 <rect class="day l4" x="494" y="157" width="10" height="10" rx="2">
   <title>2026-01-15: 12 sessions, 46 prompts, 346 tool calls, 23.22M tokens</title>
@@ -719,7 +719,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l3" x="494" y="170" width="10" height="10" rx="2">
   <title>2026-01-16: 7 sessions, 25 prompts, 261 tool calls, 13.65M tokens</title>
 </rect>
-<rect class="day l2" x="494" y="183" width="10" height="10" rx="2">
+<rect class="day l3" x="494" y="183" width="10" height="10" rx="2">
   <title>2026-01-17: 2 sessions, 25 prompts, 80 tool calls, 4.90M tokens</title>
 </rect>
 <rect class="day l4" x="507" y="105" width="10" height="10" rx="2">
@@ -789,19 +789,19 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
   <title>2026-02-08: 2 sessions, 9 prompts, 137 tool calls, 16.87M tokens</title>
 </rect>
 <rect class="day l4" x="546" y="118" width="10" height="10" rx="2">
-  <title>2026-02-09: 6 sessions, 69 prompts, 310 tool calls, 23.13M tokens</title>
+  <title>2026-02-09: 8 sessions, 69 prompts, 310 tool calls, 23.13M tokens</title>
 </rect>
 <rect class="day l4" x="546" y="131" width="10" height="10" rx="2">
   <title>2026-02-10: 22 sessions, 81 prompts, 1,802 tool calls, 143.73M tokens</title>
 </rect>
 <rect class="day l3" x="546" y="144" width="10" height="10" rx="2">
-  <title>2026-02-11: 2 sessions, 15 prompts, 184 tool calls, 12.50M tokens</title>
+  <title>2026-02-11: 8 sessions, 15 prompts, 184 tool calls, 12.50M tokens</title>
 </rect>
 <rect class="day l3" x="546" y="157" width="10" height="10" rx="2">
   <title>2026-02-12: 3 sessions, 19 prompts, 136 tool calls, 6.69M tokens</title>
 </rect>
-<rect class="day l2" x="546" y="170" width="10" height="10" rx="2">
-  <title>2026-02-13: 3 sessions, 15 prompts, 67 tool calls, 1.88M tokens</title>
+<rect class="day l3" x="546" y="170" width="10" height="10" rx="2">
+  <title>2026-02-13: 8 sessions, 15 prompts, 67 tool calls, 1.88M tokens</title>
 </rect>
 <rect class="day l3" x="546" y="183" width="10" height="10" rx="2">
   <title>2026-02-14: 2 sessions, 19 prompts, 184 tool calls, 9.92M tokens</title>
@@ -809,7 +809,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l4" x="559" y="105" width="10" height="10" rx="2">
   <title>2026-02-15: 3 sessions, 110 prompts, 101 tool calls, 7.46M tokens</title>
 </rect>
-<rect class="day l3" x="559" y="118" width="10" height="10" rx="2">
+<rect class="day l4" x="559" y="118" width="10" height="10" rx="2">
   <title>2026-02-16: 10 sessions, 48 prompts, 137 tool calls, 3.16M tokens</title>
 </rect>
 <rect class="day l3" x="559" y="131" width="10" height="10" rx="2">
@@ -824,8 +824,8 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l4" x="559" y="170" width="10" height="10" rx="2">
   <title>2026-02-20: 2 sessions, 81 prompts, 387 tool calls, 33.69M tokens</title>
 </rect>
-<rect class="day l3" x="559" y="183" width="10" height="10" rx="2">
-  <title>2026-02-21: 3 sessions, 39 prompts, 379 tool calls, 28.73M tokens</title>
+<rect class="day l4" x="559" y="183" width="10" height="10" rx="2">
+  <title>2026-02-21: 5 sessions, 39 prompts, 379 tool calls, 28.73M tokens</title>
 </rect>
 <rect class="day l2" x="572" y="105" width="10" height="10" rx="2">
   <title>2026-02-22: 1 sessions, 14 prompts, 103 tool calls, 10.40M tokens</title>
@@ -834,28 +834,28 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
   <title>2026-02-23: 2 sessions, 10 prompts, 16 tool calls, 616.41K tokens</title>
 </rect>
 <rect class="day l3" x="572" y="131" width="10" height="10" rx="2">
-  <title>2026-02-24: 4 sessions, 29 prompts, 97 tool calls, 2.97M tokens</title>
+  <title>2026-02-24: 6 sessions, 29 prompts, 97 tool calls, 2.97M tokens</title>
 </rect>
 <rect class="day l4" x="572" y="144" width="10" height="10" rx="2">
-  <title>2026-02-25: 10 sessions, 116 prompts, 440 tool calls, 22.47M tokens</title>
+  <title>2026-02-25: 12 sessions, 116 prompts, 440 tool calls, 22.47M tokens</title>
 </rect>
-<rect class="day l3" x="572" y="157" width="10" height="10" rx="2">
+<rect class="day l4" x="572" y="157" width="10" height="10" rx="2">
   <title>2026-02-26: 4 sessions, 73 prompts, 108 tool calls, 9.94M tokens</title>
 </rect>
 <rect class="day l2" x="572" y="170" width="10" height="10" rx="2">
   <title>2026-02-27: 2 sessions, 12 prompts, 14 tool calls, 333.08K tokens</title>
 </rect>
-<rect class="day l2" x="572" y="183" width="10" height="10" rx="2">
+<rect class="day l3" x="572" y="183" width="10" height="10" rx="2">
   <title>2026-02-28: 2 sessions, 12 prompts, 160 tool calls, 5.24M tokens</title>
 </rect>
 <rect class="day l0" x="585" y="105" width="10" height="10" rx="2">
   <title>2026-03-01: no stored session activity</title>
 </rect>
 <rect class="day l4" x="585" y="118" width="10" height="10" rx="2">
-  <title>2026-03-02: 6 sessions, 119 prompts, 289 tool calls, 18.27M tokens</title>
+  <title>2026-03-02: 8 sessions, 119 prompts, 289 tool calls, 18.27M tokens</title>
 </rect>
-<rect class="day l2" x="585" y="131" width="10" height="10" rx="2">
-  <title>2026-03-03: 2 sessions, 8 prompts, 95 tool calls, 3.82M tokens</title>
+<rect class="day l3" x="585" y="131" width="10" height="10" rx="2">
+  <title>2026-03-03: 7 sessions, 8 prompts, 95 tool calls, 3.82M tokens</title>
 </rect>
 <rect class="day l2" x="585" y="144" width="10" height="10" rx="2">
   <title>2026-03-04: 2 sessions, 8 prompts, 88 tool calls, 2.19M tokens</title>
@@ -873,12 +873,12 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
   <title>2026-03-08: no stored session activity</title>
 </rect>
 <rect class="day l4" x="598" y="118" width="10" height="10" rx="2">
-  <title>2026-03-09: 2 sessions, 47 prompts, 380 tool calls, 26.27M tokens</title>
+  <title>2026-03-09: 6 sessions, 47 prompts, 380 tool calls, 26.27M tokens</title>
 </rect>
 <rect class="day l4" x="598" y="131" width="10" height="10" rx="2">
   <title>2026-03-10: 12 sessions, 63 prompts, 537 tool calls, 20.93M tokens</title>
 </rect>
-<rect class="day l3" x="598" y="144" width="10" height="10" rx="2">
+<rect class="day l4" x="598" y="144" width="10" height="10" rx="2">
   <title>2026-03-11: 3 sessions, 72 prompts, 146 tool calls, 8.71M tokens</title>
 </rect>
 <rect class="day l4" x="598" y="157" width="10" height="10" rx="2">
@@ -896,8 +896,8 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l1" x="611" y="118" width="10" height="10" rx="2">
   <title>2026-03-16: 1 sessions, 2 prompts, 19 tool calls, 423.96K tokens</title>
 </rect>
-<rect class="day l3" x="611" y="131" width="10" height="10" rx="2">
-  <title>2026-03-17: 2 sessions, 29 prompts, 387 tool calls, 36.34M tokens</title>
+<rect class="day l4" x="611" y="131" width="10" height="10" rx="2">
+  <title>2026-03-17: 5 sessions, 29 prompts, 387 tool calls, 36.34M tokens</title>
 </rect>
 <rect class="day l4" x="611" y="144" width="10" height="10" rx="2">
   <title>2026-03-18: 3 sessions, 47 prompts, 269 tool calls, 23.34M tokens</title>
@@ -905,8 +905,8 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l4" x="611" y="157" width="10" height="10" rx="2">
   <title>2026-03-19: 24 sessions, 180 prompts, 890 tool calls, 59.68M tokens</title>
 </rect>
-<rect class="day l3" x="611" y="170" width="10" height="10" rx="2">
-  <title>2026-03-20: 2 sessions, 39 prompts, 225 tool calls, 14.73M tokens</title>
+<rect class="day l4" x="611" y="170" width="10" height="10" rx="2">
+  <title>2026-03-20: 4 sessions, 39 prompts, 225 tool calls, 14.73M tokens</title>
 </rect>
 <rect class="day l2" x="611" y="183" width="10" height="10" rx="2">
   <title>2026-03-21: 2 sessions, 7 prompts, 26 tool calls, 960.69K tokens</title>
@@ -930,7 +930,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
   <title>2026-03-27: no stored session activity</title>
 </rect>
 <rect class="day l2" x="624" y="183" width="10" height="10" rx="2">
-  <title>2026-03-28: 2 sessions, 7 prompts, 60 tool calls, 3.79M tokens</title>
+  <title>2026-03-28: 6 sessions, 7 prompts, 60 tool calls, 3.79M tokens</title>
 </rect>
 <rect class="day l0" x="637" y="105" width="10" height="10" rx="2">
   <title>2026-03-29: no stored session activity</title>
@@ -966,7 +966,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
   <title>2026-04-08: 3 sessions, 12 prompts, 210 tool calls, 19.67M tokens</title>
 </rect>
 <rect class="day l4" x="650" y="157" width="10" height="10" rx="2">
-  <title>2026-04-09: 12 sessions, 84 prompts, 720 tool calls, 57.55M tokens</title>
+  <title>2026-04-09: 14 sessions, 84 prompts, 720 tool calls, 57.55M tokens</title>
 </rect>
 <rect class="day l3" x="650" y="170" width="10" height="10" rx="2">
   <title>2026-04-10: 3 sessions, 25 prompts, 71 tool calls, 3.77M tokens</title>
@@ -984,10 +984,10 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
   <title>2026-04-14: 29 sessions, 116 prompts, 280 tool calls, 18.34M tokens</title>
 </rect>
 <rect class="day l4" x="663" y="144" width="10" height="10" rx="2">
-  <title>2026-04-15: 4 sessions, 61 prompts, 1,883 tool calls, 120.57M tokens</title>
+  <title>2026-04-15: 8 sessions, 61 prompts, 1,883 tool calls, 120.57M tokens</title>
 </rect>
 <rect class="day l4" x="663" y="157" width="10" height="10" rx="2">
-  <title>2026-04-16: 5 sessions, 58 prompts, 264 tool calls, 15.40M tokens</title>
+  <title>2026-04-16: 6 sessions, 58 prompts, 264 tool calls, 15.40M tokens</title>
 </rect>
 <rect class="day l4" x="663" y="170" width="10" height="10" rx="2">
   <title>2026-04-17: 10 sessions, 98 prompts, 1,122 tool calls, 70.35M tokens</title>
@@ -996,10 +996,10 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
   <title>2026-04-18: 1 sessions, 9 prompts, 121 tool calls, 6.22M tokens</title>
 </rect>
 <rect class="day l4" x="676" y="105" width="10" height="10" rx="2">
-  <title>2026-04-19: 4 sessions, 83 prompts, 1,514 tool calls, 99.69M tokens</title>
+  <title>2026-04-19: 7 sessions, 83 prompts, 1,514 tool calls, 99.69M tokens</title>
 </rect>
-<rect class="day l3" x="676" y="118" width="10" height="10" rx="2">
-  <title>2026-04-20: 3 sessions, 32 prompts, 229 tool calls, 5.74M tokens</title>
+<rect class="day l4" x="676" y="118" width="10" height="10" rx="2">
+  <title>2026-04-20: 14 sessions, 32 prompts, 229 tool calls, 5.74M tokens</title>
 </rect>
 <rect class="day l4" x="676" y="131" width="10" height="10" rx="2">
   <title>2026-04-21: 4 sessions, 91 prompts, 588 tool calls, 40.16M tokens</title>
@@ -1052,7 +1052,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l1" x="702" y="157" width="10" height="10" rx="2">
   <title>2026-05-07: 2 sessions, 5 prompts, 0 tool calls, 24.99K tokens</title>
 </rect>
-<rect class="day l3" x="702" y="170" width="10" height="10" rx="2">
+<rect class="day l4" x="702" y="170" width="10" height="10" rx="2">
   <title>2026-05-08: 9 sessions, 45 prompts, 237 tool calls, 7.97M tokens</title>
 </rect>
 <rect class="day l4" x="702" y="183" width="10" height="10" rx="2">
@@ -1065,10 +1065,10 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
   <title>2026-05-11: 67 sessions, 980 prompts, 1,090 tool calls, 159.63M tokens</title>
 </rect>
 <rect class="day l4" x="715" y="131" width="10" height="10" rx="2">
-  <title>2026-05-12: 9 sessions, 119 prompts, 556 tool calls, 42.93M tokens</title>
+  <title>2026-05-12: 15 sessions, 119 prompts, 556 tool calls, 42.93M tokens</title>
 </rect>
 <rect class="day l4" x="715" y="144" width="10" height="10" rx="2">
-  <title>2026-05-13: 14 sessions, 150 prompts, 579 tool calls, 35.81M tokens</title>
+  <title>2026-05-13: 15 sessions, 150 prompts, 579 tool calls, 35.81M tokens</title>
 </rect>
 <rect class="day l4" x="715" y="157" width="10" height="10" rx="2">
   <title>2026-05-14: 13 sessions, 116 prompts, 448 tool calls, 22.66M tokens</title>
@@ -1103,7 +1103,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="741" y="105" width="10" height="10" rx="2">
   <title>2026-05-24: no stored session activity</title>
 </rect>
-<rect class="day l3" x="741" y="118" width="10" height="10" rx="2">
+<rect class="day l4" x="741" y="118" width="10" height="10" rx="2">
   <title>2026-05-25: 5 sessions, 48 prompts, 287 tool calls, 20.30M tokens</title>
 </rect>
 <rect class="day l0" x="741" y="131" width="10" height="10" rx="2">
@@ -1112,7 +1112,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="741" y="144" width="10" height="10" rx="2">
   <title>2026-05-27: no stored session activity</title>
 </rect>
-<rect class="day l2" x="741" y="157" width="10" height="10" rx="2">
+<rect class="day l3" x="741" y="157" width="10" height="10" rx="2">
   <title>2026-05-28: 1 sessions, 19 prompts, 130 tool calls, 9.18M tokens</title>
 </rect>
 <rect class="day l2" x="741" y="170" width="10" height="10" rx="2">
@@ -1154,7 +1154,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l1" x="767" y="144" width="10" height="10" rx="2">
   <title>2026-06-10: 1 sessions, 2 prompts, 19 tool calls, 292.37K tokens</title>
 </rect>
-<rect class="day l1" x="767" y="157" width="10" height="10" rx="2">
+<rect class="day l2" x="767" y="157" width="10" height="10" rx="2">
   <title>2026-06-11: 1 sessions, 11 prompts, 4 tool calls, 257.34K tokens</title>
 </rect>
 <rect class="day l0" x="767" y="170" width="10" height="10" rx="2">
@@ -1221,7 +1221,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
   <title>2026-07-02: 8 sessions, 24 prompts, 189 tool calls, 9.87M tokens</title>
 </rect>
 <rect class="day l3" x="806" y="170" width="10" height="10" rx="2">
-  <title>2026-07-03: 2 sessions, 13 prompts, 295 tool calls, 12.15M tokens</title>
+  <title>2026-07-03: 4 sessions, 13 prompts, 295 tool calls, 12.15M tokens</title>
 </rect>
 <rect class="day l4" x="806" y="183" width="10" height="10" rx="2">
   <title>2026-07-04: 1 sessions, 61 prompts, 876 tool calls, 69.08M tokens</title>
@@ -1296,9 +1296,9 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
   <title>2026-07-27: 29 sessions, 102 prompts, 384 tool calls, 18.59M tokens</title>
 </rect>
 <rect class="day l4" x="858" y="131" width="10" height="10" rx="2">
-  <title>2026-07-28: 8 sessions, 93 prompts, 893 tool calls, 75.91M tokens</title>
+  <title>2026-07-28: 8 sessions, 101 prompts, 893 tool calls, 77.11M tokens</title>
 </rect>
-<rect class="day l2" x="858" y="144" width="10" height="10" rx="2">
+<rect class="day l3" x="858" y="144" width="10" height="10" rx="2">
   <title>2026-07-29: 2 sessions, 15 prompts, 109 tool calls, 5.64M tokens</title>
 </rect>
 <rect class="day l3" x="858" y="157" width="10" height="10" rx="2">
@@ -1380,10 +1380,10 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
   <title>2026-08-24: 3 sessions, 36 prompts, 203 tool calls, 26.76M tokens</title>
 </rect>
 <rect class="day l3" x="910" y="131" width="10" height="10" rx="2">
-  <title>2026-08-25: 5 sessions, 30 prompts, 23 tool calls, 29.38M tokens</title>
+  <title>2026-08-25: 5 sessions, 34 prompts, 23 tool calls, 35.51M tokens</title>
 </rect>
 <rect class="day l3" x="910" y="144" width="10" height="10" rx="2">
-  <title>2026-08-26: 4 sessions, 30 prompts, 0 tool calls, 39.43M tokens</title>
+  <title>2026-08-26: 6 sessions, 44 prompts, 119 tool calls, 39.43M tokens</title>
 </rect>
 <rect class="day l4" x="910" y="157" width="10" height="10" rx="2">
   <title>2026-08-27: 14 sessions, 77 prompts, 542 tool calls, 115.61M tokens</title>
@@ -1391,10 +1391,31 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l4" x="910" y="170" width="10" height="10" rx="2">
   <title>2026-08-28: 20 sessions, 168 prompts, 126 tool calls, 93.29M tokens</title>
 </rect>
-<rect class="day l0" x="910" y="183" width="10" height="10" rx="2">
-  <title>2026-08-29: no stored session activity</title>
+<rect class="day l2" x="910" y="183" width="10" height="10" rx="2">
+  <title>2026-08-29: 4 sessions, 14 prompts, 3 tool calls, 6.71M tokens</title>
 </rect>
-<text x="78" y="226" class="muted small">1,585 sessions - 16,088 prompts - 83,234 tool calls - 9.71B tokens</text>
+<rect class="day l0" x="923" y="105" width="10" height="10" rx="2">
+  <title>2026-08-30: no stored session activity</title>
+</rect>
+<rect class="day outside" x="923" y="118" width="10" height="10" rx="2">
+  <title>2026-08-31: outside snapshot range</title>
+</rect>
+<rect class="day outside" x="923" y="131" width="10" height="10" rx="2">
+  <title>2026-09-01: outside snapshot range</title>
+</rect>
+<rect class="day outside" x="923" y="144" width="10" height="10" rx="2">
+  <title>2026-09-02: outside snapshot range</title>
+</rect>
+<rect class="day outside" x="923" y="157" width="10" height="10" rx="2">
+  <title>2026-09-03: outside snapshot range</title>
+</rect>
+<rect class="day outside" x="923" y="170" width="10" height="10" rx="2">
+  <title>2026-09-04: outside snapshot range</title>
+</rect>
+<rect class="day outside" x="923" y="183" width="10" height="10" rx="2">
+  <title>2026-09-05: outside snapshot range</title>
+</rect>
+<text x="78" y="226" class="muted small">1,829 sessions - 16,504 prompts - 85,697 tool calls - 9.74B tokens</text>
 <text x="698" y="226" class="muted small">Less</text>
 <rect class="day l0" x="738" y="215" width="10" height="10" rx="2"/>
 <rect class="day l1" x="755" y="215" width="10" height="10" rx="2"/>
@@ -1403,13 +1424,13 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l4" x="806" y="215" width="10" height="10" rx="2"/>
 <text x="829" y="226" class="muted small">More</text>
 <line x1="78" y1="246" x2="875" y2="246" stroke="var(--border)"/>
-<text x="78" y="274" class="muted small">242 of 455 days active  /  first stored Sep 1  /  longest streak 39 days</text>
+<text x="78" y="274" class="muted small">280 of 456 days active  /  first stored Jul 31  /  longest streak 39 days</text>
 <rect class="card" x="926" y="22" width="172" height="302" rx="6"/>
 <text x="944" y="47" class="value">Snapshot</text>
 <text x="944" y="64" class="muted micro">Jun 2025 - Aug 2026</text>
 <line x1="944" y1="78" x2="1080" y2="78" stroke="var(--border)"/>
 <text x="944" y="98" class="label">ACTIVE SHARE</text>
-<text x="944" y="117" class="value">53.2%</text>
+<text x="944" y="117" class="value">61.4%</text>
 <text x="1020" y="98" class="label">LONGEST</text>
 <text x="1020" y="117" class="value">39 days</text>
 <text x="944" y="143" class="label">CLOSING</text>
@@ -1418,20 +1439,20 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <text x="1020" y="162" class="value">May 10</text>
 <line x1="944" y1="176" x2="1080" y2="176" stroke="var(--border)"/>
 <text x="944" y="193" class="label">SESSION SOURCES</text>
-<text x="944" y="210" class="muted micro">Codex</text>
-<text x="1080" y="210" class="value" text-anchor="end">826</text>
-<text x="944" y="225" class="muted micro">Codex custom</text>
-<text x="1080" y="225" class="value" text-anchor="end">491</text>
-<text x="944" y="240" class="muted micro">Claude</text>
-<text x="1080" y="240" class="value" text-anchor="end">23</text>
-<text x="944" y="255" class="muted micro">Claude custom</text>
-<text x="1080" y="255" class="value" text-anchor="end">2</text>
-<text x="944" y="270" class="muted micro">Gemini CLI</text>
-<text x="1080" y="270" class="value" text-anchor="end">183</text>
-<text x="944" y="285" class="muted micro">Kimi</text>
-<text x="1080" y="285" class="value" text-anchor="end">60</text>
+<text x="944" y="210" class="muted micro">Cursor</text>
+<text x="1080" y="210" class="value" text-anchor="end">240</text>
+<text x="944" y="225" class="muted micro">Codex</text>
+<text x="1080" y="225" class="value" text-anchor="end">828</text>
+<text x="944" y="240" class="muted micro">Codex custom</text>
+<text x="1080" y="240" class="value" text-anchor="end">491</text>
+<text x="944" y="255" class="muted micro">Claude</text>
+<text x="1080" y="255" class="value" text-anchor="end">25</text>
+<text x="944" y="270" class="muted micro">Claude custom</text>
+<text x="1080" y="270" class="value" text-anchor="end">2</text>
+<text x="944" y="285" class="muted micro">Gemini CLI</text>
+<text x="1080" y="285" class="value" text-anchor="end">183</text>
 <line x1="944" y1="291" x2="1080" y2="291" stroke="var(--border)"/>
 <text x="944" y="306" class="label">GENERATED</text>
-<text x="944" y="322" class="value">Aug 29, 2026</text>
+<text x="944" y="322" class="value">Aug 30, 2026</text>
 <!-- Public daily and source-level aggregate counts only. -->
 </svg>
