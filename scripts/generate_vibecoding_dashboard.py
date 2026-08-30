@@ -748,13 +748,13 @@ def build_data(sessions: list[SessionStats], today: date) -> dict[str, Any]:
                 "name": name,
                 "shortName": {
                     "Cursor": "Cursor",
-                    "Antigravity": "Antigravity",
+                    "Antigravity": "Antigrav.",
                     "Codex": "Codex",
                     "Codex-2": "Codex-2",
-                    "Codex via custom setup": "Codex custom",
+                    "Codex via custom setup": "Codex c.",
                     "Claude": "Claude",
-                    "Claude via custom setup": "Claude custom",
-                    "Gemini CLI": "Gemini CLI",
+                    "Claude via custom setup": "Claude c.",
+                    "Gemini CLI": "Gemini",
                     "Kimi": "Kimi",
                 }[name],
                 "sessions": sessions_count,
@@ -856,7 +856,7 @@ def render_svg(data: dict[str, Any]) -> str:
     cell = 10
     gap = 3
     lines: list[str] = [
-        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 382" width="1120" height="382" role="img" aria-labelledby="title desc">',
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 346" width="1120" height="346" role="img" aria-labelledby="title desc">',
         f'<title id="title">{html.escape(title)}, Gruvbox theme</title>',
         f'<desc id="desc">{html.escape(desc)}</desc>',
         "<style>",
@@ -921,7 +921,7 @@ def render_svg(data: dict[str, Any]) -> str:
             '<text x="829" y="226" class="muted small">More</text>',
             '<line x1="78" y1="246" x2="875" y2="246" stroke="var(--border)"/>',
             f'<text x="78" y="274" class="muted small">{fmt_int(summary["activeDays"])} of {fmt_int(in_range_count)} days active  /  first stored {fmt_date(summary["firstActivityDate"], with_year=False)}  /  longest streak {fmt_int(summary["longestStreak"])} days</text>',
-            '<rect class="card" x="926" y="22" width="172" height="350" rx="6"/>',
+            '<rect class="card" x="926" y="22" width="172" height="302" rx="6"/>',
             '<text x="944" y="47" class="value">Snapshot</text>',
             f'<text x="944" y="64" class="muted micro">{html.escape(range_label)}</text>',
             '<line x1="944" y1="78" x2="1080" y2="78" stroke="var(--border)"/>',
@@ -938,17 +938,20 @@ def render_svg(data: dict[str, Any]) -> str:
         ]
     )
 
-    y = 208
-    for source in data["sources"]:
-        lines.append(f'<text x="944" y="{y}" class="muted micro">{html.escape(source["shortName"])}</text>')
-        lines.append(f'<text x="1080" y="{y}" class="value" text-anchor="end">{fmt_int(source["sessions"])}</text>')
-        y += 14
+    for index, source in enumerate(data["sources"]):
+        column = index // 5
+        row = index % 5
+        name_x = 944 if column == 0 else 1012
+        value_x = 1000 if column == 0 else 1080
+        y = 210 + row * 15
+        lines.append(f'<text x="{name_x}" y="{y}" class="muted micro">{html.escape(source["shortName"])}</text>')
+        lines.append(f'<text x="{value_x}" y="{y}" class="value" text-anchor="end">{fmt_int(source["sessions"])}</text>')
 
     lines.extend(
         [
-            '<line x1="944" y1="335" x2="1080" y2="335" stroke="var(--border)"/>',
-            '<text x="944" y="350" class="label">GENERATED</text>',
-            f'<text x="944" y="366" class="value">{fmt_date(data["generatedAt"])}</text>',
+            '<line x1="944" y1="291" x2="1080" y2="291" stroke="var(--border)"/>',
+            '<text x="944" y="306" class="label">GENERATED</text>',
+            f'<text x="944" y="322" class="value">{fmt_date(data["generatedAt"])}</text>',
             "<!-- Public daily and source-level aggregate counts only. -->",
             "</svg>",
             "",
