@@ -12,11 +12,10 @@ import calendar
 import csv
 import html
 import json
-import math
 import os
 import re
 import sqlite3
-from collections import Counter, defaultdict
+from collections import defaultdict
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
@@ -54,7 +53,7 @@ class SessionStats:
     assistant: int = 0
     tool_calls: int = 0
     tool_results: int = 0
-    tokens: int = 0
+    llm_requests: int = 0
     web: int = 0
 
     @property
@@ -111,22 +110,6 @@ def glob_existing(patterns: Iterable[str]) -> list[Path]:
     return sorted(paths)
 
 
-def usage_total(usage: dict[str, Any] | None) -> int:
-    if not isinstance(usage, dict):
-        return 0
-    total = usage.get("total_tokens")
-    if isinstance(total, (int, float)):
-        return int(total)
-    keys = (
-        "input_tokens",
-        "cache_creation_input_tokens",
-        "cache_read_input_tokens",
-        "output_tokens",
-        "reasoning_output_tokens",
-    )
-    return int(sum(v for key in keys if isinstance((v := usage.get(key)), (int, float))))
-
-
 def is_web_tool(name: str | None) -> bool:
     if not name:
         return False
@@ -151,7 +134,8 @@ def codex_tool_name(obj: dict[str, Any]) -> str | None:
 def parse_codex_session(path: Path, source: str) -> SessionStats | None:
     started_at: datetime | None = None
     prompts = assistant = tool_calls = tool_results = web = 0
-    token_total = 0
+    llm_requests = 0
+    last_total_tokens = 0
 
     for obj in iter_jsonl(path):
         ts = parse_dt(obj.get("timestamp"))
@@ -190,7 +174,10 @@ def parse_codex_session(path: Path, source: str) -> SessionStats | None:
                 info = payload.get("info")
                 if isinstance(info, dict):
                     total_usage = info.get("total_token_usage")
-                    token_total = max(token_total, usage_total(total_usage))
+                    total = total_usage.get("total_tokens") if isinstance(total_usage, dict) else None
+                    if isinstance(total, (int, float)) and total > last_total_tokens:
+                        llm_requests += 1
+                        last_total_tokens = total
             elif payload_type == "task_started" and started_at is None:
                 started_at = parse_dt(payload.get("started_at"))
 
@@ -206,7 +193,7 @@ def parse_codex_session(path: Path, source: str) -> SessionStats | None:
         assistant=assistant,
         tool_calls=tool_calls,
         tool_results=tool_results,
-        tokens=token_total,
+        llm_requests=llm_requests,
         web=web,
     )
 
@@ -231,7 +218,8 @@ def claude_content_items(message: dict[str, Any]) -> list[dict[str, Any]]:
 
 def parse_claude_session(path: Path, source: str) -> SessionStats | None:
     started_at: datetime | None = None
-    prompts = assistant = tool_calls = tool_results = tokens = web = 0
+    prompts = assistant = tool_calls = tool_results = web = 0
+    request_ids: set[str] = set()
 
     for obj in iter_jsonl(path):
         ts = parse_dt(obj.get("timestamp"))
@@ -251,7 +239,9 @@ def parse_claude_session(path: Path, source: str) -> SessionStats | None:
                     tool_results += 1
         elif obj_type == "assistant" or role == "assistant":
             assistant += 1
-            tokens += usage_total(message.get("usage"))
+            message_id = message.get("id")
+            if isinstance(message_id, str) and message_id:
+                request_ids.add(message_id)
             for item in claude_content_items(message):
                 if item.get("type") == "tool_use":
                     tool_calls += 1
@@ -266,7 +256,7 @@ def parse_claude_session(path: Path, source: str) -> SessionStats | None:
         assistant=assistant,
         tool_calls=tool_calls,
         tool_results=tool_results,
-        tokens=tokens,
+        llm_requests=len(request_ids),
         web=web,
     )
 
@@ -281,16 +271,9 @@ def walk_values(value: Any) -> Iterable[Any]:
             yield from walk_values(child)
 
 
-def kimi_usage_total(usage: dict[str, Any] | None) -> int:
-    if not isinstance(usage, dict):
-        return 0
-    keys = ("inputOther", "inputCacheRead", "inputCacheCreation", "output")
-    return int(sum(v for key in keys if isinstance((v := usage.get(key)), (int, float))))
-
-
 def parse_kimi_session(path: Path, source: str) -> SessionStats | None:
     started_at: datetime | None = None
-    prompts = assistant = tool_calls = tool_results = tokens = web = 0
+    prompts = assistant = tool_calls = tool_results = llm_requests = web = 0
 
     def kimi_time(value: Any) -> datetime | None:
         # Kimi wire.jsonl timestamps are epoch milliseconds.
@@ -322,8 +305,8 @@ def parse_kimi_session(path: Path, source: str) -> SessionStats | None:
                 web += int(is_web_tool(event.get("name")))
             elif event_type == "tool.result":
                 tool_results += 1
-        elif obj_type == "usage.record":
-            tokens += kimi_usage_total(obj.get("usage"))
+        elif obj_type == "llm.request":
+            llm_requests += 1
 
     if started_at is None:
         return None
@@ -334,7 +317,7 @@ def parse_kimi_session(path: Path, source: str) -> SessionStats | None:
         assistant=assistant,
         tool_calls=tool_calls,
         tool_results=tool_results,
-        tokens=tokens,
+        llm_requests=llm_requests,
         web=web,
     )
 
@@ -346,8 +329,7 @@ def parse_gemini_session(path: Path) -> SessionStats | None:
         return None
 
     timestamps: list[datetime] = []
-    prompts = assistant = tool_calls = tool_results = tokens = web = 0
-    models: Counter[str] = Counter()
+    prompts = assistant = tool_calls = tool_results = llm_requests = web = 0
 
     for value in walk_values(data):
         if not isinstance(value, dict):
@@ -357,11 +339,13 @@ def parse_gemini_session(path: Path) -> SessionStats | None:
             if parsed:
                 timestamps.append(parsed)
 
-        role = value.get("role") or value.get("author")
+        role = value.get("role") or value.get("author") or value.get("type")
         if role == "user":
             prompts += 1
-        elif role in {"model", "assistant"}:
+        elif role in {"model", "assistant", "gemini"}:
             assistant += 1
+            if value.get("model") or value.get("tokens"):
+                llm_requests += 1
 
         name = value.get("name") or value.get("toolName") or value.get("tool_name")
         if isinstance(name, str) and (
@@ -374,20 +358,6 @@ def parse_gemini_session(path: Path) -> SessionStats | None:
 
         if value.get("type") in {"function_response", "tool_result"}:
             tool_results += 1
-
-        usage = value.get("usageMetadata") or value.get("usage") or value.get("tokenUsage")
-        if isinstance(usage, dict):
-            tokens += usage_total(
-                {
-                    "input_tokens": usage.get("promptTokenCount") or usage.get("input_tokens"),
-                    "output_tokens": usage.get("candidatesTokenCount") or usage.get("output_tokens"),
-                    "total_tokens": usage.get("totalTokenCount") or usage.get("total_tokens"),
-                }
-            )
-
-        model = value.get("model")
-        if isinstance(model, str):
-            models[model] += 1
 
     if not timestamps:
         match = re.search(r"session-(\d{4}-\d{2}-\d{2}T\d{2}-\d{2})", path.name)
@@ -410,7 +380,7 @@ def parse_gemini_session(path: Path) -> SessionStats | None:
         assistant=assistant,
         tool_calls=tool_calls,
         tool_results=tool_results,
-        tokens=tokens,
+        llm_requests=llm_requests,
         web=web,
     )
 
@@ -454,6 +424,7 @@ def parse_antigravity_metadata() -> list[SessionStats]:
                         started_at=latest,
                         prompts=1,
                         assistant=max(1, artifact_count),
+                        llm_requests=1,
                     )
                 )
     return sessions
@@ -463,7 +434,7 @@ def parse_cursor_sessions() -> list[SessionStats]:
     """Read aggregate Cursor Composer activity from its local SQLite store.
 
     Cursor keeps conversation metadata and message payloads in the same
-    database. Only timestamps, message types, token counters, and the presence
+    database. Only timestamps, message types, and the presence
     of tool calls are retained here; titles, prompts, responses, paths, and
     tool arguments never leave this function.
     """
@@ -526,14 +497,9 @@ def parse_cursor_sessions() -> list[SessionStats]:
                 for field in ("text", "richText")
             ):
                 session.assistant += 1
-
-            token_count = value.get("tokenCount")
-            if isinstance(token_count, dict):
-                session.tokens += sum(
-                    int(token_count.get(field, 0))
-                    for field in ("inputTokens", "outputTokens")
-                    if isinstance(token_count.get(field), (int, float))
-                )
+                # Cursor does not persist a call event for every model request.
+                # A nonempty assistant bubble is the closest available proxy.
+                session.llm_requests += 1
 
             tool_data = value.get("toolFormerData")
             if isinstance(tool_data, dict):
@@ -594,7 +560,7 @@ def collect_sessions() -> list[SessionStats]:
             merged.assistant += parsed.assistant
             merged.tool_calls += parsed.tool_calls
             merged.tool_results += parsed.tool_results
-            merged.tokens += parsed.tokens
+            merged.llm_requests += parsed.llm_requests
             merged.web += parsed.web
         else:
             kimi_sessions[key] = parsed
@@ -621,14 +587,13 @@ def percentile(values: list[float], fraction: float) -> float:
 def day_score(day: dict[str, Any]) -> float:
     if day["sessions"] <= 0:
         return 0.0
-    token_score = math.log10(max(1, day["tokens"])) * 2.0 if day["tokens"] else 0.0
     score = (
         day["sessions"] * 4.0
         + day["prompts"] * 1.1
         + day["assistant"] * 0.12
         + day["toolCalls"] * 0.12
         + day["web"] * 0.5
-        + token_score
+        + day["llmRequests"] * 0.2
     )
     return round(score, 2)
 
@@ -677,7 +642,7 @@ def build_data(sessions: list[SessionStats], today: date) -> dict[str, Any]:
         daily["assistant"] += session.assistant
         daily["toolCalls"] += session.tool_calls
         daily["toolResults"] += session.tool_results
-        daily["tokens"] += session.tokens
+        daily["llmRequests"] += session.llm_requests
         daily["web"] += session.web
 
         source = by_source[session.public_source]
@@ -685,7 +650,7 @@ def build_data(sessions: list[SessionStats], today: date) -> dict[str, Any]:
         source["prompts"] += session.prompts
         source["assistant"] += session.assistant
         source["toolCalls"] += session.tool_calls
-        source["tokens"] += session.tokens
+        source["llmRequests"] += session.llm_requests
         source_days[session.public_source].add(day)
 
     days: list[dict[str, Any]] = []
@@ -700,7 +665,7 @@ def build_data(sessions: list[SessionStats], today: date) -> dict[str, Any]:
             "prompts": int(raw["prompts"]),
             "assistant": int(raw["assistant"]),
             "toolCalls": int(raw["toolCalls"]),
-            "tokens": int(raw["tokens"]),
+            "llmRequests": int(raw["llmRequests"]),
             "web": int(raw["web"]),
             "score": 0.0,
             "level": 0,
@@ -729,7 +694,7 @@ def build_data(sessions: list[SessionStats], today: date) -> dict[str, Any]:
         "prompts": sum(day["prompts"] for day in in_range_days),
         "assistant": sum(day["assistant"] for day in in_range_days),
         "toolCalls": sum(day["toolCalls"] for day in in_range_days),
-        "tokens": sum(day["tokens"] for day in in_range_days),
+        "llmRequests": sum(day["llmRequests"] for day in in_range_days),
         "web": sum(day["web"] for day in in_range_days),
         "firstActivityDate": first_day,
         "peakDate": peak_day["date"] if peak_day else None,
@@ -762,7 +727,7 @@ def build_data(sessions: list[SessionStats], today: date) -> dict[str, Any]:
                 "prompts": int(raw.get("prompts", 0)),
                 "assistant": int(raw.get("assistant", 0)),
                 "toolCalls": int(raw.get("toolCalls", 0)),
-                "tokens": int(raw.get("tokens", 0)),
+                "llmRequests": int(raw.get("llmRequests", 0)),
             }
         )
 
@@ -826,7 +791,7 @@ def update_html(data: dict[str, Any]) -> None:
     text = re.sub(r'<strong id="totalPrompts">[^<]*</strong>', f'<strong id="totalPrompts">{fmt_int(data["summary"]["prompts"])}</strong>', text)
     text = re.sub(r'<strong id="totalAssistant">[^<]*</strong>', f'<strong id="totalAssistant">{fmt_int(data["summary"]["assistant"])}</strong>', text)
     text = re.sub(r'<strong id="totalTools">[^<]*</strong>', f'<strong id="totalTools">{fmt_int(data["summary"]["toolCalls"])}</strong>', text)
-    text = re.sub(r'<strong id="totalTokens">[^<]*</strong>', f'<strong id="totalTokens">{short_number(data["summary"]["tokens"])}</strong>', text)
+    text = re.sub(r'<strong id="totalRequests">[^<]*</strong>', f'<strong id="totalRequests">{fmt_int(data["summary"]["llmRequests"])}</strong>', text)
     badge_values = iter([html.escape(fmt_range(data)), f'{len(data["sources"])} sources'])
 
     def replace_badge(match: re.Match[str]) -> str:
@@ -848,7 +813,7 @@ def render_svg(data: dict[str, Any]) -> str:
         f"Public aggregate of Dmitriy's AI coding activity from {fmt_date(data['range']['start'])} "
         f"through {fmt_date(data['range']['end'])}: {fmt_int(summary['activeDays'])} active days, "
         f"{fmt_int(summary['sessions'])} sessions, {fmt_int(summary['prompts'])} prompts, "
-        f"{fmt_int(summary['toolCalls'])} tool calls, and {short_number(summary['tokens'])} tokens."
+        f"{fmt_int(summary['toolCalls'])} tool calls, and {fmt_int(summary['llmRequests'])} recorded LLM requests."
     )
 
     graph_x = 78
@@ -900,7 +865,7 @@ def render_svg(data: dict[str, Any]) -> str:
             label = (
                 f"{day['date']}: {fmt_int(day['sessions'])} sessions, "
                 f"{fmt_int(day['prompts'])} prompts, {fmt_int(day['toolCalls'])} tool calls, "
-                f"{short_number(day['tokens'])} tokens"
+                f"{fmt_int(day['llmRequests'])} LLM requests"
             )
         else:
             label = f"{day['date']}: no stored session activity"
@@ -910,7 +875,7 @@ def render_svg(data: dict[str, Any]) -> str:
 
     lines.extend(
         [
-            f'<text x="78" y="226" class="muted small">{fmt_int(summary["sessions"])} sessions - {fmt_int(summary["prompts"])} prompts - {fmt_int(summary["toolCalls"])} tool calls - {short_number(summary["tokens"])} tokens</text>',
+            f'<text x="78" y="226" class="muted small">{fmt_int(summary["sessions"])} sessions - {fmt_int(summary["prompts"])} prompts - {fmt_int(summary["toolCalls"])} tool calls - {fmt_int(summary["llmRequests"])} LLM requests</text>',
             '<text x="698" y="226" class="muted small">Less</text>',
         ]
     )
@@ -989,7 +954,7 @@ def write_debug_csv(sessions: list[SessionStats]) -> None:
     path = debug_dir / "sessions-public-aggregate.csv"
     with path.open("w", encoding="utf-8", newline="") as fh:
         writer = csv.writer(fh)
-        writer.writerow(["source", "day", "prompts", "assistant", "tool_calls", "tokens", "web"])
+        writer.writerow(["source", "day", "prompts", "assistant", "tool_calls", "llm_requests", "web"])
         for session in sorted(sessions, key=lambda item: (item.started_at, item.public_source)):
             writer.writerow(
                 [
@@ -998,7 +963,7 @@ def write_debug_csv(sessions: list[SessionStats]) -> None:
                     session.prompts,
                     session.assistant,
                     session.tool_calls,
-                    session.tokens,
+                    session.llm_requests,
                     session.web,
                 ]
             )
@@ -1014,7 +979,7 @@ def main() -> None:
     write_debug_csv(sessions)
     print(
         f"Generated {data['summary']['activeDays']} active days, "
-        f"{data['summary']['sessions']} sessions, {short_number(data['summary']['tokens'])} tokens."
+        f"{data['summary']['sessions']} sessions, {fmt_int(data['summary']['llmRequests'])} recorded LLM requests."
     )
 
 

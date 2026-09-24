@@ -8,10 +8,12 @@ The generator publishes aggregate counts only:
 - prompts
 - assistant messages
 - tool calls
-- token totals
+- recorded LLM request totals across sources
 - source totals
 
 It does not publish prompt text, local paths, command names, workspace names, or credentials.
+
+An LLM request is a model invocation, which can differ from a user prompt. Codex uses rising token-count events as a call marker, Claude uses unique assistant message IDs, Kimi uses `llm.request` events, and Gemini CLI uses model messages. Cursor does not record every call directly, so its count uses nonempty assistant responses as an estimate. Antigravity task metadata contains no call count, so each task counts as one estimated request. The total is therefore a count of recorded or estimated requests from the available local stores, not a complete provider billing count.
 
 ## Manual Refresh
 
