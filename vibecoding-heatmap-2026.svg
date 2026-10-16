@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 346" width="1120" height="346" role="img" aria-labelledby="title desc">
-<title id="title">319 vibe-coding days, Gruvbox theme</title>
-<desc id="desc">Public aggregate of Dmitriy&#x27;s AI coding activity from Jun 1, 2025 through Oct 15, 2026: 319 active days, 1,976 sessions, 17,543 prompts, 89,320 tool calls, and 99,334 recorded LLM requests.</desc>
+<title id="title">237 vibe-coding days, Gruvbox theme</title>
+<desc id="desc">Public aggregate of Dmitriy&#x27;s AI coding activity from Jun 1, 2025 through Oct 16, 2026: 237 active days, 1,143 sessions, 10,904 prompts, 42,755 tool calls, and 35,736 recorded LLM requests.</desc>
 <style>
 :root{color-scheme:light dark;--bg:#1d2021;--surface:#282828;--fg:#ebdbb2;--muted:#a89984;--border:#504945;--empty:#3c3836;--l1:#689d6a;--l2:#98971a;--l3:#d79921;--l4:#d65d0e;--accent:#fabd2f}
 @media(prefers-color-scheme:light){:root{--bg:#f2e5bc;--surface:#fbf1c7;--fg:#3c3836;--muted:#7c6f64;--border:#d5c4a1;--empty:#d5c4a1;--l1:#689d6a;--l2:#98971a;--l3:#d79921;--l4:#d65d0e;--accent:#b57614}}
@@ -8,7 +8,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 .muted{fill:var(--muted)}.accent{fill:var(--accent)}.small{font-size:13px}.micro{font-size:10px}.month{font-size:12px}.title{font-size:22px;font-weight:600}.value{font-size:14px;font-weight:600}.label{font-size:9px;fill:var(--muted)}.card{fill:var(--surface);stroke:var(--border);stroke-width:1}.day{stroke-width:.5}.outside{fill:var(--bg);stroke:none}.l0{fill:var(--empty);stroke:var(--border)}.l1{fill:var(--l1);stroke:none}.l2{fill:var(--l2);stroke:none}.l3{fill:var(--l3);stroke:none}.l4{fill:var(--l4);stroke:none}
 </style>
 <rect width="100%" height="100%" fill="var(--bg)"/>
-<text x="22" y="38" class="title">319 vibe-coding days</text>
+<text x="22" y="38" class="title">237 vibe-coding days</text>
 <text x="681" y="39" class="muted small">Jun 2025 - Oct 2026 / public aggregate</text>
 <rect class="card" x="22" y="62" width="875" height="248" rx="6"/>
 <text x="78" y="90" class="month">Jun</text>
@@ -211,49 +211,49 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="182" y="144" width="10" height="10" rx="2">
   <title>2025-07-30: no stored session activity</title>
 </rect>
-<rect class="day l2" x="182" y="157" width="10" height="10" rx="2">
+<rect class="day l3" x="182" y="157" width="10" height="10" rx="2">
   <title>2025-07-31: 4 sessions, 6 prompts, 26 tool calls, 19 LLM requests</title>
 </rect>
-<rect class="day l1" x="182" y="170" width="10" height="10" rx="2">
+<rect class="day l2" x="182" y="170" width="10" height="10" rx="2">
   <title>2025-08-01: 4 sessions, 2 prompts, 3 tool calls, 5 LLM requests</title>
 </rect>
 <rect class="day l0" x="182" y="183" width="10" height="10" rx="2">
   <title>2025-08-02: no stored session activity</title>
 </rect>
-<rect class="day l3" x="195" y="105" width="10" height="10" rx="2">
+<rect class="day l4" x="195" y="105" width="10" height="10" rx="2">
   <title>2025-08-03: 9 sessions, 16 prompts, 49 tool calls, 61 LLM requests</title>
 </rect>
 <rect class="day l0" x="195" y="118" width="10" height="10" rx="2">
   <title>2025-08-04: no stored session activity</title>
 </rect>
-<rect class="day l1" x="195" y="131" width="10" height="10" rx="2">
+<rect class="day l2" x="195" y="131" width="10" height="10" rx="2">
   <title>2025-08-05: 5 sessions, 1 prompts, 3 tool calls, 4 LLM requests</title>
 </rect>
-<rect class="day l2" x="195" y="144" width="10" height="10" rx="2">
+<rect class="day l3" x="195" y="144" width="10" height="10" rx="2">
   <title>2025-08-06: 4 sessions, 9 prompts, 92 tool calls, 74 LLM requests</title>
 </rect>
-<rect class="day l3" x="195" y="157" width="10" height="10" rx="2">
+<rect class="day l4" x="195" y="157" width="10" height="10" rx="2">
   <title>2025-08-07: 2 sessions, 32 prompts, 277 tool calls, 60 LLM requests</title>
 </rect>
-<rect class="day l3" x="195" y="170" width="10" height="10" rx="2">
+<rect class="day l4" x="195" y="170" width="10" height="10" rx="2">
   <title>2025-08-08: 7 sessions, 18 prompts, 98 tool calls, 39 LLM requests</title>
 </rect>
-<rect class="day l1" x="195" y="183" width="10" height="10" rx="2">
+<rect class="day l2" x="195" y="183" width="10" height="10" rx="2">
   <title>2025-08-09: 1 sessions, 3 prompts, 48 tool calls, 9 LLM requests</title>
 </rect>
-<rect class="day l1" x="208" y="105" width="10" height="10" rx="2">
+<rect class="day l2" x="208" y="105" width="10" height="10" rx="2">
   <title>2025-08-10: 1 sessions, 6 prompts, 30 tool calls, 16 LLM requests</title>
 </rect>
-<rect class="day l2" x="208" y="118" width="10" height="10" rx="2">
+<rect class="day l3" x="208" y="118" width="10" height="10" rx="2">
   <title>2025-08-11: 4 sessions, 9 prompts, 54 tool calls, 26 LLM requests</title>
 </rect>
 <rect class="day l0" x="208" y="131" width="10" height="10" rx="2">
   <title>2025-08-12: no stored session activity</title>
 </rect>
-<rect class="day l2" x="208" y="144" width="10" height="10" rx="2">
+<rect class="day l3" x="208" y="144" width="10" height="10" rx="2">
   <title>2025-08-13: 2 sessions, 23 prompts, 82 tool calls, 39 LLM requests</title>
 </rect>
-<rect class="day l2" x="208" y="157" width="10" height="10" rx="2">
+<rect class="day l3" x="208" y="157" width="10" height="10" rx="2">
   <title>2025-08-14: 2 sessions, 12 prompts, 98 tool calls, 27 LLM requests</title>
 </rect>
 <rect class="day l0" x="208" y="170" width="10" height="10" rx="2">
@@ -277,13 +277,13 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l1" x="221" y="157" width="10" height="10" rx="2">
   <title>2025-08-21: 1 sessions, 3 prompts, 1 tool calls, 4 LLM requests</title>
 </rect>
-<rect class="day l3" x="221" y="170" width="10" height="10" rx="2">
+<rect class="day l4" x="221" y="170" width="10" height="10" rx="2">
   <title>2025-08-22: 4 sessions, 18 prompts, 136 tool calls, 55 LLM requests</title>
 </rect>
 <rect class="day l0" x="221" y="183" width="10" height="10" rx="2">
   <title>2025-08-23: no stored session activity</title>
 </rect>
-<rect class="day l2" x="234" y="105" width="10" height="10" rx="2">
+<rect class="day l3" x="234" y="105" width="10" height="10" rx="2">
   <title>2025-08-24: 2 sessions, 10 prompts, 30 tool calls, 20 LLM requests</title>
 </rect>
 <rect class="day l0" x="234" y="118" width="10" height="10" rx="2">
@@ -292,55 +292,55 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="234" y="131" width="10" height="10" rx="2">
   <title>2025-08-26: no stored session activity</title>
 </rect>
-<rect class="day l2" x="234" y="144" width="10" height="10" rx="2">
+<rect class="day l3" x="234" y="144" width="10" height="10" rx="2">
   <title>2025-08-27: 2 sessions, 7 prompts, 126 tool calls, 61 LLM requests</title>
 </rect>
 <rect class="day l1" x="234" y="157" width="10" height="10" rx="2">
   <title>2025-08-28: 1 sessions, 1 prompts, 10 tool calls, 4 LLM requests</title>
 </rect>
-<rect class="day l1" x="234" y="170" width="10" height="10" rx="2">
+<rect class="day l2" x="234" y="170" width="10" height="10" rx="2">
   <title>2025-08-29: 2 sessions, 4 prompts, 8 tool calls, 9 LLM requests</title>
 </rect>
 <rect class="day l0" x="234" y="183" width="10" height="10" rx="2">
   <title>2025-08-30: no stored session activity</title>
 </rect>
-<rect class="day l2" x="247" y="105" width="10" height="10" rx="2">
+<rect class="day l3" x="247" y="105" width="10" height="10" rx="2">
   <title>2025-08-31: 1 sessions, 13 prompts, 41 tool calls, 36 LLM requests</title>
 </rect>
-<rect class="day l2" x="247" y="118" width="10" height="10" rx="2">
+<rect class="day l3" x="247" y="118" width="10" height="10" rx="2">
   <title>2025-09-01: 7 sessions, 12 prompts, 50 tool calls, 21 LLM requests</title>
 </rect>
-<rect class="day l1" x="247" y="131" width="10" height="10" rx="2">
+<rect class="day l2" x="247" y="131" width="10" height="10" rx="2">
   <title>2025-09-02: 1 sessions, 4 prompts, 29 tool calls, 9 LLM requests</title>
 </rect>
-<rect class="day l1" x="247" y="144" width="10" height="10" rx="2">
+<rect class="day l2" x="247" y="144" width="10" height="10" rx="2">
   <title>2025-09-03: 1 sessions, 4 prompts, 16 tool calls, 14 LLM requests</title>
 </rect>
-<rect class="day l2" x="247" y="157" width="10" height="10" rx="2">
+<rect class="day l3" x="247" y="157" width="10" height="10" rx="2">
   <title>2025-09-04: 1 sessions, 11 prompts, 63 tool calls, 21 LLM requests</title>
 </rect>
-<rect class="day l2" x="247" y="170" width="10" height="10" rx="2">
+<rect class="day l3" x="247" y="170" width="10" height="10" rx="2">
   <title>2025-09-05: 6 sessions, 9 prompts, 26 tool calls, 18 LLM requests</title>
 </rect>
-<rect class="day l2" x="247" y="183" width="10" height="10" rx="2">
+<rect class="day l3" x="247" y="183" width="10" height="10" rx="2">
   <title>2025-09-06: 4 sessions, 12 prompts, 73 tool calls, 29 LLM requests</title>
 </rect>
-<rect class="day l3" x="260" y="105" width="10" height="10" rx="2">
+<rect class="day l4" x="260" y="105" width="10" height="10" rx="2">
   <title>2025-09-07: 6 sessions, 19 prompts, 73 tool calls, 44 LLM requests</title>
 </rect>
-<rect class="day l3" x="260" y="118" width="10" height="10" rx="2">
+<rect class="day l4" x="260" y="118" width="10" height="10" rx="2">
   <title>2025-09-08: 6 sessions, 25 prompts, 68 tool calls, 55 LLM requests</title>
 </rect>
-<rect class="day l2" x="260" y="131" width="10" height="10" rx="2">
+<rect class="day l3" x="260" y="131" width="10" height="10" rx="2">
   <title>2025-09-09: 6 sessions, 12 prompts, 79 tool calls, 31 LLM requests</title>
 </rect>
 <rect class="day l4" x="260" y="144" width="10" height="10" rx="2">
   <title>2025-09-10: 7 sessions, 45 prompts, 299 tool calls, 132 LLM requests</title>
 </rect>
-<rect class="day l3" x="260" y="157" width="10" height="10" rx="2">
+<rect class="day l4" x="260" y="157" width="10" height="10" rx="2">
   <title>2025-09-11: 7 sessions, 15 prompts, 88 tool calls, 45 LLM requests</title>
 </rect>
-<rect class="day l3" x="260" y="170" width="10" height="10" rx="2">
+<rect class="day l4" x="260" y="170" width="10" height="10" rx="2">
   <title>2025-09-12: 2 sessions, 15 prompts, 219 tool calls, 47 LLM requests</title>
 </rect>
 <rect class="day l0" x="260" y="183" width="10" height="10" rx="2">
@@ -352,7 +352,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l1" x="273" y="118" width="10" height="10" rx="2">
   <title>2025-09-15: 1 sessions, 1 prompts, 2 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l2" x="273" y="131" width="10" height="10" rx="2">
+<rect class="day l3" x="273" y="131" width="10" height="10" rx="2">
   <title>2025-09-16: 2 sessions, 28 prompts, 72 tool calls, 0 LLM requests</title>
 </rect>
 <rect class="day l1" x="273" y="144" width="10" height="10" rx="2">
@@ -361,7 +361,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="273" y="157" width="10" height="10" rx="2">
   <title>2025-09-18: no stored session activity</title>
 </rect>
-<rect class="day l1" x="273" y="170" width="10" height="10" rx="2">
+<rect class="day l2" x="273" y="170" width="10" height="10" rx="2">
   <title>2025-09-19: 2 sessions, 6 prompts, 4 tool calls, 0 LLM requests</title>
 </rect>
 <rect class="day l1" x="273" y="183" width="10" height="10" rx="2">
@@ -391,7 +391,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="299" y="105" width="10" height="10" rx="2">
   <title>2025-09-28: no stored session activity</title>
 </rect>
-<rect class="day l2" x="299" y="118" width="10" height="10" rx="2">
+<rect class="day l3" x="299" y="118" width="10" height="10" rx="2">
   <title>2025-09-29: 1 sessions, 14 prompts, 99 tool calls, 0 LLM requests</title>
 </rect>
 <rect class="day l1" x="299" y="131" width="10" height="10" rx="2">
@@ -403,10 +403,10 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="299" y="157" width="10" height="10" rx="2">
   <title>2025-10-02: no stored session activity</title>
 </rect>
-<rect class="day l2" x="299" y="170" width="10" height="10" rx="2">
+<rect class="day l3" x="299" y="170" width="10" height="10" rx="2">
   <title>2025-10-03: 2 sessions, 32 prompts, 75 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l2" x="299" y="183" width="10" height="10" rx="2">
+<rect class="day l3" x="299" y="183" width="10" height="10" rx="2">
   <title>2025-10-04: 8 sessions, 0 prompts, 0 tool calls, 0 LLM requests</title>
 </rect>
 <rect class="day l0" x="312" y="105" width="10" height="10" rx="2">
@@ -415,10 +415,10 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l1" x="312" y="118" width="10" height="10" rx="2">
   <title>2025-10-06: 1 sessions, 2 prompts, 4 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l2" x="312" y="131" width="10" height="10" rx="2">
+<rect class="day l3" x="312" y="131" width="10" height="10" rx="2">
   <title>2025-10-07: 1 sessions, 25 prompts, 57 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l3" x="312" y="144" width="10" height="10" rx="2">
+<rect class="day l4" x="312" y="144" width="10" height="10" rx="2">
   <title>2025-10-08: 4 sessions, 44 prompts, 103 tool calls, 0 LLM requests</title>
 </rect>
 <rect class="day l0" x="312" y="157" width="10" height="10" rx="2">
@@ -427,7 +427,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="312" y="170" width="10" height="10" rx="2">
   <title>2025-10-10: no stored session activity</title>
 </rect>
-<rect class="day l1" x="312" y="183" width="10" height="10" rx="2">
+<rect class="day l2" x="312" y="183" width="10" height="10" rx="2">
   <title>2025-10-11: 2 sessions, 5 prompts, 35 tool calls, 0 LLM requests</title>
 </rect>
 <rect class="day l0" x="325" y="105" width="10" height="10" rx="2">
@@ -436,10 +436,10 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="325" y="118" width="10" height="10" rx="2">
   <title>2025-10-13: no stored session activity</title>
 </rect>
-<rect class="day l1" x="325" y="131" width="10" height="10" rx="2">
+<rect class="day l2" x="325" y="131" width="10" height="10" rx="2">
   <title>2025-10-14: 4 sessions, 0 prompts, 0 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l1" x="325" y="144" width="10" height="10" rx="2">
+<rect class="day l2" x="325" y="144" width="10" height="10" rx="2">
   <title>2025-10-15: 1 sessions, 6 prompts, 24 tool calls, 0 LLM requests</title>
 </rect>
 <rect class="day l1" x="325" y="157" width="10" height="10" rx="2">
@@ -454,10 +454,10 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l1" x="338" y="105" width="10" height="10" rx="2">
   <title>2025-10-19: 1 sessions, 2 prompts, 20 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l1" x="338" y="118" width="10" height="10" rx="2">
+<rect class="day l2" x="338" y="118" width="10" height="10" rx="2">
   <title>2025-10-20: 1 sessions, 8 prompts, 10 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l2" x="338" y="131" width="10" height="10" rx="2">
+<rect class="day l3" x="338" y="131" width="10" height="10" rx="2">
   <title>2025-10-21: 1 sessions, 18 prompts, 51 tool calls, 0 LLM requests</title>
 </rect>
 <rect class="day l0" x="338" y="144" width="10" height="10" rx="2">
@@ -466,7 +466,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="338" y="157" width="10" height="10" rx="2">
   <title>2025-10-23: no stored session activity</title>
 </rect>
-<rect class="day l1" x="338" y="170" width="10" height="10" rx="2">
+<rect class="day l2" x="338" y="170" width="10" height="10" rx="2">
   <title>2025-10-24: 1 sessions, 8 prompts, 29 tool calls, 0 LLM requests</title>
 </rect>
 <rect class="day l0" x="338" y="183" width="10" height="10" rx="2">
@@ -481,13 +481,13 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l1" x="351" y="131" width="10" height="10" rx="2">
   <title>2025-10-28: 2 sessions, 0 prompts, 0 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l3" x="351" y="144" width="10" height="10" rx="2">
+<rect class="day l4" x="351" y="144" width="10" height="10" rx="2">
   <title>2025-10-29: 3 sessions, 73 prompts, 168 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l3" x="351" y="157" width="10" height="10" rx="2">
+<rect class="day l4" x="351" y="157" width="10" height="10" rx="2">
   <title>2025-10-30: 6 sessions, 25 prompts, 74 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l3" x="351" y="170" width="10" height="10" rx="2">
+<rect class="day l4" x="351" y="170" width="10" height="10" rx="2">
   <title>2025-10-31: 11 sessions, 44 prompts, 143 tool calls, 0 LLM requests</title>
 </rect>
 <rect class="day l0" x="351" y="183" width="10" height="10" rx="2">
@@ -511,28 +511,28 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="364" y="170" width="10" height="10" rx="2">
   <title>2025-11-07: no stored session activity</title>
 </rect>
-<rect class="day l1" x="364" y="183" width="10" height="10" rx="2">
+<rect class="day l2" x="364" y="183" width="10" height="10" rx="2">
   <title>2025-11-08: 1 sessions, 7 prompts, 32 tool calls, 0 LLM requests</title>
 </rect>
 <rect class="day l1" x="377" y="105" width="10" height="10" rx="2">
   <title>2025-11-09: 1 sessions, 3 prompts, 0 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l1" x="377" y="118" width="10" height="10" rx="2">
+<rect class="day l2" x="377" y="118" width="10" height="10" rx="2">
   <title>2025-11-10: 1 sessions, 5 prompts, 22 tool calls, 0 LLM requests</title>
 </rect>
 <rect class="day l1" x="377" y="131" width="10" height="10" rx="2">
   <title>2025-11-11: 2 sessions, 1 prompts, 2 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l2" x="377" y="144" width="10" height="10" rx="2">
+<rect class="day l3" x="377" y="144" width="10" height="10" rx="2">
   <title>2025-11-12: 1 sessions, 26 prompts, 66 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l3" x="377" y="157" width="10" height="10" rx="2">
+<rect class="day l4" x="377" y="157" width="10" height="10" rx="2">
   <title>2025-11-13: 6 sessions, 41 prompts, 180 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l3" x="377" y="170" width="10" height="10" rx="2">
+<rect class="day l4" x="377" y="170" width="10" height="10" rx="2">
   <title>2025-11-14: 7 sessions, 43 prompts, 57 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l2" x="377" y="183" width="10" height="10" rx="2">
+<rect class="day l3" x="377" y="183" width="10" height="10" rx="2">
   <title>2025-11-15: 5 sessions, 5 prompts, 48 tool calls, 21 LLM requests</title>
 </rect>
 <rect class="day l0" x="390" y="105" width="10" height="10" rx="2">
@@ -541,28 +541,28 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="390" y="118" width="10" height="10" rx="2">
   <title>2025-11-17: no stored session activity</title>
 </rect>
-<rect class="day l1" x="390" y="131" width="10" height="10" rx="2">
+<rect class="day l2" x="390" y="131" width="10" height="10" rx="2">
   <title>2025-11-18: 1 sessions, 8 prompts, 30 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l1" x="390" y="144" width="10" height="10" rx="2">
+<rect class="day l2" x="390" y="144" width="10" height="10" rx="2">
   <title>2025-11-19: 1 sessions, 6 prompts, 12 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l1" x="390" y="157" width="10" height="10" rx="2">
+<rect class="day l2" x="390" y="157" width="10" height="10" rx="2">
   <title>2025-11-20: 2 sessions, 10 prompts, 26 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l2" x="390" y="170" width="10" height="10" rx="2">
+<rect class="day l3" x="390" y="170" width="10" height="10" rx="2">
   <title>2025-11-21: 4 sessions, 29 prompts, 62 tool calls, 0 LLM requests</title>
 </rect>
 <rect class="day l0" x="390" y="183" width="10" height="10" rx="2">
   <title>2025-11-22: no stored session activity</title>
 </rect>
-<rect class="day l2" x="403" y="105" width="10" height="10" rx="2">
+<rect class="day l3" x="403" y="105" width="10" height="10" rx="2">
   <title>2025-11-23: 1 sessions, 18 prompts, 56 tool calls, 0 LLM requests</title>
 </rect>
 <rect class="day l0" x="403" y="118" width="10" height="10" rx="2">
   <title>2025-11-24: no stored session activity</title>
 </rect>
-<rect class="day l2" x="403" y="131" width="10" height="10" rx="2">
+<rect class="day l3" x="403" y="131" width="10" height="10" rx="2">
   <title>2025-11-25: 2 sessions, 19 prompts, 68 tool calls, 0 LLM requests</title>
 </rect>
 <rect class="day l0" x="403" y="144" width="10" height="10" rx="2">
@@ -592,7 +592,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="416" y="157" width="10" height="10" rx="2">
   <title>2025-12-04: no stored session activity</title>
 </rect>
-<rect class="day l2" x="416" y="170" width="10" height="10" rx="2">
+<rect class="day l3" x="416" y="170" width="10" height="10" rx="2">
   <title>2025-12-05: 3 sessions, 22 prompts, 147 tool calls, 0 LLM requests</title>
 </rect>
 <rect class="day l0" x="416" y="183" width="10" height="10" rx="2">
@@ -604,23 +604,23 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="429" y="118" width="10" height="10" rx="2">
   <title>2025-12-08: no stored session activity</title>
 </rect>
-<rect class="day l3" x="429" y="131" width="10" height="10" rx="2">
+<rect class="day l4" x="429" y="131" width="10" height="10" rx="2">
   <title>2025-12-09: 4 sessions, 34 prompts, 102 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l2" x="429" y="144" width="10" height="10" rx="2">
+<rect class="day l3" x="429" y="144" width="10" height="10" rx="2">
   <title>2025-12-10: 4 sessions, 17 prompts, 49 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l3" x="429" y="157" width="10" height="10" rx="2">
+<rect class="day l4" x="429" y="157" width="10" height="10" rx="2">
   <title>2025-12-11: 5 sessions, 63 prompts, 165 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l2" x="429" y="170" width="10" height="10" rx="2">
+<rect class="day l3" x="429" y="170" width="10" height="10" rx="2">
   <title>2025-12-12: 2 sessions, 25 prompts, 56 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l2" x="429" y="183" width="10" height="10" rx="2">
+<rect class="day l3" x="429" y="183" width="10" height="10" rx="2">
   <title>2025-12-13: 2 sessions, 26 prompts, 24 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l4" x="442" y="105" width="10" height="10" rx="2">
-  <title>2025-12-14: 9 sessions, 51 prompts, 185 tool calls, 212 LLM requests</title>
+<rect class="day l2" x="442" y="105" width="10" height="10" rx="2">
+  <title>2025-12-14: 4 sessions, 1 prompts, 0 tool calls, 1 LLM requests</title>
 </rect>
 <rect class="day l0" x="442" y="118" width="10" height="10" rx="2">
   <title>2025-12-15: no stored session activity</title>
@@ -628,38 +628,38 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="442" y="131" width="10" height="10" rx="2">
   <title>2025-12-16: no stored session activity</title>
 </rect>
-<rect class="day l2" x="442" y="144" width="10" height="10" rx="2">
-  <title>2025-12-17: 7 sessions, 13 prompts, 0 tool calls, 3 LLM requests</title>
+<rect class="day l3" x="442" y="144" width="10" height="10" rx="2">
+  <title>2025-12-17: 5 sessions, 6 prompts, 0 tool calls, 1 LLM requests</title>
 </rect>
-<rect class="day l2" x="442" y="157" width="10" height="10" rx="2">
-  <title>2025-12-18: 2 sessions, 28 prompts, 41 tool calls, 68 LLM requests</title>
+<rect class="day l0" x="442" y="157" width="10" height="10" rx="2">
+  <title>2025-12-18: no stored session activity</title>
 </rect>
-<rect class="day l1" x="442" y="170" width="10" height="10" rx="2">
-  <title>2025-12-19: 1 sessions, 3 prompts, 5 tool calls, 6 LLM requests</title>
+<rect class="day l0" x="442" y="170" width="10" height="10" rx="2">
+  <title>2025-12-19: no stored session activity</title>
 </rect>
-<rect class="day l2" x="442" y="183" width="10" height="10" rx="2">
-  <title>2025-12-20: 2 sessions, 15 prompts, 28 tool calls, 42 LLM requests</title>
+<rect class="day l0" x="442" y="183" width="10" height="10" rx="2">
+  <title>2025-12-20: no stored session activity</title>
 </rect>
-<rect class="day l4" x="455" y="105" width="10" height="10" rx="2">
-  <title>2025-12-21: 19 sessions, 86 prompts, 252 tool calls, 270 LLM requests</title>
+<rect class="day l1" x="455" y="105" width="10" height="10" rx="2">
+  <title>2025-12-21: 1 sessions, 0 prompts, 0 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l4" x="455" y="118" width="10" height="10" rx="2">
-  <title>2025-12-22: 8 sessions, 106 prompts, 160 tool calls, 239 LLM requests</title>
+<rect class="day l1" x="455" y="118" width="10" height="10" rx="2">
+  <title>2025-12-22: 1 sessions, 1 prompts, 0 tool calls, 1 LLM requests</title>
 </rect>
-<rect class="day l3" x="455" y="131" width="10" height="10" rx="2">
-  <title>2025-12-23: 9 sessions, 47 prompts, 141 tool calls, 167 LLM requests</title>
+<rect class="day l1" x="455" y="131" width="10" height="10" rx="2">
+  <title>2025-12-23: 1 sessions, 1 prompts, 0 tool calls, 1 LLM requests</title>
 </rect>
 <rect class="day l0" x="455" y="144" width="10" height="10" rx="2">
   <title>2025-12-24: no stored session activity</title>
 </rect>
 <rect class="day l1" x="455" y="157" width="10" height="10" rx="2">
-  <title>2025-12-25: 2 sessions, 5 prompts, 15 tool calls, 18 LLM requests</title>
+  <title>2025-12-25: 1 sessions, 1 prompts, 0 tool calls, 1 LLM requests</title>
 </rect>
 <rect class="day l0" x="455" y="170" width="10" height="10" rx="2">
   <title>2025-12-26: no stored session activity</title>
 </rect>
-<rect class="day l1" x="455" y="183" width="10" height="10" rx="2">
-  <title>2025-12-27: 1 sessions, 8 prompts, 19 tool calls, 26 LLM requests</title>
+<rect class="day l0" x="455" y="183" width="10" height="10" rx="2">
+  <title>2025-12-27: no stored session activity</title>
 </rect>
 <rect class="day l0" x="468" y="105" width="10" height="10" rx="2">
   <title>2025-12-28: no stored session activity</title>
@@ -673,200 +673,200 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="468" y="144" width="10" height="10" rx="2">
   <title>2025-12-31: no stored session activity</title>
 </rect>
-<rect class="day l1" x="468" y="157" width="10" height="10" rx="2">
-  <title>2026-01-01: 2 sessions, 9 prompts, 10 tool calls, 15 LLM requests</title>
+<rect class="day l0" x="468" y="157" width="10" height="10" rx="2">
+  <title>2026-01-01: no stored session activity</title>
 </rect>
-<rect class="day l2" x="468" y="170" width="10" height="10" rx="2">
-  <title>2026-01-02: 8 sessions, 7 prompts, 10 tool calls, 12 LLM requests</title>
+<rect class="day l3" x="468" y="170" width="10" height="10" rx="2">
+  <title>2026-01-02: 6 sessions, 0 prompts, 0 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l4" x="468" y="183" width="10" height="10" rx="2">
-  <title>2026-01-03: 13 sessions, 53 prompts, 351 tool calls, 559 LLM requests</title>
+<rect class="day l3" x="468" y="183" width="10" height="10" rx="2">
+  <title>2026-01-03: 7 sessions, 1 prompts, 2 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l4" x="481" y="105" width="10" height="10" rx="2">
-  <title>2026-01-04: 16 sessions, 70 prompts, 364 tool calls, 511 LLM requests</title>
+<rect class="day l3" x="481" y="105" width="10" height="10" rx="2">
+  <title>2026-01-04: 6 sessions, 2 prompts, 0 tool calls, 2 LLM requests</title>
 </rect>
 <rect class="day l1" x="481" y="118" width="10" height="10" rx="2">
-  <title>2026-01-05: 3 sessions, 4 prompts, 0 tool calls, 2 LLM requests</title>
+  <title>2026-01-05: 2 sessions, 2 prompts, 0 tool calls, 2 LLM requests</title>
 </rect>
 <rect class="day l4" x="481" y="131" width="10" height="10" rx="2">
-  <title>2026-01-06: 19 sessions, 33 prompts, 31 tool calls, 125 LLM requests</title>
+  <title>2026-01-06: 15 sessions, 21 prompts, 0 tool calls, 90 LLM requests</title>
 </rect>
-<rect class="day l3" x="481" y="144" width="10" height="10" rx="2">
-  <title>2026-01-07: 17 sessions, 42 prompts, 55 tool calls, 110 LLM requests</title>
+<rect class="day l4" x="481" y="144" width="10" height="10" rx="2">
+  <title>2026-01-07: 11 sessions, 24 prompts, 0 tool calls, 44 LLM requests</title>
 </rect>
 <rect class="day l3" x="481" y="157" width="10" height="10" rx="2">
-  <title>2026-01-08: 11 sessions, 31 prompts, 79 tool calls, 164 LLM requests</title>
+  <title>2026-01-08: 6 sessions, 16 prompts, 0 tool calls, 59 LLM requests</title>
 </rect>
-<rect class="day l4" x="481" y="170" width="10" height="10" rx="2">
-  <title>2026-01-09: 23 sessions, 66 prompts, 410 tool calls, 541 LLM requests</title>
+<rect class="day l3" x="481" y="170" width="10" height="10" rx="2">
+  <title>2026-01-09: 7 sessions, 9 prompts, 0 tool calls, 12 LLM requests</title>
 </rect>
-<rect class="day l4" x="481" y="183" width="10" height="10" rx="2">
-  <title>2026-01-10: 20 sessions, 63 prompts, 291 tool calls, 399 LLM requests</title>
+<rect class="day l3" x="481" y="183" width="10" height="10" rx="2">
+  <title>2026-01-10: 6 sessions, 6 prompts, 0 tool calls, 6 LLM requests</title>
 </rect>
 <rect class="day l3" x="494" y="105" width="10" height="10" rx="2">
-  <title>2026-01-11: 6 sessions, 25 prompts, 49 tool calls, 93 LLM requests</title>
+  <title>2026-01-11: 2 sessions, 9 prompts, 0 tool calls, 34 LLM requests</title>
 </rect>
-<rect class="day l3" x="494" y="118" width="10" height="10" rx="2">
-  <title>2026-01-12: 8 sessions, 30 prompts, 36 tool calls, 55 LLM requests</title>
+<rect class="day l1" x="494" y="118" width="10" height="10" rx="2">
+  <title>2026-01-12: 2 sessions, 2 prompts, 0 tool calls, 2 LLM requests</title>
 </rect>
 <rect class="day l3" x="494" y="131" width="10" height="10" rx="2">
-  <title>2026-01-13: 16 sessions, 22 prompts, 69 tool calls, 102 LLM requests</title>
+  <title>2026-01-13: 9 sessions, 4 prompts, 0 tool calls, 4 LLM requests</title>
 </rect>
-<rect class="day l4" x="494" y="144" width="10" height="10" rx="2">
-  <title>2026-01-14: 14 sessions, 55 prompts, 291 tool calls, 420 LLM requests</title>
+<rect class="day l3" x="494" y="144" width="10" height="10" rx="2">
+  <title>2026-01-14: 6 sessions, 13 prompts, 0 tool calls, 52 LLM requests</title>
 </rect>
-<rect class="day l4" x="494" y="157" width="10" height="10" rx="2">
-  <title>2026-01-15: 12 sessions, 47 prompts, 346 tool calls, 366 LLM requests</title>
+<rect class="day l1" x="494" y="157" width="10" height="10" rx="2">
+  <title>2026-01-15: 1 sessions, 1 prompts, 0 tool calls, 5 LLM requests</title>
 </rect>
-<rect class="day l4" x="494" y="170" width="10" height="10" rx="2">
-  <title>2026-01-16: 7 sessions, 30 prompts, 261 tool calls, 353 LLM requests</title>
+<rect class="day l2" x="494" y="170" width="10" height="10" rx="2">
+  <title>2026-01-16: 1 sessions, 5 prompts, 0 tool calls, 24 LLM requests</title>
 </rect>
-<rect class="day l3" x="494" y="183" width="10" height="10" rx="2">
-  <title>2026-01-17: 2 sessions, 25 prompts, 80 tool calls, 111 LLM requests</title>
+<rect class="day l0" x="494" y="183" width="10" height="10" rx="2">
+  <title>2026-01-17: no stored session activity</title>
 </rect>
-<rect class="day l4" x="507" y="105" width="10" height="10" rx="2">
-  <title>2026-01-18: 15 sessions, 87 prompts, 635 tool calls, 923 LLM requests</title>
+<rect class="day l2" x="507" y="105" width="10" height="10" rx="2">
+  <title>2026-01-18: 1 sessions, 1 prompts, 0 tool calls, 39 LLM requests</title>
 </rect>
-<rect class="day l4" x="507" y="118" width="10" height="10" rx="2">
-  <title>2026-01-19: 8 sessions, 88 prompts, 279 tool calls, 355 LLM requests</title>
+<rect class="day l1" x="507" y="118" width="10" height="10" rx="2">
+  <title>2026-01-19: 1 sessions, 1 prompts, 0 tool calls, 5 LLM requests</title>
 </rect>
 <rect class="day l0" x="507" y="131" width="10" height="10" rx="2">
   <title>2026-01-20: no stored session activity</title>
 </rect>
-<rect class="day l2" x="507" y="144" width="10" height="10" rx="2">
-  <title>2026-01-21: 1 sessions, 14 prompts, 44 tool calls, 59 LLM requests</title>
+<rect class="day l0" x="507" y="144" width="10" height="10" rx="2">
+  <title>2026-01-21: no stored session activity</title>
 </rect>
-<rect class="day l2" x="507" y="157" width="10" height="10" rx="2">
-  <title>2026-01-22: 3 sessions, 7 prompts, 21 tool calls, 24 LLM requests</title>
+<rect class="day l1" x="507" y="157" width="10" height="10" rx="2">
+  <title>2026-01-22: 1 sessions, 1 prompts, 0 tool calls, 1 LLM requests</title>
 </rect>
-<rect class="day l1" x="507" y="170" width="10" height="10" rx="2">
-  <title>2026-01-23: 1 sessions, 3 prompts, 9 tool calls, 10 LLM requests</title>
+<rect class="day l0" x="507" y="170" width="10" height="10" rx="2">
+  <title>2026-01-23: no stored session activity</title>
 </rect>
-<rect class="day l3" x="507" y="183" width="10" height="10" rx="2">
-  <title>2026-01-24: 6 sessions, 24 prompts, 144 tool calls, 171 LLM requests</title>
+<rect class="day l0" x="507" y="183" width="10" height="10" rx="2">
+  <title>2026-01-24: no stored session activity</title>
 </rect>
-<rect class="day l3" x="520" y="105" width="10" height="10" rx="2">
-  <title>2026-01-25: 1 sessions, 25 prompts, 82 tool calls, 98 LLM requests</title>
+<rect class="day l0" x="520" y="105" width="10" height="10" rx="2">
+  <title>2026-01-25: no stored session activity</title>
 </rect>
-<rect class="day l3" x="520" y="118" width="10" height="10" rx="2">
-  <title>2026-01-26: 2 sessions, 24 prompts, 74 tool calls, 86 LLM requests</title>
+<rect class="day l1" x="520" y="118" width="10" height="10" rx="2">
+  <title>2026-01-26: 1 sessions, 1 prompts, 0 tool calls, 1 LLM requests</title>
 </rect>
-<rect class="day l1" x="520" y="131" width="10" height="10" rx="2">
-  <title>2026-01-27: 1 sessions, 5 prompts, 4 tool calls, 6 LLM requests</title>
+<rect class="day l0" x="520" y="131" width="10" height="10" rx="2">
+  <title>2026-01-27: no stored session activity</title>
 </rect>
-<rect class="day l2" x="520" y="144" width="10" height="10" rx="2">
-  <title>2026-01-28: 5 sessions, 17 prompts, 17 tool calls, 26 LLM requests</title>
+<rect class="day l0" x="520" y="144" width="10" height="10" rx="2">
+  <title>2026-01-28: no stored session activity</title>
 </rect>
-<rect class="day l1" x="520" y="157" width="10" height="10" rx="2">
-  <title>2026-01-29: 1 sessions, 3 prompts, 0 tool calls, 1 LLM requests</title>
+<rect class="day l0" x="520" y="157" width="10" height="10" rx="2">
+  <title>2026-01-29: no stored session activity</title>
 </rect>
-<rect class="day l4" x="520" y="170" width="10" height="10" rx="2">
-  <title>2026-01-30: 6 sessions, 43 prompts, 747 tool calls, 719 LLM requests</title>
+<rect class="day l0" x="520" y="170" width="10" height="10" rx="2">
+  <title>2026-01-30: no stored session activity</title>
 </rect>
-<rect class="day l3" x="520" y="183" width="10" height="10" rx="2">
-  <title>2026-01-31: 3 sessions, 21 prompts, 101 tool calls, 119 LLM requests</title>
+<rect class="day l0" x="520" y="183" width="10" height="10" rx="2">
+  <title>2026-01-31: no stored session activity</title>
 </rect>
-<rect class="day l4" x="533" y="105" width="10" height="10" rx="2">
-  <title>2026-02-01: 10 sessions, 82 prompts, 184 tool calls, 276 LLM requests</title>
+<rect class="day l2" x="533" y="105" width="10" height="10" rx="2">
+  <title>2026-02-01: 3 sessions, 3 prompts, 0 tool calls, 3 LLM requests</title>
 </rect>
-<rect class="day l3" x="533" y="118" width="10" height="10" rx="2">
-  <title>2026-02-02: 5 sessions, 22 prompts, 116 tool calls, 161 LLM requests</title>
+<rect class="day l0" x="533" y="118" width="10" height="10" rx="2">
+  <title>2026-02-02: no stored session activity</title>
 </rect>
-<rect class="day l2" x="533" y="131" width="10" height="10" rx="2">
-  <title>2026-02-03: 2 sessions, 8 prompts, 54 tool calls, 61 LLM requests</title>
+<rect class="day l0" x="533" y="131" width="10" height="10" rx="2">
+  <title>2026-02-03: no stored session activity</title>
 </rect>
-<rect class="day l3" x="533" y="144" width="10" height="10" rx="2">
-  <title>2026-02-04: 7 sessions, 28 prompts, 31 tool calls, 42 LLM requests</title>
+<rect class="day l0" x="533" y="144" width="10" height="10" rx="2">
+  <title>2026-02-04: no stored session activity</title>
 </rect>
-<rect class="day l3" x="533" y="157" width="10" height="10" rx="2">
-  <title>2026-02-05: 3 sessions, 26 prompts, 77 tool calls, 88 LLM requests</title>
+<rect class="day l0" x="533" y="157" width="10" height="10" rx="2">
+  <title>2026-02-05: no stored session activity</title>
 </rect>
-<rect class="day l3" x="533" y="170" width="10" height="10" rx="2">
-  <title>2026-02-06: 1 sessions, 23 prompts, 126 tool calls, 95 LLM requests</title>
+<rect class="day l0" x="533" y="170" width="10" height="10" rx="2">
+  <title>2026-02-06: no stored session activity</title>
 </rect>
-<rect class="day l3" x="533" y="183" width="10" height="10" rx="2">
-  <title>2026-02-07: 2 sessions, 22 prompts, 216 tool calls, 159 LLM requests</title>
+<rect class="day l0" x="533" y="183" width="10" height="10" rx="2">
+  <title>2026-02-07: no stored session activity</title>
 </rect>
-<rect class="day l3" x="546" y="105" width="10" height="10" rx="2">
-  <title>2026-02-08: 2 sessions, 9 prompts, 137 tool calls, 133 LLM requests</title>
+<rect class="day l0" x="546" y="105" width="10" height="10" rx="2">
+  <title>2026-02-08: no stored session activity</title>
 </rect>
-<rect class="day l4" x="546" y="118" width="10" height="10" rx="2">
-  <title>2026-02-09: 8 sessions, 68 prompts, 310 tool calls, 260 LLM requests</title>
+<rect class="day l1" x="546" y="118" width="10" height="10" rx="2">
+  <title>2026-02-09: 2 sessions, 0 prompts, 0 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l4" x="546" y="131" width="10" height="10" rx="2">
-  <title>2026-02-10: 22 sessions, 81 prompts, 1,802 tool calls, 1,303 LLM requests</title>
+<rect class="day l0" x="546" y="131" width="10" height="10" rx="2">
+  <title>2026-02-10: no stored session activity</title>
 </rect>
 <rect class="day l3" x="546" y="144" width="10" height="10" rx="2">
-  <title>2026-02-11: 8 sessions, 15 prompts, 184 tool calls, 181 LLM requests</title>
+  <title>2026-02-11: 6 sessions, 0 prompts, 0 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l3" x="546" y="157" width="10" height="10" rx="2">
-  <title>2026-02-12: 3 sessions, 19 prompts, 136 tool calls, 109 LLM requests</title>
+<rect class="day l0" x="546" y="157" width="10" height="10" rx="2">
+  <title>2026-02-12: no stored session activity</title>
 </rect>
-<rect class="day l3" x="546" y="170" width="10" height="10" rx="2">
-  <title>2026-02-13: 8 sessions, 15 prompts, 67 tool calls, 53 LLM requests</title>
+<rect class="day l2" x="546" y="170" width="10" height="10" rx="2">
+  <title>2026-02-13: 5 sessions, 0 prompts, 0 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l3" x="546" y="183" width="10" height="10" rx="2">
-  <title>2026-02-14: 2 sessions, 19 prompts, 184 tool calls, 153 LLM requests</title>
+<rect class="day l0" x="546" y="183" width="10" height="10" rx="2">
+  <title>2026-02-14: no stored session activity</title>
 </rect>
-<rect class="day l4" x="559" y="105" width="10" height="10" rx="2">
-  <title>2026-02-15: 3 sessions, 105 prompts, 101 tool calls, 154 LLM requests</title>
+<rect class="day l0" x="559" y="105" width="10" height="10" rx="2">
+  <title>2026-02-15: no stored session activity</title>
 </rect>
-<rect class="day l3" x="559" y="118" width="10" height="10" rx="2">
-  <title>2026-02-16: 10 sessions, 48 prompts, 137 tool calls, 120 LLM requests</title>
+<rect class="day l0" x="559" y="118" width="10" height="10" rx="2">
+  <title>2026-02-16: no stored session activity</title>
 </rect>
-<rect class="day l3" x="559" y="131" width="10" height="10" rx="2">
-  <title>2026-02-17: 3 sessions, 48 prompts, 117 tool calls, 92 LLM requests</title>
+<rect class="day l0" x="559" y="131" width="10" height="10" rx="2">
+  <title>2026-02-17: no stored session activity</title>
 </rect>
-<rect class="day l4" x="559" y="144" width="10" height="10" rx="2">
-  <title>2026-02-18: 5 sessions, 91 prompts, 209 tool calls, 204 LLM requests</title>
+<rect class="day l0" x="559" y="144" width="10" height="10" rx="2">
+  <title>2026-02-18: no stored session activity</title>
 </rect>
-<rect class="day l4" x="559" y="157" width="10" height="10" rx="2">
-  <title>2026-02-19: 9 sessions, 91 prompts, 448 tool calls, 344 LLM requests</title>
+<rect class="day l0" x="559" y="157" width="10" height="10" rx="2">
+  <title>2026-02-19: no stored session activity</title>
 </rect>
-<rect class="day l4" x="559" y="170" width="10" height="10" rx="2">
-  <title>2026-02-20: 2 sessions, 81 prompts, 387 tool calls, 315 LLM requests</title>
+<rect class="day l0" x="559" y="170" width="10" height="10" rx="2">
+  <title>2026-02-20: no stored session activity</title>
 </rect>
-<rect class="day l4" x="559" y="183" width="10" height="10" rx="2">
-  <title>2026-02-21: 5 sessions, 39 prompts, 379 tool calls, 300 LLM requests</title>
+<rect class="day l1" x="559" y="183" width="10" height="10" rx="2">
+  <title>2026-02-21: 2 sessions, 0 prompts, 0 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l2" x="572" y="105" width="10" height="10" rx="2">
-  <title>2026-02-22: 1 sessions, 14 prompts, 103 tool calls, 113 LLM requests</title>
+<rect class="day l0" x="572" y="105" width="10" height="10" rx="2">
+  <title>2026-02-22: no stored session activity</title>
 </rect>
-<rect class="day l2" x="572" y="118" width="10" height="10" rx="2">
-  <title>2026-02-23: 2 sessions, 10 prompts, 16 tool calls, 15 LLM requests</title>
+<rect class="day l0" x="572" y="118" width="10" height="10" rx="2">
+  <title>2026-02-23: no stored session activity</title>
 </rect>
-<rect class="day l3" x="572" y="131" width="10" height="10" rx="2">
-  <title>2026-02-24: 6 sessions, 29 prompts, 97 tool calls, 103 LLM requests</title>
+<rect class="day l1" x="572" y="131" width="10" height="10" rx="2">
+  <title>2026-02-24: 2 sessions, 0 prompts, 0 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l4" x="572" y="144" width="10" height="10" rx="2">
-  <title>2026-02-25: 12 sessions, 116 prompts, 440 tool calls, 365 LLM requests</title>
+<rect class="day l1" x="572" y="144" width="10" height="10" rx="2">
+  <title>2026-02-25: 2 sessions, 0 prompts, 0 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l3" x="572" y="157" width="10" height="10" rx="2">
-  <title>2026-02-26: 4 sessions, 68 prompts, 104 tool calls, 134 LLM requests</title>
+<rect class="day l0" x="572" y="157" width="10" height="10" rx="2">
+  <title>2026-02-26: no stored session activity</title>
 </rect>
-<rect class="day l2" x="572" y="170" width="10" height="10" rx="2">
-  <title>2026-02-27: 2 sessions, 12 prompts, 14 tool calls, 17 LLM requests</title>
+<rect class="day l0" x="572" y="170" width="10" height="10" rx="2">
+  <title>2026-02-27: no stored session activity</title>
 </rect>
-<rect class="day l3" x="572" y="183" width="10" height="10" rx="2">
-  <title>2026-02-28: 2 sessions, 12 prompts, 160 tool calls, 98 LLM requests</title>
+<rect class="day l0" x="572" y="183" width="10" height="10" rx="2">
+  <title>2026-02-28: no stored session activity</title>
 </rect>
 <rect class="day l0" x="585" y="105" width="10" height="10" rx="2">
   <title>2026-03-01: no stored session activity</title>
 </rect>
-<rect class="day l4" x="585" y="118" width="10" height="10" rx="2">
-  <title>2026-03-02: 8 sessions, 119 prompts, 289 tool calls, 285 LLM requests</title>
+<rect class="day l1" x="585" y="118" width="10" height="10" rx="2">
+  <title>2026-03-02: 2 sessions, 0 prompts, 0 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l3" x="585" y="131" width="10" height="10" rx="2">
-  <title>2026-03-03: 7 sessions, 8 prompts, 95 tool calls, 76 LLM requests</title>
+<rect class="day l2" x="585" y="131" width="10" height="10" rx="2">
+  <title>2026-03-03: 5 sessions, 0 prompts, 0 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l2" x="585" y="144" width="10" height="10" rx="2">
-  <title>2026-03-04: 2 sessions, 8 prompts, 88 tool calls, 56 LLM requests</title>
+<rect class="day l0" x="585" y="144" width="10" height="10" rx="2">
+  <title>2026-03-04: no stored session activity</title>
 </rect>
-<rect class="day l3" x="585" y="157" width="10" height="10" rx="2">
-  <title>2026-03-05: 2 sessions, 21 prompts, 272 tool calls, 219 LLM requests</title>
+<rect class="day l0" x="585" y="157" width="10" height="10" rx="2">
+  <title>2026-03-05: no stored session activity</title>
 </rect>
-<rect class="day l2" x="585" y="170" width="10" height="10" rx="2">
-  <title>2026-03-06: 2 sessions, 6 prompts, 78 tool calls, 40 LLM requests</title>
+<rect class="day l0" x="585" y="170" width="10" height="10" rx="2">
+  <title>2026-03-06: no stored session activity</title>
 </rect>
 <rect class="day l0" x="585" y="183" width="10" height="10" rx="2">
   <title>2026-03-07: no stored session activity</title>
@@ -874,53 +874,53 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="598" y="105" width="10" height="10" rx="2">
   <title>2026-03-08: no stored session activity</title>
 </rect>
-<rect class="day l4" x="598" y="118" width="10" height="10" rx="2">
-  <title>2026-03-09: 6 sessions, 44 prompts, 374 tool calls, 247 LLM requests</title>
+<rect class="day l2" x="598" y="118" width="10" height="10" rx="2">
+  <title>2026-03-09: 4 sessions, 0 prompts, 0 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l4" x="598" y="131" width="10" height="10" rx="2">
-  <title>2026-03-10: 12 sessions, 61 prompts, 522 tool calls, 320 LLM requests</title>
+<rect class="day l1" x="598" y="131" width="10" height="10" rx="2">
+  <title>2026-03-10: 1 sessions, 1 prompts, 0 tool calls, 4 LLM requests</title>
 </rect>
-<rect class="day l3" x="598" y="144" width="10" height="10" rx="2">
-  <title>2026-03-11: 3 sessions, 72 prompts, 146 tool calls, 123 LLM requests</title>
+<rect class="day l0" x="598" y="144" width="10" height="10" rx="2">
+  <title>2026-03-11: no stored session activity</title>
 </rect>
-<rect class="day l4" x="598" y="157" width="10" height="10" rx="2">
-  <title>2026-03-12: 15 sessions, 83 prompts, 364 tool calls, 241 LLM requests</title>
+<rect class="day l0" x="598" y="157" width="10" height="10" rx="2">
+  <title>2026-03-12: no stored session activity</title>
 </rect>
-<rect class="day l2" x="598" y="170" width="10" height="10" rx="2">
-  <title>2026-03-13: 3 sessions, 10 prompts, 15 tool calls, 12 LLM requests</title>
+<rect class="day l1" x="598" y="170" width="10" height="10" rx="2">
+  <title>2026-03-13: 1 sessions, 1 prompts, 0 tool calls, 1 LLM requests</title>
 </rect>
-<rect class="day l1" x="598" y="183" width="10" height="10" rx="2">
-  <title>2026-03-14: 1 sessions, 4 prompts, 17 tool calls, 14 LLM requests</title>
+<rect class="day l0" x="598" y="183" width="10" height="10" rx="2">
+  <title>2026-03-14: no stored session activity</title>
 </rect>
-<rect class="day l4" x="611" y="105" width="10" height="10" rx="2">
-  <title>2026-03-15: 6 sessions, 48 prompts, 700 tool calls, 475 LLM requests</title>
+<rect class="day l0" x="611" y="105" width="10" height="10" rx="2">
+  <title>2026-03-15: no stored session activity</title>
 </rect>
-<rect class="day l1" x="611" y="118" width="10" height="10" rx="2">
-  <title>2026-03-16: 1 sessions, 2 prompts, 19 tool calls, 10 LLM requests</title>
+<rect class="day l0" x="611" y="118" width="10" height="10" rx="2">
+  <title>2026-03-16: no stored session activity</title>
 </rect>
-<rect class="day l4" x="611" y="131" width="10" height="10" rx="2">
-  <title>2026-03-17: 5 sessions, 29 prompts, 387 tool calls, 301 LLM requests</title>
+<rect class="day l2" x="611" y="131" width="10" height="10" rx="2">
+  <title>2026-03-17: 3 sessions, 0 prompts, 0 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l4" x="611" y="144" width="10" height="10" rx="2">
-  <title>2026-03-18: 3 sessions, 47 prompts, 269 tool calls, 217 LLM requests</title>
+<rect class="day l0" x="611" y="144" width="10" height="10" rx="2">
+  <title>2026-03-18: no stored session activity</title>
 </rect>
-<rect class="day l4" x="611" y="157" width="10" height="10" rx="2">
-  <title>2026-03-19: 24 sessions, 174 prompts, 890 tool calls, 641 LLM requests</title>
+<rect class="day l0" x="611" y="157" width="10" height="10" rx="2">
+  <title>2026-03-19: no stored session activity</title>
 </rect>
-<rect class="day l3" x="611" y="170" width="10" height="10" rx="2">
-  <title>2026-03-20: 4 sessions, 39 prompts, 225 tool calls, 157 LLM requests</title>
+<rect class="day l1" x="611" y="170" width="10" height="10" rx="2">
+  <title>2026-03-20: 2 sessions, 0 prompts, 0 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l2" x="611" y="183" width="10" height="10" rx="2">
-  <title>2026-03-21: 2 sessions, 7 prompts, 26 tool calls, 27 LLM requests</title>
+<rect class="day l0" x="611" y="183" width="10" height="10" rx="2">
+  <title>2026-03-21: no stored session activity</title>
 </rect>
 <rect class="day l0" x="624" y="105" width="10" height="10" rx="2">
   <title>2026-03-22: no stored session activity</title>
 </rect>
-<rect class="day l3" x="624" y="118" width="10" height="10" rx="2">
-  <title>2026-03-23: 3 sessions, 57 prompts, 86 tool calls, 97 LLM requests</title>
+<rect class="day l0" x="624" y="118" width="10" height="10" rx="2">
+  <title>2026-03-23: no stored session activity</title>
 </rect>
-<rect class="day l3" x="624" y="131" width="10" height="10" rx="2">
-  <title>2026-03-24: 1 sessions, 25 prompts, 415 tool calls, 241 LLM requests</title>
+<rect class="day l0" x="624" y="131" width="10" height="10" rx="2">
+  <title>2026-03-24: no stored session activity</title>
 </rect>
 <rect class="day l0" x="624" y="144" width="10" height="10" rx="2">
   <title>2026-03-25: no stored session activity</title>
@@ -932,69 +932,69 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
   <title>2026-03-27: no stored session activity</title>
 </rect>
 <rect class="day l2" x="624" y="183" width="10" height="10" rx="2">
-  <title>2026-03-28: 6 sessions, 7 prompts, 60 tool calls, 63 LLM requests</title>
+  <title>2026-03-28: 4 sessions, 0 prompts, 0 tool calls, 0 LLM requests</title>
 </rect>
 <rect class="day l0" x="637" y="105" width="10" height="10" rx="2">
   <title>2026-03-29: no stored session activity</title>
 </rect>
-<rect class="day l2" x="637" y="118" width="10" height="10" rx="2">
-  <title>2026-03-30: 2 sessions, 10 prompts, 43 tool calls, 27 LLM requests</title>
+<rect class="day l0" x="637" y="118" width="10" height="10" rx="2">
+  <title>2026-03-30: no stored session activity</title>
 </rect>
-<rect class="day l4" x="637" y="131" width="10" height="10" rx="2">
-  <title>2026-03-31: 12 sessions, 59 prompts, 663 tool calls, 571 LLM requests</title>
+<rect class="day l0" x="637" y="131" width="10" height="10" rx="2">
+  <title>2026-03-31: no stored session activity</title>
 </rect>
-<rect class="day l4" x="637" y="144" width="10" height="10" rx="2">
-  <title>2026-04-01: 6 sessions, 23 prompts, 679 tool calls, 701 LLM requests</title>
+<rect class="day l0" x="637" y="144" width="10" height="10" rx="2">
+  <title>2026-04-01: no stored session activity</title>
 </rect>
-<rect class="day l2" x="637" y="157" width="10" height="10" rx="2">
-  <title>2026-04-02: 3 sessions, 19 prompts, 21 tool calls, 34 LLM requests</title>
+<rect class="day l0" x="637" y="157" width="10" height="10" rx="2">
+  <title>2026-04-02: no stored session activity</title>
 </rect>
-<rect class="day l4" x="637" y="170" width="10" height="10" rx="2">
-  <title>2026-04-03: 2 sessions, 23 prompts, 437 tool calls, 499 LLM requests</title>
+<rect class="day l0" x="637" y="170" width="10" height="10" rx="2">
+  <title>2026-04-03: no stored session activity</title>
 </rect>
-<rect class="day l3" x="637" y="183" width="10" height="10" rx="2">
-  <title>2026-04-04: 3 sessions, 8 prompts, 124 tool calls, 130 LLM requests</title>
+<rect class="day l0" x="637" y="183" width="10" height="10" rx="2">
+  <title>2026-04-04: no stored session activity</title>
 </rect>
-<rect class="day l4" x="650" y="105" width="10" height="10" rx="2">
-  <title>2026-04-05: 25 sessions, 148 prompts, 3,482 tool calls, 3,792 LLM requests</title>
+<rect class="day l1" x="650" y="105" width="10" height="10" rx="2">
+  <title>2026-04-05: 1 sessions, 1 prompts, 0 tool calls, 3 LLM requests</title>
 </rect>
-<rect class="day l3" x="650" y="118" width="10" height="10" rx="2">
-  <title>2026-04-06: 5 sessions, 19 prompts, 209 tool calls, 124 LLM requests</title>
+<rect class="day l0" x="650" y="118" width="10" height="10" rx="2">
+  <title>2026-04-06: no stored session activity</title>
 </rect>
 <rect class="day l0" x="650" y="131" width="10" height="10" rx="2">
   <title>2026-04-07: no stored session activity</title>
 </rect>
-<rect class="day l3" x="650" y="144" width="10" height="10" rx="2">
-  <title>2026-04-08: 3 sessions, 12 prompts, 210 tool calls, 162 LLM requests</title>
+<rect class="day l0" x="650" y="144" width="10" height="10" rx="2">
+  <title>2026-04-08: no stored session activity</title>
 </rect>
 <rect class="day l4" x="650" y="157" width="10" height="10" rx="2">
-  <title>2026-04-09: 14 sessions, 84 prompts, 720 tool calls, 469 LLM requests</title>
+  <title>2026-04-09: 10 sessions, 21 prompts, 13 tool calls, 15 LLM requests</title>
 </rect>
 <rect class="day l3" x="650" y="170" width="10" height="10" rx="2">
-  <title>2026-04-10: 3 sessions, 25 prompts, 71 tool calls, 48 LLM requests</title>
+  <title>2026-04-10: 2 sessions, 11 prompts, 25 tool calls, 17 LLM requests</title>
 </rect>
 <rect class="day l0" x="650" y="183" width="10" height="10" rx="2">
   <title>2026-04-11: no stored session activity</title>
 </rect>
 <rect class="day l4" x="663" y="105" width="10" height="10" rx="2">
-  <title>2026-04-12: 27 sessions, 145 prompts, 4,512 tool calls, 2,196 LLM requests</title>
+  <title>2026-04-12: 22 sessions, 135 prompts, 4,345 tool calls, 2,082 LLM requests</title>
 </rect>
 <rect class="day l4" x="663" y="118" width="10" height="10" rx="2">
-  <title>2026-04-13: 132 sessions, 229 prompts, 1,570 tool calls, 1,104 LLM requests</title>
+  <title>2026-04-13: 107 sessions, 168 prompts, 652 tool calls, 598 LLM requests</title>
 </rect>
 <rect class="day l4" x="663" y="131" width="10" height="10" rx="2">
-  <title>2026-04-14: 29 sessions, 130 prompts, 280 tool calls, 243 LLM requests</title>
+  <title>2026-04-14: 23 sessions, 118 prompts, 199 tool calls, 192 LLM requests</title>
 </rect>
 <rect class="day l4" x="663" y="144" width="10" height="10" rx="2">
   <title>2026-04-15: 8 sessions, 61 prompts, 1,883 tool calls, 1,035 LLM requests</title>
 </rect>
 <rect class="day l4" x="663" y="157" width="10" height="10" rx="2">
-  <title>2026-04-16: 6 sessions, 58 prompts, 264 tool calls, 187 LLM requests</title>
+  <title>2026-04-16: 5 sessions, 50 prompts, 215 tool calls, 135 LLM requests</title>
 </rect>
 <rect class="day l4" x="663" y="170" width="10" height="10" rx="2">
-  <title>2026-04-17: 10 sessions, 98 prompts, 1,122 tool calls, 608 LLM requests</title>
+  <title>2026-04-17: 8 sessions, 95 prompts, 1,109 tool calls, 603 LLM requests</title>
 </rect>
-<rect class="day l2" x="663" y="183" width="10" height="10" rx="2">
+<rect class="day l3" x="663" y="183" width="10" height="10" rx="2">
   <title>2026-04-18: 1 sessions, 9 prompts, 121 tool calls, 57 LLM requests</title>
 </rect>
 <rect class="day l4" x="676" y="105" width="10" height="10" rx="2">
@@ -1004,7 +1004,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
   <title>2026-04-20: 14 sessions, 32 prompts, 229 tool calls, 128 LLM requests</title>
 </rect>
 <rect class="day l4" x="676" y="131" width="10" height="10" rx="2">
-  <title>2026-04-21: 4 sessions, 91 prompts, 588 tool calls, 355 LLM requests</title>
+  <title>2026-04-21: 3 sessions, 89 prompts, 588 tool calls, 354 LLM requests</title>
 </rect>
 <rect class="day l0" x="676" y="144" width="10" height="10" rx="2">
   <title>2026-04-22: no stored session activity</title>
@@ -1016,7 +1016,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
   <title>2026-04-24: no stored session activity</title>
 </rect>
 <rect class="day l4" x="676" y="183" width="10" height="10" rx="2">
-  <title>2026-04-25: 7 sessions, 37 prompts, 468 tool calls, 286 LLM requests</title>
+  <title>2026-04-25: 6 sessions, 23 prompts, 87 tool calls, 63 LLM requests</title>
 </rect>
 <rect class="day l4" x="689" y="105" width="10" height="10" rx="2">
   <title>2026-04-26: 4 sessions, 436 prompts, 3,523 tool calls, 2,077 LLM requests</title>
@@ -1027,7 +1027,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="689" y="131" width="10" height="10" rx="2">
   <title>2026-04-28: no stored session activity</title>
 </rect>
-<rect class="day l1" x="689" y="144" width="10" height="10" rx="2">
+<rect class="day l2" x="689" y="144" width="10" height="10" rx="2">
   <title>2026-04-29: 1 sessions, 2 prompts, 49 tool calls, 19 LLM requests</title>
 </rect>
 <rect class="day l0" x="689" y="157" width="10" height="10" rx="2">
@@ -1039,7 +1039,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l4" x="689" y="183" width="10" height="10" rx="2">
   <title>2026-05-02: 4 sessions, 162 prompts, 2,186 tool calls, 1,399 LLM requests</title>
 </rect>
-<rect class="day l1" x="702" y="105" width="10" height="10" rx="2">
+<rect class="day l2" x="702" y="105" width="10" height="10" rx="2">
   <title>2026-05-03: 1 sessions, 4 prompts, 44 tool calls, 29 LLM requests</title>
 </rect>
 <rect class="day l0" x="702" y="118" width="10" height="10" rx="2">
@@ -1048,13 +1048,13 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l4" x="702" y="131" width="10" height="10" rx="2">
   <title>2026-05-05: 8 sessions, 76 prompts, 571 tool calls, 377 LLM requests</title>
 </rect>
-<rect class="day l1" x="702" y="144" width="10" height="10" rx="2">
+<rect class="day l2" x="702" y="144" width="10" height="10" rx="2">
   <title>2026-05-06: 1 sessions, 2 prompts, 44 tool calls, 21 LLM requests</title>
 </rect>
-<rect class="day l1" x="702" y="157" width="10" height="10" rx="2">
+<rect class="day l2" x="702" y="157" width="10" height="10" rx="2">
   <title>2026-05-07: 2 sessions, 5 prompts, 0 tool calls, 1 LLM requests</title>
 </rect>
-<rect class="day l3" x="702" y="170" width="10" height="10" rx="2">
+<rect class="day l4" x="702" y="170" width="10" height="10" rx="2">
   <title>2026-05-08: 9 sessions, 45 prompts, 237 tool calls, 123 LLM requests</title>
 </rect>
 <rect class="day l4" x="702" y="183" width="10" height="10" rx="2">
@@ -1105,8 +1105,8 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="741" y="105" width="10" height="10" rx="2">
   <title>2026-05-24: no stored session activity</title>
 </rect>
-<rect class="day l3" x="741" y="118" width="10" height="10" rx="2">
-  <title>2026-05-25: 5 sessions, 48 prompts, 287 tool calls, 169 LLM requests</title>
+<rect class="day l4" x="741" y="118" width="10" height="10" rx="2">
+  <title>2026-05-25: 4 sessions, 46 prompts, 287 tool calls, 169 LLM requests</title>
 </rect>
 <rect class="day l0" x="741" y="131" width="10" height="10" rx="2">
   <title>2026-05-26: no stored session activity</title>
@@ -1114,10 +1114,10 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="741" y="144" width="10" height="10" rx="2">
   <title>2026-05-27: no stored session activity</title>
 </rect>
-<rect class="day l2" x="741" y="157" width="10" height="10" rx="2">
+<rect class="day l3" x="741" y="157" width="10" height="10" rx="2">
   <title>2026-05-28: 1 sessions, 19 prompts, 130 tool calls, 66 LLM requests</title>
 </rect>
-<rect class="day l2" x="741" y="170" width="10" height="10" rx="2">
+<rect class="day l3" x="741" y="170" width="10" height="10" rx="2">
   <title>2026-05-29: 3 sessions, 10 prompts, 140 tool calls, 91 LLM requests</title>
 </rect>
 <rect class="day l0" x="741" y="183" width="10" height="10" rx="2">
@@ -1147,8 +1147,8 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="767" y="105" width="10" height="10" rx="2">
   <title>2026-06-07: no stored session activity</title>
 </rect>
-<rect class="day l3" x="767" y="118" width="10" height="10" rx="2">
-  <title>2026-06-08: 6 sessions, 17 prompts, 114 tool calls, 64 LLM requests</title>
+<rect class="day l4" x="767" y="118" width="10" height="10" rx="2">
+  <title>2026-06-08: 5 sessions, 15 prompts, 114 tool calls, 64 LLM requests</title>
 </rect>
 <rect class="day l0" x="767" y="131" width="10" height="10" rx="2">
   <title>2026-06-09: no stored session activity</title>
@@ -1156,7 +1156,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l1" x="767" y="144" width="10" height="10" rx="2">
   <title>2026-06-10: 1 sessions, 2 prompts, 19 tool calls, 11 LLM requests</title>
 </rect>
-<rect class="day l1" x="767" y="157" width="10" height="10" rx="2">
+<rect class="day l2" x="767" y="157" width="10" height="10" rx="2">
   <title>2026-06-11: 1 sessions, 11 prompts, 4 tool calls, 5 LLM requests</title>
 </rect>
 <rect class="day l0" x="767" y="170" width="10" height="10" rx="2">
@@ -1177,19 +1177,19 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="780" y="144" width="10" height="10" rx="2">
   <title>2026-06-17: no stored session activity</title>
 </rect>
-<rect class="day l2" x="780" y="157" width="10" height="10" rx="2">
+<rect class="day l3" x="780" y="157" width="10" height="10" rx="2">
   <title>2026-06-18: 1 sessions, 13 prompts, 98 tool calls, 66 LLM requests</title>
 </rect>
-<rect class="day l2" x="780" y="170" width="10" height="10" rx="2">
+<rect class="day l3" x="780" y="170" width="10" height="10" rx="2">
   <title>2026-06-19: 1 sessions, 12 prompts, 29 tool calls, 34 LLM requests</title>
 </rect>
-<rect class="day l3" x="780" y="183" width="10" height="10" rx="2">
+<rect class="day l4" x="780" y="183" width="10" height="10" rx="2">
   <title>2026-06-20: 5 sessions, 23 prompts, 164 tool calls, 96 LLM requests</title>
 </rect>
 <rect class="day l0" x="793" y="105" width="10" height="10" rx="2">
   <title>2026-06-21: no stored session activity</title>
 </rect>
-<rect class="day l1" x="793" y="118" width="10" height="10" rx="2">
+<rect class="day l2" x="793" y="118" width="10" height="10" rx="2">
   <title>2026-06-22: 1 sessions, 2 prompts, 39 tool calls, 15 LLM requests</title>
 </rect>
 <rect class="day l0" x="793" y="131" width="10" height="10" rx="2">
@@ -1201,35 +1201,35 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l4" x="793" y="157" width="10" height="10" rx="2">
   <title>2026-06-25: 1 sessions, 43 prompts, 419 tool calls, 344 LLM requests</title>
 </rect>
-<rect class="day l3" x="793" y="170" width="10" height="10" rx="2">
-  <title>2026-06-26: 3 sessions, 26 prompts, 264 tool calls, 154 LLM requests</title>
+<rect class="day l4" x="793" y="170" width="10" height="10" rx="2">
+  <title>2026-06-26: 1 sessions, 22 prompts, 264 tool calls, 152 LLM requests</title>
 </rect>
-<rect class="day l1" x="793" y="183" width="10" height="10" rx="2">
+<rect class="day l2" x="793" y="183" width="10" height="10" rx="2">
   <title>2026-06-27: 2 sessions, 4 prompts, 13 tool calls, 11 LLM requests</title>
 </rect>
 <rect class="day l4" x="806" y="105" width="10" height="10" rx="2">
-  <title>2026-06-28: 4 sessions, 30 prompts, 298 tool calls, 194 LLM requests</title>
+  <title>2026-06-28: 2 sessions, 26 prompts, 278 tool calls, 186 LLM requests</title>
 </rect>
 <rect class="day l4" x="806" y="118" width="10" height="10" rx="2">
-  <title>2026-06-29: 14 sessions, 60 prompts, 782 tool calls, 422 LLM requests</title>
+  <title>2026-06-29: 13 sessions, 54 prompts, 782 tool calls, 418 LLM requests</title>
 </rect>
 <rect class="day l4" x="806" y="131" width="10" height="10" rx="2">
   <title>2026-06-30: 11 sessions, 37 prompts, 422 tool calls, 252 LLM requests</title>
 </rect>
-<rect class="day l3" x="806" y="144" width="10" height="10" rx="2">
+<rect class="day l4" x="806" y="144" width="10" height="10" rx="2">
   <title>2026-07-01: 3 sessions, 27 prompts, 265 tool calls, 113 LLM requests</title>
 </rect>
 <rect class="day l3" x="806" y="157" width="10" height="10" rx="2">
-  <title>2026-07-02: 8 sessions, 24 prompts, 189 tool calls, 116 LLM requests</title>
+  <title>2026-07-02: 5 sessions, 14 prompts, 27 tool calls, 29 LLM requests</title>
 </rect>
-<rect class="day l3" x="806" y="170" width="10" height="10" rx="2">
+<rect class="day l4" x="806" y="170" width="10" height="10" rx="2">
   <title>2026-07-03: 4 sessions, 13 prompts, 295 tool calls, 121 LLM requests</title>
 </rect>
 <rect class="day l4" x="806" y="183" width="10" height="10" rx="2">
   <title>2026-07-04: 1 sessions, 61 prompts, 876 tool calls, 583 LLM requests</title>
 </rect>
 <rect class="day l4" x="819" y="105" width="10" height="10" rx="2">
-  <title>2026-07-05: 4 sessions, 58 prompts, 528 tool calls, 353 LLM requests</title>
+  <title>2026-07-05: 3 sessions, 55 prompts, 528 tool calls, 351 LLM requests</title>
 </rect>
 <rect class="day l1" x="819" y="118" width="10" height="10" rx="2">
   <title>2026-07-06: 1 sessions, 2 prompts, 13 tool calls, 14 LLM requests</title>
@@ -1237,80 +1237,80 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l4" x="819" y="131" width="10" height="10" rx="2">
   <title>2026-07-07: 9 sessions, 83 prompts, 761 tool calls, 529 LLM requests</title>
 </rect>
-<rect class="day l3" x="819" y="144" width="10" height="10" rx="2">
+<rect class="day l4" x="819" y="144" width="10" height="10" rx="2">
   <title>2026-07-08: 3 sessions, 23 prompts, 327 tool calls, 130 LLM requests</title>
 </rect>
 <rect class="day l4" x="819" y="157" width="10" height="10" rx="2">
-  <title>2026-07-09: 14 sessions, 57 prompts, 90 tool calls, 256 LLM requests</title>
+  <title>2026-07-09: 3 sessions, 24 prompts, 79 tool calls, 74 LLM requests</title>
 </rect>
-<rect class="day l4" x="819" y="170" width="10" height="10" rx="2">
-  <title>2026-07-10: 9 sessions, 65 prompts, 244 tool calls, 511 LLM requests</title>
+<rect class="day l3" x="819" y="170" width="10" height="10" rx="2">
+  <title>2026-07-10: 4 sessions, 15 prompts, 84 tool calls, 43 LLM requests</title>
 </rect>
-<rect class="day l3" x="819" y="183" width="10" height="10" rx="2">
-  <title>2026-07-11: 2 sessions, 13 prompts, 49 tool calls, 169 LLM requests</title>
+<rect class="day l2" x="819" y="183" width="10" height="10" rx="2">
+  <title>2026-07-11: 1 sessions, 2 prompts, 26 tool calls, 16 LLM requests</title>
 </rect>
 <rect class="day l4" x="832" y="105" width="10" height="10" rx="2">
   <title>2026-07-12: 11 sessions, 46 prompts, 1,532 tool calls, 816 LLM requests</title>
 </rect>
 <rect class="day l4" x="832" y="118" width="10" height="10" rx="2">
-  <title>2026-07-13: 8 sessions, 46 prompts, 236 tool calls, 597 LLM requests</title>
+  <title>2026-07-13: 6 sessions, 18 prompts, 197 tool calls, 82 LLM requests</title>
 </rect>
 <rect class="day l4" x="832" y="131" width="10" height="10" rx="2">
-  <title>2026-07-14: 19 sessions, 47 prompts, 468 tool calls, 3,949 LLM requests</title>
+  <title>2026-07-14: 17 sessions, 39 prompts, 468 tool calls, 3,926 LLM requests</title>
 </rect>
-<rect class="day l2" x="832" y="144" width="10" height="10" rx="2">
-  <title>2026-07-15: 2 sessions, 11 prompts, 1 tool calls, 70 LLM requests</title>
+<rect class="day l0" x="832" y="144" width="10" height="10" rx="2">
+  <title>2026-07-15: no stored session activity</title>
 </rect>
-<rect class="day l4" x="832" y="157" width="10" height="10" rx="2">
-  <title>2026-07-16: 9 sessions, 387 prompts, 5,108 tool calls, 9,550 LLM requests</title>
+<rect class="day l0" x="832" y="157" width="10" height="10" rx="2">
+  <title>2026-07-16: no stored session activity</title>
 </rect>
-<rect class="day l2" x="832" y="170" width="10" height="10" rx="2">
-  <title>2026-07-17: 2 sessions, 4 prompts, 21 tool calls, 211 LLM requests</title>
+<rect class="day l0" x="832" y="170" width="10" height="10" rx="2">
+  <title>2026-07-17: no stored session activity</title>
 </rect>
 <rect class="day l0" x="832" y="183" width="10" height="10" rx="2">
   <title>2026-07-18: no stored session activity</title>
 </rect>
-<rect class="day l2" x="845" y="105" width="10" height="10" rx="2">
-  <title>2026-07-19: 1 sessions, 5 prompts, 3 tool calls, 83 LLM requests</title>
+<rect class="day l0" x="845" y="105" width="10" height="10" rx="2">
+  <title>2026-07-19: no stored session activity</title>
 </rect>
-<rect class="day l4" x="845" y="118" width="10" height="10" rx="2">
-  <title>2026-07-20: 11 sessions, 70 prompts, 48 tool calls, 570 LLM requests</title>
+<rect class="day l1" x="845" y="118" width="10" height="10" rx="2">
+  <title>2026-07-20: 2 sessions, 2 prompts, 0 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l4" x="845" y="131" width="10" height="10" rx="2">
-  <title>2026-07-21: 7 sessions, 229 prompts, 501 tool calls, 2,238 LLM requests</title>
+<rect class="day l0" x="845" y="131" width="10" height="10" rx="2">
+  <title>2026-07-21: no stored session activity</title>
 </rect>
-<rect class="day l4" x="845" y="144" width="10" height="10" rx="2">
-  <title>2026-07-22: 9 sessions, 55 prompts, 307 tool calls, 537 LLM requests</title>
+<rect class="day l1" x="845" y="144" width="10" height="10" rx="2">
+  <title>2026-07-22: 1 sessions, 2 prompts, 0 tool calls, 0 LLM requests</title>
 </rect>
-<rect class="day l4" x="845" y="157" width="10" height="10" rx="2">
-  <title>2026-07-23: 6 sessions, 46 prompts, 65 tool calls, 403 LLM requests</title>
+<rect class="day l0" x="845" y="157" width="10" height="10" rx="2">
+  <title>2026-07-23: no stored session activity</title>
 </rect>
 <rect class="day l3" x="845" y="170" width="10" height="10" rx="2">
-  <title>2026-07-24: 6 sessions, 20 prompts, 186 tool calls, 152 LLM requests</title>
+  <title>2026-07-24: 2 sessions, 10 prompts, 112 tool calls, 53 LLM requests</title>
 </rect>
 <rect class="day l0" x="845" y="183" width="10" height="10" rx="2">
   <title>2026-07-25: no stored session activity</title>
 </rect>
 <rect class="day l4" x="858" y="105" width="10" height="10" rx="2">
-  <title>2026-07-26: 18 sessions, 82 prompts, 1,553 tool calls, 832 LLM requests</title>
+  <title>2026-07-26: 16 sessions, 32 prompts, 163 tool calls, 103 LLM requests</title>
 </rect>
 <rect class="day l4" x="858" y="118" width="10" height="10" rx="2">
-  <title>2026-07-27: 25 sessions, 60 prompts, 348 tool calls, 234 LLM requests</title>
+  <title>2026-07-27: 23 sessions, 51 prompts, 277 tool calls, 159 LLM requests</title>
 </rect>
-<rect class="day l4" x="858" y="131" width="10" height="10" rx="2">
-  <title>2026-07-28: 7 sessions, 90 prompts, 883 tool calls, 686 LLM requests</title>
+<rect class="day l3" x="858" y="131" width="10" height="10" rx="2">
+  <title>2026-07-28: 3 sessions, 12 prompts, 64 tool calls, 38 LLM requests</title>
 </rect>
-<rect class="day l3" x="858" y="144" width="10" height="10" rx="2">
+<rect class="day l4" x="858" y="144" width="10" height="10" rx="2">
   <title>2026-07-29: 2 sessions, 15 prompts, 109 tool calls, 84 LLM requests</title>
 </rect>
-<rect class="day l3" x="858" y="157" width="10" height="10" rx="2">
-  <title>2026-07-30: 2 sessions, 12 prompts, 174 tool calls, 148 LLM requests</title>
+<rect class="day l0" x="858" y="157" width="10" height="10" rx="2">
+  <title>2026-07-30: no stored session activity</title>
 </rect>
-<rect class="day l2" x="858" y="170" width="10" height="10" rx="2">
+<rect class="day l3" x="858" y="170" width="10" height="10" rx="2">
   <title>2026-07-31: 2 sessions, 5 prompts, 62 tool calls, 36 LLM requests</title>
 </rect>
-<rect class="day l3" x="858" y="183" width="10" height="10" rx="2">
-  <title>2026-08-01: 5 sessions, 26 prompts, 182 tool calls, 172 LLM requests</title>
+<rect class="day l1" x="858" y="183" width="10" height="10" rx="2">
+  <title>2026-08-01: 1 sessions, 1 prompts, 0 tool calls, 0 LLM requests</title>
 </rect>
 <rect class="day l0" x="871" y="105" width="10" height="10" rx="2">
   <title>2026-08-02: no stored session activity</title>
@@ -1330,176 +1330,176 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="871" y="170" width="10" height="10" rx="2">
   <title>2026-08-07: no stored session activity</title>
 </rect>
-<rect class="day l4" x="871" y="183" width="10" height="10" rx="2">
-  <title>2026-08-08: 4 sessions, 28 prompts, 369 tool calls, 326 LLM requests</title>
+<rect class="day l0" x="871" y="183" width="10" height="10" rx="2">
+  <title>2026-08-08: no stored session activity</title>
 </rect>
 <rect class="day l0" x="884" y="105" width="10" height="10" rx="2">
   <title>2026-08-09: no stored session activity</title>
 </rect>
-<rect class="day l4" x="884" y="118" width="10" height="10" rx="2">
-  <title>2026-08-10: 2 sessions, 134 prompts, 815 tool calls, 1,426 LLM requests</title>
+<rect class="day l0" x="884" y="118" width="10" height="10" rx="2">
+  <title>2026-08-10: no stored session activity</title>
 </rect>
-<rect class="day l3" x="884" y="131" width="10" height="10" rx="2">
-  <title>2026-08-11: 2 sessions, 39 prompts, 39 tool calls, 214 LLM requests</title>
+<rect class="day l0" x="884" y="131" width="10" height="10" rx="2">
+  <title>2026-08-11: no stored session activity</title>
 </rect>
-<rect class="day l4" x="884" y="144" width="10" height="10" rx="2">
-  <title>2026-08-12: 3 sessions, 57 prompts, 1,617 tool calls, 1,042 LLM requests</title>
+<rect class="day l0" x="884" y="144" width="10" height="10" rx="2">
+  <title>2026-08-12: no stored session activity</title>
 </rect>
-<rect class="day l4" x="884" y="157" width="10" height="10" rx="2">
-  <title>2026-08-13: 10 sessions, 90 prompts, 1,723 tool calls, 1,174 LLM requests</title>
+<rect class="day l3" x="884" y="157" width="10" height="10" rx="2">
+  <title>2026-08-13: 6 sessions, 13 prompts, 65 tool calls, 45 LLM requests</title>
 </rect>
-<rect class="day l4" x="884" y="170" width="10" height="10" rx="2">
-  <title>2026-08-14: 15 sessions, 73 prompts, 1,419 tool calls, 895 LLM requests</title>
+<rect class="day l3" x="884" y="170" width="10" height="10" rx="2">
+  <title>2026-08-14: 3 sessions, 10 prompts, 86 tool calls, 28 LLM requests</title>
 </rect>
 <rect class="day l0" x="884" y="183" width="10" height="10" rx="2">
   <title>2026-08-15: no stored session activity</title>
 </rect>
 <rect class="day l4" x="897" y="105" width="10" height="10" rx="2">
-  <title>2026-08-16: 16 sessions, 322 prompts, 1,639 tool calls, 2,038 LLM requests</title>
+  <title>2026-08-16: 3 sessions, 124 prompts, 114 tool calls, 124 LLM requests</title>
 </rect>
-<rect class="day l3" x="897" y="118" width="10" height="10" rx="2">
-  <title>2026-08-17: 4 sessions, 12 prompts, 111 tool calls, 79 LLM requests</title>
+<rect class="day l0" x="897" y="118" width="10" height="10" rx="2">
+  <title>2026-08-17: no stored session activity</title>
 </rect>
 <rect class="day l1" x="897" y="131" width="10" height="10" rx="2">
   <title>2026-08-18: 1 sessions, 2 prompts, 8 tool calls, 9 LLM requests</title>
 </rect>
 <rect class="day l4" x="897" y="144" width="10" height="10" rx="2">
-  <title>2026-08-19: 9 sessions, 41 prompts, 714 tool calls, 320 LLM requests</title>
+  <title>2026-08-19: 5 sessions, 23 prompts, 538 tool calls, 202 LLM requests</title>
 </rect>
 <rect class="day l4" x="897" y="157" width="10" height="10" rx="2">
-  <title>2026-08-20: 14 sessions, 100 prompts, 301 tool calls, 976 LLM requests</title>
+  <title>2026-08-20: 6 sessions, 21 prompts, 286 tool calls, 207 LLM requests</title>
 </rect>
 <rect class="day l4" x="897" y="170" width="10" height="10" rx="2">
-  <title>2026-08-21: 8 sessions, 588 prompts, 1,005 tool calls, 1,728 LLM requests</title>
+  <title>2026-08-21: 6 sessions, 547 prompts, 1,005 tool calls, 854 LLM requests</title>
 </rect>
 <rect class="day l4" x="897" y="183" width="10" height="10" rx="2">
-  <title>2026-08-22: 13 sessions, 337 prompts, 553 tool calls, 948 LLM requests</title>
+  <title>2026-08-22: 6 sessions, 275 prompts, 553 tool calls, 401 LLM requests</title>
 </rect>
-<rect class="day l3" x="910" y="105" width="10" height="10" rx="2">
-  <title>2026-08-23: 4 sessions, 46 prompts, 26 tool calls, 324 LLM requests</title>
+<rect class="day l2" x="910" y="105" width="10" height="10" rx="2">
+  <title>2026-08-23: 1 sessions, 9 prompts, 13 tool calls, 18 LLM requests</title>
 </rect>
-<rect class="day l3" x="910" y="118" width="10" height="10" rx="2">
-  <title>2026-08-24: 3 sessions, 36 prompts, 203 tool calls, 249 LLM requests</title>
+<rect class="day l4" x="910" y="118" width="10" height="10" rx="2">
+  <title>2026-08-24: 1 sessions, 27 prompts, 203 tool calls, 152 LLM requests</title>
 </rect>
-<rect class="day l3" x="910" y="131" width="10" height="10" rx="2">
-  <title>2026-08-25: 5 sessions, 34 prompts, 23 tool calls, 281 LLM requests</title>
+<rect class="day l2" x="910" y="131" width="10" height="10" rx="2">
+  <title>2026-08-25: 2 sessions, 5 prompts, 7 tool calls, 4 LLM requests</title>
 </rect>
-<rect class="day l4" x="910" y="144" width="10" height="10" rx="2">
-  <title>2026-08-26: 6 sessions, 44 prompts, 119 tool calls, 415 LLM requests</title>
+<rect class="day l3" x="910" y="144" width="10" height="10" rx="2">
+  <title>2026-08-26: 2 sessions, 14 prompts, 119 tool calls, 30 LLM requests</title>
 </rect>
-<rect class="day l4" x="910" y="157" width="10" height="10" rx="2">
-  <title>2026-08-27: 14 sessions, 77 prompts, 542 tool calls, 1,082 LLM requests</title>
+<rect class="day l0" x="910" y="157" width="10" height="10" rx="2">
+  <title>2026-08-27: no stored session activity</title>
 </rect>
 <rect class="day l4" x="910" y="170" width="10" height="10" rx="2">
-  <title>2026-08-28: 22 sessions, 178 prompts, 127 tool calls, 1,286 LLM requests</title>
+  <title>2026-08-28: 4 sessions, 140 prompts, 115 tool calls, 168 LLM requests</title>
 </rect>
 <rect class="day l4" x="910" y="183" width="10" height="10" rx="2">
-  <title>2026-08-29: 10 sessions, 52 prompts, 3 tool calls, 378 LLM requests</title>
+  <title>2026-08-29: 8 sessions, 40 prompts, 0 tool calls, 283 LLM requests</title>
 </rect>
-<rect class="day l3" x="923" y="105" width="10" height="10" rx="2">
+<rect class="day l4" x="923" y="105" width="10" height="10" rx="2">
   <title>2026-08-30: 3 sessions, 25 prompts, 0 tool calls, 250 LLM requests</title>
 </rect>
 <rect class="day l4" x="923" y="118" width="10" height="10" rx="2">
-  <title>2026-08-31: 4 sessions, 73 prompts, 38 tool calls, 321 LLM requests</title>
+  <title>2026-08-31: 2 sessions, 50 prompts, 38 tool calls, 30 LLM requests</title>
 </rect>
-<rect class="day l1" x="923" y="131" width="10" height="10" rx="2">
+<rect class="day l2" x="923" y="131" width="10" height="10" rx="2">
   <title>2026-09-01: 1 sessions, 7 prompts, 0 tool calls, 31 LLM requests</title>
 </rect>
-<rect class="day l2" x="923" y="144" width="10" height="10" rx="2">
+<rect class="day l3" x="923" y="144" width="10" height="10" rx="2">
   <title>2026-09-02: 3 sessions, 18 prompts, 4 tool calls, 48 LLM requests</title>
 </rect>
-<rect class="day l1" x="923" y="157" width="10" height="10" rx="2">
+<rect class="day l3" x="923" y="157" width="10" height="10" rx="2">
   <title>2026-09-03: 2 sessions, 9 prompts, 0 tool calls, 27 LLM requests</title>
 </rect>
-<rect class="day l3" x="923" y="170" width="10" height="10" rx="2">
-  <title>2026-09-04: 2 sessions, 21 prompts, 0 tool calls, 239 LLM requests</title>
+<rect class="day l1" x="923" y="170" width="10" height="10" rx="2">
+  <title>2026-09-04: 1 sessions, 1 prompts, 0 tool calls, 1 LLM requests</title>
 </rect>
 <rect class="day l4" x="923" y="183" width="10" height="10" rx="2">
-  <title>2026-09-05: 9 sessions, 45 prompts, 215 tool calls, 813 LLM requests</title>
+  <title>2026-09-05: 6 sessions, 16 prompts, 38 tool calls, 317 LLM requests</title>
 </rect>
-<rect class="day l3" x="936" y="105" width="10" height="10" rx="2">
-  <title>2026-09-06: 3 sessions, 19 prompts, 12 tool calls, 224 LLM requests</title>
+<rect class="day l2" x="936" y="105" width="10" height="10" rx="2">
+  <title>2026-09-06: 1 sessions, 6 prompts, 0 tool calls, 22 LLM requests</title>
 </rect>
-<rect class="day l2" x="936" y="118" width="10" height="10" rx="2">
-  <title>2026-09-07: 3 sessions, 11 prompts, 1 tool calls, 86 LLM requests</title>
+<rect class="day l0" x="936" y="118" width="10" height="10" rx="2">
+  <title>2026-09-07: no stored session activity</title>
 </rect>
-<rect class="day l3" x="936" y="131" width="10" height="10" rx="2">
-  <title>2026-09-08: 3 sessions, 17 prompts, 43 tool calls, 158 LLM requests</title>
+<rect class="day l2" x="936" y="131" width="10" height="10" rx="2">
+  <title>2026-09-08: 1 sessions, 6 prompts, 0 tool calls, 23 LLM requests</title>
 </rect>
-<rect class="day l4" x="936" y="144" width="10" height="10" rx="2">
-  <title>2026-09-09: 4 sessions, 33 prompts, 109 tool calls, 485 LLM requests</title>
+<rect class="day l0" x="936" y="144" width="10" height="10" rx="2">
+  <title>2026-09-09: no stored session activity</title>
 </rect>
-<rect class="day l4" x="936" y="157" width="10" height="10" rx="2">
-  <title>2026-09-10: 4 sessions, 43 prompts, 147 tool calls, 414 LLM requests</title>
+<rect class="day l0" x="936" y="157" width="10" height="10" rx="2">
+  <title>2026-09-10: no stored session activity</title>
 </rect>
-<rect class="day l4" x="936" y="170" width="10" height="10" rx="2">
-  <title>2026-09-11: 7 sessions, 34 prompts, 146 tool calls, 478 LLM requests</title>
+<rect class="day l3" x="936" y="170" width="10" height="10" rx="2">
+  <title>2026-09-11: 3 sessions, 10 prompts, 23 tool calls, 112 LLM requests</title>
 </rect>
-<rect class="day l4" x="936" y="183" width="10" height="10" rx="2">
-  <title>2026-09-12: 12 sessions, 50 prompts, 196 tool calls, 1,044 LLM requests</title>
+<rect class="day l0" x="936" y="183" width="10" height="10" rx="2">
+  <title>2026-09-12: no stored session activity</title>
 </rect>
-<rect class="day l3" x="949" y="105" width="10" height="10" rx="2">
-  <title>2026-09-13: 2 sessions, 23 prompts, 65 tool calls, 267 LLM requests</title>
+<rect class="day l0" x="949" y="105" width="10" height="10" rx="2">
+  <title>2026-09-13: no stored session activity</title>
 </rect>
-<rect class="day l3" x="949" y="118" width="10" height="10" rx="2">
-  <title>2026-09-14: 4 sessions, 25 prompts, 29 tool calls, 326 LLM requests</title>
+<rect class="day l4" x="949" y="118" width="10" height="10" rx="2">
+  <title>2026-09-14: 1 sessions, 12 prompts, 0 tool calls, 240 LLM requests</title>
 </rect>
 <rect class="day l4" x="949" y="131" width="10" height="10" rx="2">
-  <title>2026-09-15: 6 sessions, 52 prompts, 28 tool calls, 748 LLM requests</title>
+  <title>2026-09-15: 2 sessions, 15 prompts, 0 tool calls, 282 LLM requests</title>
 </rect>
-<rect class="day l1" x="949" y="144" width="10" height="10" rx="2">
-  <title>2026-09-16: 1 sessions, 3 prompts, 0 tool calls, 36 LLM requests</title>
+<rect class="day l0" x="949" y="144" width="10" height="10" rx="2">
+  <title>2026-09-16: no stored session activity</title>
 </rect>
-<rect class="day l2" x="949" y="157" width="10" height="10" rx="2">
-  <title>2026-09-17: 3 sessions, 10 prompts, 13 tool calls, 74 LLM requests</title>
+<rect class="day l0" x="949" y="157" width="10" height="10" rx="2">
+  <title>2026-09-17: no stored session activity</title>
 </rect>
-<rect class="day l4" x="949" y="170" width="10" height="10" rx="2">
-  <title>2026-09-18: 1 sessions, 26 prompts, 19 tool calls, 659 LLM requests</title>
+<rect class="day l0" x="949" y="170" width="10" height="10" rx="2">
+  <title>2026-09-18: no stored session activity</title>
 </rect>
-<rect class="day l2" x="949" y="183" width="10" height="10" rx="2">
+<rect class="day l3" x="949" y="183" width="10" height="10" rx="2">
   <title>2026-09-19: 1 sessions, 3 prompts, 136 tool calls, 67 LLM requests</title>
 </rect>
-<rect class="day l3" x="962" y="105" width="10" height="10" rx="2">
-  <title>2026-09-20: 5 sessions, 19 prompts, 116 tool calls, 131 LLM requests</title>
+<rect class="day l2" x="962" y="105" width="10" height="10" rx="2">
+  <title>2026-09-20: 1 sessions, 2 prompts, 93 tool calls, 24 LLM requests</title>
 </rect>
-<rect class="day l3" x="962" y="118" width="10" height="10" rx="2">
-  <title>2026-09-21: 3 sessions, 13 prompts, 12 tool calls, 245 LLM requests</title>
+<rect class="day l4" x="962" y="118" width="10" height="10" rx="2">
+  <title>2026-09-21: 2 sessions, 11 prompts, 12 tool calls, 224 LLM requests</title>
 </rect>
-<rect class="day l1" x="962" y="131" width="10" height="10" rx="2">
-  <title>2026-09-22: 1 sessions, 2 prompts, 0 tool calls, 49 LLM requests</title>
+<rect class="day l0" x="962" y="131" width="10" height="10" rx="2">
+  <title>2026-09-22: no stored session activity</title>
 </rect>
 <rect class="day l0" x="962" y="144" width="10" height="10" rx="2">
   <title>2026-09-23: no stored session activity</title>
 </rect>
-<rect class="day l4" x="962" y="157" width="10" height="10" rx="2">
-  <title>2026-09-24: 6 sessions, 42 prompts, 425 tool calls, 808 LLM requests</title>
+<rect class="day l0" x="962" y="157" width="10" height="10" rx="2">
+  <title>2026-09-24: no stored session activity</title>
 </rect>
 <rect class="day l4" x="962" y="170" width="10" height="10" rx="2">
-  <title>2026-09-25: 8 sessions, 73 prompts, 2 tool calls, 449 LLM requests</title>
+  <title>2026-09-25: 5 sessions, 67 prompts, 0 tool calls, 435 LLM requests</title>
 </rect>
 <rect class="day l4" x="962" y="183" width="10" height="10" rx="2">
-  <title>2026-09-26: 8 sessions, 45 prompts, 41 tool calls, 510 LLM requests</title>
+  <title>2026-09-26: 4 sessions, 25 prompts, 1 tool calls, 104 LLM requests</title>
 </rect>
-<rect class="day l4" x="975" y="105" width="10" height="10" rx="2">
-  <title>2026-09-27: 6 sessions, 37 prompts, 1,160 tool calls, 1,674 LLM requests</title>
+<rect class="day l2" x="975" y="105" width="10" height="10" rx="2">
+  <title>2026-09-27: 2 sessions, 5 prompts, 0 tool calls, 39 LLM requests</title>
 </rect>
-<rect class="day l1" x="975" y="118" width="10" height="10" rx="2">
+<rect class="day l2" x="975" y="118" width="10" height="10" rx="2">
   <title>2026-09-28: 2 sessions, 5 prompts, 0 tool calls, 15 LLM requests</title>
 </rect>
 <rect class="day l0" x="975" y="131" width="10" height="10" rx="2">
   <title>2026-09-29: no stored session activity</title>
 </rect>
-<rect class="day l4" x="975" y="144" width="10" height="10" rx="2">
-  <title>2026-09-30: 7 sessions, 53 prompts, 222 tool calls, 401 LLM requests</title>
+<rect class="day l1" x="975" y="144" width="10" height="10" rx="2">
+  <title>2026-09-30: 1 sessions, 2 prompts, 0 tool calls, 9 LLM requests</title>
 </rect>
-<rect class="day l3" x="975" y="157" width="10" height="10" rx="2">
-  <title>2026-10-01: 3 sessions, 28 prompts, 5 tool calls, 111 LLM requests</title>
+<rect class="day l0" x="975" y="157" width="10" height="10" rx="2">
+  <title>2026-10-01: no stored session activity</title>
 </rect>
-<rect class="day l4" x="975" y="170" width="10" height="10" rx="2">
-  <title>2026-10-02: 4 sessions, 52 prompts, 374 tool calls, 662 LLM requests</title>
+<rect class="day l0" x="975" y="170" width="10" height="10" rx="2">
+  <title>2026-10-02: no stored session activity</title>
 </rect>
-<rect class="day l4" x="975" y="183" width="10" height="10" rx="2">
-  <title>2026-10-03: 6 sessions, 35 prompts, 284 tool calls, 445 LLM requests</title>
+<rect class="day l3" x="975" y="183" width="10" height="10" rx="2">
+  <title>2026-10-03: 3 sessions, 11 prompts, 0 tool calls, 38 LLM requests</title>
 </rect>
 <rect class="day l0" x="988" y="105" width="10" height="10" rx="2">
   <title>2026-10-04: no stored session activity</title>
@@ -1507,19 +1507,19 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l0" x="988" y="118" width="10" height="10" rx="2">
   <title>2026-10-05: no stored session activity</title>
 </rect>
-<rect class="day l2" x="988" y="131" width="10" height="10" rx="2">
-  <title>2026-10-06: 1 sessions, 15 prompts, 0 tool calls, 14 LLM requests</title>
+<rect class="day l0" x="988" y="131" width="10" height="10" rx="2">
+  <title>2026-10-06: no stored session activity</title>
 </rect>
-<rect class="day l1" x="988" y="144" width="10" height="10" rx="2">
+<rect class="day l2" x="988" y="144" width="10" height="10" rx="2">
   <title>2026-10-07: 1 sessions, 9 prompts, 23 tool calls, 30 LLM requests</title>
 </rect>
 <rect class="day l0" x="988" y="157" width="10" height="10" rx="2">
   <title>2026-10-08: no stored session activity</title>
 </rect>
-<rect class="day l2" x="988" y="170" width="10" height="10" rx="2">
+<rect class="day l3" x="988" y="170" width="10" height="10" rx="2">
   <title>2026-10-09: 1 sessions, 12 prompts, 60 tool calls, 141 LLM requests</title>
 </rect>
-<rect class="day l1" x="988" y="183" width="10" height="10" rx="2">
+<rect class="day l2" x="988" y="183" width="10" height="10" rx="2">
   <title>2026-10-10: 2 sessions, 7 prompts, 0 tool calls, 6 LLM requests</title>
 </rect>
 <rect class="day l0" x="1001" y="105" width="10" height="10" rx="2">
@@ -1529,21 +1529,21 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
   <title>2026-10-12: no stored session activity</title>
 </rect>
 <rect class="day l2" x="1001" y="131" width="10" height="10" rx="2">
-  <title>2026-10-13: 5 sessions, 20 prompts, 2 tool calls, 8 LLM requests</title>
+  <title>2026-10-13: 1 sessions, 11 prompts, 2 tool calls, 6 LLM requests</title>
 </rect>
 <rect class="day l2" x="1001" y="144" width="10" height="10" rx="2">
-  <title>2026-10-14: 3 sessions, 10 prompts, 8 tool calls, 10 LLM requests</title>
+  <title>2026-10-14: 2 sessions, 5 prompts, 0 tool calls, 1 LLM requests</title>
 </rect>
-<rect class="day l0" x="1001" y="157" width="10" height="10" rx="2">
-  <title>2026-10-15: no stored session activity</title>
+<rect class="day l1" x="1001" y="157" width="10" height="10" rx="2">
+  <title>2026-10-15: 1 sessions, 3 prompts, 0 tool calls, 1 LLM requests</title>
 </rect>
-<rect class="day outside" x="1001" y="170" width="10" height="10" rx="2">
-  <title>2026-10-16: outside snapshot range</title>
+<rect class="day l0" x="1001" y="170" width="10" height="10" rx="2">
+  <title>2026-10-16: no stored session activity</title>
 </rect>
 <rect class="day outside" x="1001" y="183" width="10" height="10" rx="2">
   <title>2026-10-17: outside snapshot range</title>
 </rect>
-<text x="78" y="226" class="muted small">1,976 sessions - 17,543 prompts - 89,320 tool calls - 99,334 LLM requests</text>
+<text x="78" y="226" class="muted small">1,143 sessions - 10,904 prompts - 42,755 tool calls - 35,736 LLM requests</text>
 <text x="698" y="226" class="muted small">Less</text>
 <rect class="day l0" x="738" y="215" width="10" height="10" rx="2"/>
 <rect class="day l1" x="755" y="215" width="10" height="10" rx="2"/>
@@ -1552,15 +1552,15 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <rect class="day l4" x="806" y="215" width="10" height="10" rx="2"/>
 <text x="829" y="226" class="muted small">More</text>
 <line x1="78" y1="246" x2="875" y2="246" stroke="var(--border)"/>
-<text x="78" y="274" class="muted small">319 of 502 days active  /  first stored Jul 31  /  longest streak 39 days</text>
+<text x="78" y="274" class="muted small">237 of 503 days active  /  first stored Jul 31  /  longest streak 20 days</text>
 <rect class="card" x="926" y="22" width="172" height="302" rx="6"/>
 <text x="944" y="47" class="value">Snapshot</text>
 <text x="944" y="64" class="muted micro">Jun 2025 - Oct 2026</text>
 <line x1="944" y1="78" x2="1080" y2="78" stroke="var(--border)"/>
 <text x="944" y="98" class="label">ACTIVE SHARE</text>
-<text x="944" y="117" class="value">63.5%</text>
+<text x="944" y="117" class="value">47.1%</text>
 <text x="1020" y="98" class="label">LONGEST</text>
-<text x="1020" y="117" class="value">39 days</text>
+<text x="1020" y="117" class="value">20 days</text>
 <text x="944" y="143" class="label">CLOSING</text>
 <text x="944" y="162" class="value">0 days</text>
 <text x="1020" y="143" class="label">PEAK DAY</text>
@@ -1572,7 +1572,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <text x="944" y="225" class="muted micro">Antigrav.</text>
 <text x="1000" y="225" class="value" text-anchor="end">50</text>
 <text x="944" y="240" class="muted micro">Codex</text>
-<text x="1000" y="240" class="value" text-anchor="end">930</text>
+<text x="1000" y="240" class="value" text-anchor="end">97</text>
 <text x="944" y="255" class="muted micro">Codex-2</text>
 <text x="1000" y="255" class="value" text-anchor="end">48</text>
 <text x="944" y="270" class="muted micro">Codex c.</text>
@@ -1587,6 +1587,6 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 <text x="1080" y="255" class="value" text-anchor="end">60</text>
 <line x1="944" y1="291" x2="1080" y2="291" stroke="var(--border)"/>
 <text x="944" y="306" class="label">GENERATED</text>
-<text x="944" y="322" class="value">Oct 15, 2026</text>
+<text x="944" y="322" class="value">Oct 16, 2026</text>
 <!-- Public daily and source-level aggregate counts only. -->
 </svg>
